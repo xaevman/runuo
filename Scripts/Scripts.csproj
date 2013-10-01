@@ -2376,6 +2376,7 @@
     <Compile Include="Misc\NameVerification.cs" />
     <Compile Include="Misc\Notoriety.cs" />
     <Compile Include="Misc\Paperdoll.cs" />
+    <Compile Include="Misc\PasswordEncryption.cs" />
     <Compile Include="Misc\Poison.cs" />
     <Compile Include="Misc\ProfanityProtection.cs" />
     <Compile Include="Misc\Profile.cs" />
