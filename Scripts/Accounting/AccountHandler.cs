@@ -296,8 +296,13 @@ namespace Server.Misc
 			return a;
 		}
 
-		public static void EventSink_AccountLogin( AccountLoginEventArgs e )
-		{
+        public static void EventSink_AccountLogin(AccountLoginEventArgs e)
+        {
+            AccountLogin(e, null);
+        }
+
+		public static void AccountLogin( AccountLoginEventArgs e, byte[] encryptionKey )
+        {
 			if ( !IPLimiter.SocketBlock && !IPLimiter.Verify( e.State.Address ) )
 			{
 				e.Accepted = false;
@@ -338,24 +343,24 @@ namespace Server.Misc
 				Console.WriteLine( "Login: {0}: Access denied for '{1}'", e.State, un );
 				e.RejectReason = ( m_LockdownLevel > AccessLevel.Player ? ALRReason.BadComm : ALRReason.BadPass );
 			}
-			else if ( !acct.CheckPassword( pw ) )
-			{
-				Console.WriteLine( "Login: {0}: Invalid password for '{1}'", e.State, un );
-				e.RejectReason = ALRReason.BadPass;
-			}
-			else if ( acct.Banned )
-			{
-				Console.WriteLine( "Login: {0}: Banned account '{1}'", e.State, un );
-				e.RejectReason = ALRReason.Blocked;
-			}
-			else
-			{
-				Console.WriteLine( "Login: {0}: Valid credentials for '{1}'", e.State, un );
-				e.State.Account = acct;
-				e.Accepted = true;
+            else if (encryptionKey == null ? !acct.CheckPassword(pw) : !acct.CheckEncryptedPassword(pw, encryptionKey))
+            {
+                Console.WriteLine("Login: {0}: Invalid password for '{1}'", e.State, un);
+                e.RejectReason = ALRReason.BadPass;
+            }
+            else if (acct.Banned)
+            {
+                Console.WriteLine("Login: {0}: Banned account '{1}'", e.State, un);
+                e.RejectReason = ALRReason.Blocked;
+            }
+            else
+            {
+                Console.WriteLine("Login: {0}: Valid credentials for '{1}'", e.State, un);
+                e.State.Account = acct;
+                e.Accepted = true;
 
-				acct.LogAccess( e.State );
-			}
+                acct.LogAccess(e.State);
+            }
 
 			if ( !e.Accepted )
 				AccountAttackLimiter.RegisterInvalidAccess( e.State );

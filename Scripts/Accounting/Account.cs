@@ -398,34 +398,41 @@ namespace Server.Accounting
 			return ( banTime != DateTime.MinValue && banDuration != TimeSpan.Zero );
 		}
 
-		private static MD5CryptoServiceProvider m_MD5HashProvider;
-		private static SHA1CryptoServiceProvider m_SHA1HashProvider;
-		private static byte[] m_HashBuffer;
+        private static class HashProviders
+        {
+            private static MD5CryptoServiceProvider m_MD5HashProvider;
+            public static MD5CryptoServiceProvider MD5HashProvider
+            {
+                get { return m_MD5HashProvider ?? (m_MD5HashProvider = new MD5CryptoServiceProvider()); }
+            }
+
+            private static SHA1CryptoServiceProvider m_SHA1HashProvider;
+            public static SHA1CryptoServiceProvider SHA1HashProvider
+            {
+                get { return m_SHA1HashProvider ?? (m_SHA1HashProvider = new SHA1CryptoServiceProvider()); }
+            }
+        }
+
+        private static byte[] m_HashBuffer;
 
 		public static string HashMD5( string phrase )
 		{
-			if ( m_MD5HashProvider == null )
-				m_MD5HashProvider = new MD5CryptoServiceProvider();
-
 			if ( m_HashBuffer == null )
 				m_HashBuffer = new byte[256];
 
 			int length = Encoding.ASCII.GetBytes( phrase, 0, phrase.Length > 256 ? 256 : phrase.Length, m_HashBuffer, 0 );
-			byte[] hashed = m_MD5HashProvider.ComputeHash( m_HashBuffer, 0, length );
+            byte[] hashed = HashProviders.MD5HashProvider.ComputeHash(m_HashBuffer, 0, length);
 
 			return BitConverter.ToString( hashed );
 		}
 
 		public static string HashSHA1( string phrase )
 		{
-			if ( m_SHA1HashProvider == null )
-				m_SHA1HashProvider = new SHA1CryptoServiceProvider();
-
 			if ( m_HashBuffer == null )
 				m_HashBuffer = new byte[256];
 
 			int length = Encoding.ASCII.GetBytes( phrase, 0, phrase.Length > 256 ? 256 : phrase.Length, m_HashBuffer, 0 );
-			byte[] hashed = m_SHA1HashProvider.ComputeHash( m_HashBuffer, 0, length );
+            byte[] hashed = HashProviders.SHA1HashProvider.ComputeHash(m_HashBuffer, 0, length);
 
 			return BitConverter.ToString( hashed );
 		}
@@ -487,6 +494,26 @@ namespace Server.Accounting
 
 			return ok;
 		}
+
+        public bool CheckEncryptedPassword(string encodedpass, byte[] salt)
+        {
+            byte[] cryptBytes = Utility.GetBitConverterBytes(NewCryptPassword);
+            if (cryptBytes != null)
+            {
+                byte[] salted = new byte[cryptBytes.Length + salt.Length];
+                cryptBytes.CopyTo(salted, 0);
+                salt.CopyTo(salted, cryptBytes.Length);
+
+                byte[] result = HashProviders.SHA1HashProvider.ComputeHash(salted);
+
+                string check = Convert.ToBase64String(result);
+                if (StringComparer.Ordinal.Equals(encodedpass, check))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
 
 		private Timer m_YoungTimer;
 

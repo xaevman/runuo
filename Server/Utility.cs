@@ -584,7 +584,23 @@ namespace Server
 			}
 		}
 
-		public static string GetAttribute( XmlElement node, string attributeName )
+        public static byte[] GetBitConverterBytes(string bytesstring)
+        {
+            string[] stringvalues = bytesstring.Split('-');
+            if (stringvalues.Length < 1) return null;
+            byte[] toReturn = new byte[stringvalues.Length];
+            int i = 0;
+            foreach (string bytestring in stringvalues)
+            {
+                byte b;
+                if (!byte.TryParse(bytestring, System.Globalization.NumberStyles.HexNumber, System.Globalization.CultureInfo.InvariantCulture.NumberFormat, out b))
+                    return null;
+                toReturn[i++] = b;
+            }
+            return toReturn;
+        }
+
+        public static string GetAttribute(XmlElement node, string attributeName)
 		{
 			return GetAttribute( node, attributeName, null );
 		}
