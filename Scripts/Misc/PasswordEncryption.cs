@@ -18,6 +18,7 @@ namespace Server.Misc
         }
 
         const int seedLen = 20;
+        const int MaxReasonableEncodedPasswordLen = 80;
 
         static RandomNumberGenerator rnd = RandomNumberGenerator.Create();
 
@@ -75,6 +76,7 @@ namespace Server.Misc
         {
             EncryptedLoginResponse packet;
             packet = new EncryptedLoginResponse(SupportEncryptedLogin ? GetLoginKey(state) : null);
+            Console.WriteLine("Login: {0}:Requested encrypted login.", state, SupportEncryptedLogin ? "" : "(Disabled)");
             state.Send(packet);
         }
 
@@ -84,21 +86,25 @@ namespace Server.Misc
             string encPass = pvSrc.ReadString();
 
             byte[] salt = GetLoginKey(state);
-            RemoveLoginKey(state);
-
-            if (salt != null && salt.Length == seedLen)
+            if (salt != null)
             {
-                Account account = Accounts.GetAccount(username) as Account;
-                if (account != null && !string.IsNullOrEmpty(account.NewCryptPassword))
+                RemoveLoginKey(state);
+
+                if (encPass.Length <= MaxReasonableEncodedPasswordLen && salt.Length == seedLen)
                 {
-                    state.SentFirstPacket = true;
-                    AccountLoginEventArgs args = new AccountLoginEventArgs(state, username, encPass);
-                    AccountHandler.AccountLogin(args, salt);
-                    if (args.Accepted)
-                        PacketHandlers.AccountLogin_ReplyAck(state);
-                    else
-                        PacketHandlers.AccountLogin_ReplyRej(state, args.RejectReason);
-                    return;
+                    Account account = Accounts.GetAccount(username) as Account;
+                    if (account != null && !string.IsNullOrEmpty(account.NewCryptPassword))
+                    {
+                        state.SentFirstPacket = true;
+                        AccountLoginEventArgs args = new AccountLoginEventArgs(state, username, encPass);
+                        Console.WriteLine("Login: {0}:Processing encrypted login.", state);
+                        AccountHandler.AccountLogin(args, salt);
+                        if (args.Accepted)
+                            PacketHandlers.AccountLogin_ReplyAck(state);
+                        else
+                            PacketHandlers.AccountLogin_ReplyRej(state, args.RejectReason);
+                        return;
+                    }
                 }
             }
 

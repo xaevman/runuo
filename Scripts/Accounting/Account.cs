@@ -497,7 +497,7 @@ namespace Server.Accounting
 
         public bool CheckEncryptedPassword(string encodedpass, byte[] salt)
         {
-            byte[] cryptBytes = Utility.GetBitConverterBytes(NewCryptPassword);
+            byte[] cryptBytes = GetBitConverterBytes(NewCryptPassword);
             if (cryptBytes != null)
             {
                 byte[] salted = new byte[cryptBytes.Length + salt.Length];
@@ -515,7 +515,23 @@ namespace Server.Accounting
             return false;
         }
 
-		private Timer m_YoungTimer;
+        public static byte[] GetBitConverterBytes(string bytesstring)
+        {
+            string[] stringvalues = bytesstring.Split('-');
+            if (stringvalues.Length < 1) return null;
+            byte[] toReturn = new byte[stringvalues.Length];
+            int i = 0;
+            foreach (string bytestring in stringvalues)
+            {
+                byte b;
+                if (!byte.TryParse(bytestring, System.Globalization.NumberStyles.HexNumber, System.Globalization.CultureInfo.InvariantCulture.NumberFormat, out b))
+                    return null;
+                toReturn[i++] = b;
+            }
+            return toReturn;
+        }
+
+        private Timer m_YoungTimer;
 
 		public static void Initialize()
 		{
