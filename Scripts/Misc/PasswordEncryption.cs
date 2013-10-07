@@ -20,8 +20,6 @@ namespace Server.Misc
         const int seedLen = 20;
         const int MaxReasonableEncodedPasswordLen = 80;
 
-        static RandomNumberGenerator rnd = RandomNumberGenerator.Create();
-
         public static Dictionary<NetState, byte[]> LoginKeys=new Dictionary<NetState,byte[]>();
 
         static byte[] GetLoginKey(NetState state)
@@ -31,7 +29,7 @@ namespace Server.Misc
             if (!LoginKeys.ContainsKey(state))
             {
                 byte[] bytes = new byte[seedLen];
-                rnd.GetBytes(bytes);
+                RandomImpl.NextBytes(bytes);
                 LoginKeys[state] = bytes;
             }
             return LoginKeys[state];
@@ -116,8 +114,6 @@ namespace Server.Misc
         {
             //TODO:
         }
-
-
     }
 
     public sealed class EncryptedLoginResponse : ProtocolExtension
