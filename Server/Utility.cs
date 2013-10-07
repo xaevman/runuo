@@ -35,7 +35,6 @@ namespace Server
 {
 	public static class Utility
 	{
-		private static Random m_Random = new Random();
 		private static Encoding m_UTF8, m_UTF8WithEncoding;
 
 		public static Encoding UTF8
@@ -625,10 +624,6 @@ namespace Server
 		}
 		#endregion
 
-		public static double RandomDouble()
-		{
-			return m_Random.NextDouble();
-		}
 		#region In[...]Range
 		public static bool InRange( Point3D p1, Point3D p2, int range )
 		{
@@ -661,8 +656,8 @@ namespace Server
 				&& ( p1.Y >= (p2.Y - 18) )
 				&& ( p1.Y <= (p2.Y + 18) );
 		}
-
 		#endregion
+
 		public static Direction GetDirection( IPoint2D from, IPoint2D to )
 		{
 			int dx = to.X - from.X;
@@ -774,24 +769,27 @@ namespace Server
 			}
 		}
 
+		#region Random
 		//4d6+8 would be: Utility.Dice( 4, 6, 8 )
 		public static int Dice( int numDice, int numSides, int bonus )
 		{
 			int total = 0;
-			for (int i=0;i<numDice;++i)
-				total += Random( numSides ) + 1;
+
+			for (int i = 0; i < numDice; ++i)
+				total += RandomImpl.Next(numSides) + 1;
+
 			total += bonus;
 			return total;
 		}
 
 		public static int RandomList( params int[] list )
 		{
-			return list[m_Random.Next( list.Length )];
+			return list[RandomImpl.Next(list.Length)];
 		}
 
 		public static bool RandomBool()
 		{
-			return ( m_Random.Next( 2 ) == 0 );
+			return (RandomImpl.Next(2) == 0);
 		}
 
 		public static int RandomMinMax( int min, int max )
@@ -807,7 +805,7 @@ namespace Server
 				return min;
 			}
 
-			return min + m_Random.Next( (max - min) + 1 );
+			return min + RandomImpl.Next((max - min) + 1);
 		}
 
 		public static int Random( int from, int count )
@@ -818,23 +816,29 @@ namespace Server
 			}
 			else if ( count > 0 )
 			{
-				return from + m_Random.Next( count );
+				return from + RandomImpl.Next(count);
 			}
 			else
 			{
-				return from - m_Random.Next( -count );
+				return from - RandomImpl.Next(-count);
 			}
 		}
 
 		public static int Random( int count )
 		{
-			return m_Random.Next( count );
+			return RandomImpl.Next(count);
 		}
 
 		public static void RandomBytes( byte[] buffer )
 		{
-			m_Random.NextBytes( buffer );
+			RandomImpl.NextBytes(buffer);
 		}
+
+		public static double RandomDouble()
+		{
+			return RandomImpl.NextDouble();
+		}
+		#endregion
 
 		#region Random Hues
 
