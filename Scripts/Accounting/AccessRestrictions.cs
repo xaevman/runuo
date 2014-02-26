@@ -3,7 +3,6 @@ using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using RunUO;
-using RunUO.Misc;
 
 namespace RunUO.Security
 {
