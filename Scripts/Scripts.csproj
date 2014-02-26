@@ -114,6 +114,7 @@
     <Compile Include="Commands\Handlers.cs" />
     <Compile Include="Commands\HelpInfo.cs" />
     <Compile Include="Commands\Logging.cs" />
+    <Compile Include="Commands\HardwareInfoCommand.cs" />
     <Compile Include="Commands\PasswordCommand.cs" />
     <Compile Include="Commands\Profiling.cs" />
     <Compile Include="Commands\Properties.cs" />
@@ -2383,7 +2384,7 @@
     <Compile Include="Misc\Gifts\Winter2004\SnowyTree.cs" />
     <Compile Include="Misc\Gifts\Winter2004\Winter2004.cs" />
     <Compile Include="Misc\Guild.cs" />
-    <Compile Include="Misc\HardwareInfo.cs" />
+    <Compile Include="Accounting\HardwareInfo.cs" />
     <Compile Include="Misc\InhumanSpeech.cs" />
     <Compile Include="Misc\Keywords.cs" />
     <Compile Include="Misc\LanguageStatistics.cs" />

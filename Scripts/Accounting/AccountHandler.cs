@@ -20,10 +20,17 @@ namespace RunUO.Accounting
 	{
 		private static int MaxAccountsPerIP = 1;
 		private static bool AutoAccountCreation = true;
-		private static bool RestrictDeletion = !TestCenter.Enabled;
 		private static TimeSpan DeleteDelay = TimeSpan.FromDays( 7.0 );
 
 		public static PasswordProtection ProtectPasswords = PasswordProtection.NewCrypt;
+
+		private static bool m_RestrictCharacterDeletion = true;
+
+		public static bool RestrictCharacterDeletion
+		{
+			get { return m_RestrictCharacterDeletion; }
+			set { m_RestrictCharacterDeletion = value; }
+		}
 
 		private static AccessLevel m_LockdownLevel;
 
@@ -100,7 +107,7 @@ namespace RunUO.Accounting
 					state.Send( new DeleteResult( DeleteResultType.CharBeingPlayed ) );
 					state.Send( new CharacterListUpdate( acct ) );
 				}
-				else if ( RestrictDeletion && DateTime.UtcNow < (m.CreationTime + DeleteDelay) )
+				else if ( RestrictCharacterDeletion && DateTime.UtcNow < (m.CreationTime + DeleteDelay) )
 				{
 					state.Send( new DeleteResult( DeleteResultType.CharTooYoung ) );
 					state.Send( new CharacterListUpdate( acct ) );

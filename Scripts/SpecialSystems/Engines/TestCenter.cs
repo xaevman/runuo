@@ -1,5 +1,6 @@
 using System;
 using System.Text;
+using RunUO.Accounting;
 using RunUO.Gumps;
 using RunUO.Network;
 using RunUO.Commands;
@@ -13,9 +14,11 @@ namespace RunUO.Misc
 
 		public static void Initialize()
 		{
-			// Register our speech handler
-			if( Enabled )
-				EventSink.Speech += new SpeechEventHandler( EventSink_Speech );
+			if (Enabled)
+			{
+				AccountHandler.RestrictCharacterDeletion = false;
+				EventSink.Speech += new SpeechEventHandler(EventSink_Speech);
+			}
 		}
 
 		private static void EventSink_Speech( SpeechEventArgs args )

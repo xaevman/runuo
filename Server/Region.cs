@@ -155,7 +155,6 @@ namespace RunUO
 			return ret;
 		}
 
-
 		private string m_Name;
 		private Map m_Map;
 		private Region m_Parent;
@@ -946,14 +945,12 @@ namespace RunUO
 			if ( parent == null )
 				ReadInt32( xml, "priority", ref m_Priority, false );
 
-
 			int minZ = MinZ;
 			int maxZ = MaxZ;
 
 			XmlElement zrange = xml["zrange"];
 			ReadInt32( zrange, "min", ref minZ, false );
 			ReadInt32( zrange, "max", ref maxZ, false );
-
 
 			List<Rectangle3D> area = new List<Rectangle3D>();
 			foreach ( XmlElement xmlRect in xml.SelectNodes( "rect" ) )
@@ -979,7 +976,6 @@ namespace RunUO
 
 				m_GoLocation = new Point3D( x, y, m_Map.GetAverageZ( x, y ) );
 			}
-
 
 			MusicName music = this.DefaultMusic;
 
