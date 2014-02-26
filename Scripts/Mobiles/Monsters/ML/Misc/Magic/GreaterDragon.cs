@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a dragon corpse" )]
 	public class GreaterDragon : BaseCreature
@@ -95,8 +95,8 @@ namespace Server.Mobiles
 
 			if( version == 0 )
 			{
-				Server.SkillHandlers.AnimalTaming.ScaleStats( this, 0.50 );
-				Server.SkillHandlers.AnimalTaming.ScaleSkills( this, 0.80, 0.90 ); // 90% * 80% = 72% of original skills trainable to 90%
+				RunUO.SkillHandlers.AnimalTaming.ScaleStats( this, 0.50 );
+				RunUO.SkillHandlers.AnimalTaming.ScaleSkills( this, 0.80, 0.90 ); // 90% * 80% = 72% of original skills trainable to 90%
 				Skills[SkillName.Magery].Base = Skills[SkillName.Magery].Cap; // Greater dragons have a 90% cap reduction and 90% skill reduction on magery
 			}
 		}

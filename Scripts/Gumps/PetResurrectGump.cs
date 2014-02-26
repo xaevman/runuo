@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Network;
-using Server.Gumps;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Gumps;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class PetResurrectGump : Gump
 	{

@@ -24,7 +24,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 
-namespace Server {
+namespace RunUO {
 	public sealed class SequentialFileWriter : Stream {
 		private FileStream fileStream;
 		private FileQueue fileQueue;

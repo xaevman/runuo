@@ -24,11 +24,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Server.Network;
-using Server.Items;
-using Server.ContextMenus;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.ContextMenus;
 
-namespace Server
+namespace RunUO
 {
 	/// <summary>
 	/// Enumeration of item layer values.
@@ -2199,7 +2199,7 @@ namespace Server
 			Map map = m_Map;
 
 			if ( map == null )
-				return Server.Map.NullEnumerable<IEntity>.Instance;
+				return RunUO.Map.NullEnumerable<IEntity>.Instance;
 
 			if ( m_Parent == null )
 				return map.GetObjectsInRange( m_Location, range );
@@ -2212,7 +2212,7 @@ namespace Server
 			Map map = m_Map;
 
 			if ( map == null )
-				return Server.Map.NullEnumerable<Item>.Instance;
+				return RunUO.Map.NullEnumerable<Item>.Instance;
 
 			if ( m_Parent == null )
 				return map.GetItemsInRange( m_Location, range );
@@ -2225,7 +2225,7 @@ namespace Server
 			Map map = m_Map;
 
 			if ( map == null )
-				return Server.Map.NullEnumerable<Mobile>.Instance;
+				return RunUO.Map.NullEnumerable<Mobile>.Instance;
 
 			if ( m_Parent == null )
 				return map.GetMobilesInRange( m_Location, range );
@@ -2238,7 +2238,7 @@ namespace Server
 			Map map = m_Map;
 
 			if ( map == null )
-				return Server.Map.NullEnumerable<NetState>.Instance;
+				return RunUO.Map.NullEnumerable<NetState>.Instance;
 
 			if ( m_Parent == null )
 				return map.GetClientsInRange( m_Location, range );
@@ -4333,7 +4333,7 @@ namespace Server
 				((Mobile)m_Parent).OnSubItemBounceCleared( item );
 		}
 
-		public virtual bool CheckTarget( Mobile from, Server.Targeting.Target targ, object targeted )
+		public virtual bool CheckTarget( Mobile from, RunUO.Targeting.Target targ, object targeted )
 		{
 			if ( m_Parent is Item )
 				return ((Item)m_Parent).CheckTarget( from, targ, targeted );

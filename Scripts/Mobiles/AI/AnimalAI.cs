@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
-using Server.Targeting;
-using Server.Network;
+using RunUO.Targeting;
+using RunUO.Network;
 
 // Ideas
 // When you run on animals the panic
@@ -12,7 +12,7 @@ using Server.Network;
  * 
  */ 
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class AnimalAI : BaseAI
 	{

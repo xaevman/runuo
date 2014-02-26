@@ -1,8 +1,8 @@
 using System;
-using Server.Targeting;
-using Server.Mobiles;
+using RunUO.Targeting;
+using RunUO.Mobiles;
 
-namespace Server.Spells.Spellweaving
+namespace RunUO.Spells.Spellweaving
 {
 	public abstract class ArcaneSummon<T> : ArcanistSpell where T : BaseCreature
 	{

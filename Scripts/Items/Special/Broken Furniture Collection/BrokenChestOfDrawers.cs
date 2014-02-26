@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0xC24, 0xC25 )]
 	public class BrokenChestOfDrawersComponent : AddonComponent

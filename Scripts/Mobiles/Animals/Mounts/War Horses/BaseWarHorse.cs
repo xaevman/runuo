@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a war horse corpse" )]
 	public abstract class BaseWarHorse : BaseMount

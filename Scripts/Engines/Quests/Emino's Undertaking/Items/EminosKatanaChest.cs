@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Engines.Quests.Ninja
+namespace RunUO.Engines.Quests.Ninja
 {
 	public class EminosKatanaChest : WoodenChest
 	{

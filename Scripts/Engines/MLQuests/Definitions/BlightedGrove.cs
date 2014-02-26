@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Mobiles;
-using Server.Items;
-using Server.Engines.MLQuests.Objectives;
-using Server.Engines.MLQuests.Rewards;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Engines.MLQuests.Objectives;
+using RunUO.Engines.MLQuests.Rewards;
 
-namespace Server.Engines.MLQuests.Definitions
+namespace RunUO.Engines.MLQuests.Definitions
 {
 	#region Quests
 

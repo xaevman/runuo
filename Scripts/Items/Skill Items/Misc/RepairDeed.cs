@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Targeting;
-using Server.Engines.Craft;
-using Server.Mobiles;
-using Server.Regions;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Engines.Craft;
+using RunUO.Mobiles;
+using RunUO.Regions;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class RepairDeed : Item
 	{
@@ -210,7 +210,7 @@ namespace Server.Items
 			if( !m.Region.IsPartOf( typeof( TownRegion ) ) )
 				return false;
 
-			return Server.Factions.Faction.IsNearType( m, RepairSkillInfo.GetInfo( m_Skill ).NearbyTypes, 6 );
+			return RunUO.Factions.Faction.IsNearType( m, RepairSkillInfo.GetInfo( m_Skill ).NearbyTypes, 6 );
 		}
 
 		public override void Serialize( GenericWriter writer )

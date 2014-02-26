@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Items;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Engines.BulkOrders
+namespace RunUO.Engines.BulkOrders
 {
 	public class BOBFilterGump : Gump
 	{
@@ -95,7 +95,7 @@ namespace Server.Engines.BulkOrders
 			}
 		}
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			BOBFilter f = ( m_From.UseOwnFilter ? m_From.BOBFilter : m_Book.Filter );
 

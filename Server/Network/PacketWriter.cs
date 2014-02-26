@@ -24,7 +24,7 @@ using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Server.Network
+namespace RunUO.Network
 {
 	/// <summary>
 	/// Provides functionality for writing primitive binary data.

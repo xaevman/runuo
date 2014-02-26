@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Engines.Craft;
-using Server.Items;
+using RunUO;
+using RunUO.Engines.Craft;
+using RunUO.Items;
 
-namespace Server.Engines.BulkOrders
+namespace RunUO.Engines.BulkOrders
 {
 	public class SmallTailorBOD : SmallBOD
 	{

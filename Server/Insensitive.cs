@@ -21,7 +21,7 @@
 using System;
 using System.Collections;
 
-namespace Server
+namespace RunUO
 {
 	public static class Insensitive
 	{

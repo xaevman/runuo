@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Targeting;
+using RunUO.Targeting;
 
-namespace Server.Spells.Spellweaving
+namespace RunUO.Spells.Spellweaving
 {
 	public class GiftOfRenewalSpell : ArcanistSpell
 	{

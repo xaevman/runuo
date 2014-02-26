@@ -25,10 +25,10 @@ using System.IO;
 using System.Threading;
 using System.Diagnostics;
 
-using Server;
-using Server.Guilds;
+using RunUO;
+using RunUO.Guilds;
 
-namespace Server {
+namespace RunUO {
 	public sealed class DualSaveStrategy : StandardSaveStrategy {
 		public override string Name {
 			get { return "Dual"; }

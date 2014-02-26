@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Targeting;
-using Server.Network;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Mobiles;
 
-namespace Server.Spells.First
+namespace RunUO.Spells.First
 {
 	public class HealSpell : MagerySpell
 	{
@@ -57,7 +57,7 @@ namespace Server.Spells.First
 			{
 				Caster.LocalOverheadMessage( MessageType.Regular, 0x3B2, 500951 ); // You cannot heal that.
 			}
-			else if ( m.Poisoned || Server.Items.MortalStrike.IsWounded( m ) )
+			else if ( m.Poisoned || RunUO.Items.MortalStrike.IsWounded( m ) )
 			{
 				Caster.LocalOverheadMessage( MessageType.Regular, 0x22, (Caster == m) ? 1005000 : 1010398 );
 			}

@@ -21,9 +21,9 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server
+namespace RunUO
 {
 	[Parsable]
 	public abstract class Race

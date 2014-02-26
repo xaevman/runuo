@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using Server;
-using Server.Commands;
+using RunUO;
+using RunUO.Commands;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class AutoSave : Timer
 	{

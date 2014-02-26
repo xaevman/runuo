@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public class BankerCamp : BaseCamp
 	{

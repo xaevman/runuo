@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Engines.Quests.Necro
+namespace RunUO.Engines.Quests.Necro
 {
 	public class MaabusCoffin : BaseAddon
 	{

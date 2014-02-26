@@ -1,7 +1,7 @@
 using System;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a polar bear corpse" )]
 	[TypeAlias( "Server.Mobiles.Polarbear" )]

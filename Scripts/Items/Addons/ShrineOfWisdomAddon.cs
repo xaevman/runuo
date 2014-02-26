@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ShrineOfWisdomAddon : BaseAddon
 	{
@@ -34,7 +34,7 @@ namespace Server.Items
 		}
 	}
 
-	[Server.Engines.Craft.Forge]
+	[RunUO.Engines.Craft.Forge]
 	public class ShrineOfWisdomComponent : AddonComponent
 	{
 		public override int LabelNumber{ get{ return 1062046; } } // Shrine of Wisdom

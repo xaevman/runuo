@@ -1,10 +1,10 @@
 using System;
-using Server;
+using RunUO;
 using System.Reflection;
-using Server.Targeting;
-using Server.Commands;
+using RunUO.Targeting;
+using RunUO.Commands;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class FlipCommandHandlers
 	{

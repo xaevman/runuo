@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Gumps;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Gumps;
 using System.Collections.Generic;
 
-namespace Server.Engines.MLQuests.Rewards
+namespace RunUO.Engines.MLQuests.Rewards
 {
 	public class DummyReward : BaseReward
 	{

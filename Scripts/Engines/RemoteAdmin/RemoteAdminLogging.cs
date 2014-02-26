@@ -1,10 +1,10 @@
 using System;
 using System.IO;
-using Server;
-using Server.Accounting;
-using Server.Network;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Network;
 
-namespace Server.RemoteAdmin
+namespace RunUO.RemoteAdmin
 {
 	public class RemoteAdminLogging
 	{

@@ -1,8 +1,8 @@
 using System;
-using Server.Network;
-using Server.Items;
+using RunUO.Network;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x13B2, 0x13B1 )]
 	public class JukaBow : Bow

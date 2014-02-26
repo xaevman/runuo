@@ -2,11 +2,11 @@ using System;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using Server;
-using Server.Misc;
-using Server.Network;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Network;
 
-namespace Server
+namespace RunUO
 {
 	public class SocketOptions
 	{

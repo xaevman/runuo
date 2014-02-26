@@ -1,7 +1,7 @@
 using System;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.Engines.Quests.Samurai
+namespace RunUO.Engines.Quests.Samurai
 {
 	public class DeadlyImp : BaseCreature
 	{

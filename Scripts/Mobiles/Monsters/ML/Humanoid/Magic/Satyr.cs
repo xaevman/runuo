@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a satyr's corpse" )]
 	public class Satyr : BaseCreature

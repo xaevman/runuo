@@ -1,18 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Items;
-using Server.Spells;
-using Server.Multis;
-using Server.Network;
-using Server.Targeting;
-using Server.Accounting;
-using Server.ContextMenus;
-using Server.Engines.VeteranRewards;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Spells;
+using RunUO.Multis;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Accounting;
+using RunUO.ContextMenus;
+using RunUO.Engines.VeteranRewards;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public enum StatueType
 	{

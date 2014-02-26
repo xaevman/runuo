@@ -1,8 +1,8 @@
 ﻿using System;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ValentinesCard : Item
 	{

@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using Server;
-using Server.Accounting;
+using RunUO;
+using RunUO.Accounting;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class CommandLogging
 	{

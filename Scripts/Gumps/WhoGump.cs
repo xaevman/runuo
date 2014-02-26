@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server.Commands;
-using Server.Mobiles;
-using Server.Network;
+using RunUO.Commands;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class WhoGump : Gump
 	{

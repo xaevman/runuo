@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Accounting
+namespace RunUO.Security
 {
 	public class AccountAttackLimiter
 	{

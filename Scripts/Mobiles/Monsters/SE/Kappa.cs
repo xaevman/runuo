@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
-using Server.Items;
+using RunUO;
+using RunUO.Network;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a kappa corpse" )]
 	public class Kappa : BaseCreature

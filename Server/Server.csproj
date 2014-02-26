@@ -28,13 +28,13 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>Server</RootNamespace>
+    <RootNamespace>RunUO</RootNamespace>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>runuo.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Server.Core</StartupObject>
+    <StartupObject>RunUO.Core</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>

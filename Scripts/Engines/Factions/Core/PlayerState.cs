@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 using System.Collections.Generic;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class PlayerState : IComparable
 	{

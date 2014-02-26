@@ -25,21 +25,21 @@ using System.IO;
 using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
-using Server;
-using Server.Accounting;
-using Server.Commands;
-using Server.ContextMenus;
-using Server.Guilds;
-using Server.Gumps;
-using Server.HuePickers;
-using Server.Items;
-using Server.Menus;
-using Server.Mobiles;
-using Server.Network;
-using Server.Prompts;
-using Server.Targeting;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Commands;
+using RunUO.ContextMenus;
+using RunUO.Guilds;
+using RunUO.Gumps;
+using RunUO.HuePickers;
+using RunUO.Items;
+using RunUO.Menus;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Prompts;
+using RunUO.Targeting;
 
-namespace Server
+namespace RunUO
 {
 	#region Callbacks
 	public delegate void TargetCallback( Mobile from, object targeted );
@@ -4716,7 +4716,7 @@ namespace Server
 			Map map = m_Map;
 
 			if( map == null )
-				return Server.Map.NullEnumerable<Item>.Instance;
+				return RunUO.Map.NullEnumerable<Item>.Instance;
 
 			return map.GetItemsInRange( m_Location, range );
 		}
@@ -4726,7 +4726,7 @@ namespace Server
 			Map map = m_Map;
 
 			if( map == null )
-				return Server.Map.NullEnumerable<IEntity>.Instance;
+				return RunUO.Map.NullEnumerable<IEntity>.Instance;
 
 			return map.GetObjectsInRange( m_Location, range );
 		}
@@ -4736,7 +4736,7 @@ namespace Server
 			Map map = m_Map;
 
 			if( map == null )
-				return Server.Map.NullEnumerable<Mobile>.Instance;
+				return RunUO.Map.NullEnumerable<Mobile>.Instance;
 
 			return map.GetMobilesInRange( m_Location, range );
 		}
@@ -4746,7 +4746,7 @@ namespace Server
 			Map map = m_Map;
 
 			if( map == null )
-				return Server.Map.NullEnumerable<NetState>.Instance;
+				return RunUO.Map.NullEnumerable<NetState>.Instance;
 
 			return map.GetClientsInRange( m_Location, range );
 		}
@@ -9879,7 +9879,7 @@ namespace Server
 		public Mobile()
 		{
 			m_Region = Map.Internal.DefaultRegion;
-			m_Serial = Server.Serial.NewMobile;
+			m_Serial = RunUO.Serial.NewMobile;
 
 			DefaultMobileInit();
 

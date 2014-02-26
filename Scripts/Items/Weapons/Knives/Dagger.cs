@@ -1,9 +1,9 @@
 using System;
-using Server.Network;
-using Server.Targeting;
-using Server.Items;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xF52, 0xF51 )]
 	public class Dagger : BaseKnife

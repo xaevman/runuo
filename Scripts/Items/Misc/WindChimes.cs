@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Multis;
-using Server.Gumps;
-using Server.Items;
-using Server.Network;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseWindChimes : Item
 	{

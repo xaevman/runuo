@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Engines.CannedEvil;
+using RunUO;
+using RunUO.Engines.CannedEvil;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ChampionSkull : Item
 	{

@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
-using Server.Spells;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Network;
+using RunUO.Spells;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class WeaponAbility
 	{
@@ -67,7 +67,7 @@ namespace Server.Items
 				mana -= 5;
 
 			double scalar = 1.0;
-			if ( !Server.Spells.Necromancy.MindRotSpell.GetMindRotScalar( from, ref scalar ) )
+			if ( !RunUO.Spells.Necromancy.MindRotSpell.GetMindRotScalar( from, ref scalar ) )
 				scalar = 1.0;
 
 			// Lower Mana Cost = 40%

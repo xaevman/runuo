@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Engines.Craft;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Engines.Craft;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class RecipeScroll : Item
 	{

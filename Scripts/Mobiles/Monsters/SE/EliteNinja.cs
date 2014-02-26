@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server.Items;
-using Server.ContextMenus;
-using Server.Misc;
-using Server.Network;
+using RunUO.Items;
+using RunUO.ContextMenus;
+using RunUO.Misc;
+using RunUO.Network;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class EliteNinja : BaseCreature
 	{

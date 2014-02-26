@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Targeting;
+using RunUO;
+using RunUO.Targeting;
 using System.Collections;
 using System.Collections.Generic;
-using Server.ContextMenus;
-using Server.Mobiles;
+using RunUO.ContextMenus;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x2790, 0x27DB )]
 	public class LeatherNinjaBelt : BaseWaist, IDyable, INinjaWeapon

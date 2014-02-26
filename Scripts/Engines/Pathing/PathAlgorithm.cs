@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.PathAlgorithms
+namespace RunUO.PathAlgorithms
 {
 	public abstract class PathAlgorithm
 	{

@@ -1,7 +1,7 @@
 using System;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x13cb, 0x13d2 )]
 	public class LeatherLegs : BaseArmor

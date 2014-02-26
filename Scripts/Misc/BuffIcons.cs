@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server
+namespace RunUO
 {
 	public class BuffInfo
 	{

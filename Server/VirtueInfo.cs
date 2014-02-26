@@ -20,7 +20,7 @@
 
 using System;
 
-namespace Server
+namespace RunUO
 {
 	[PropertyObject]
 	public class VirtueInfo

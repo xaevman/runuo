@@ -2,7 +2,7 @@ using System;
 using System.Drawing;
 using System.Collections;
 
-namespace Server.Engines.Reports
+namespace RunUO.Engines.Reports
 {
 	//*********************************************************************
 	//

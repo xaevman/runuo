@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Server.Network;
-using Server.Items;
-using Server.Targeting;
-using Server.Mobiles;
-using Server.Spells.Necromancy;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Mobiles;
+using RunUO.Spells.Necromancy;
 
-namespace Server.Spells.Chivalry
+namespace RunUO.Spells.Chivalry
 {
 	public class DispelEvilSpell : PaladinSpell
 	{

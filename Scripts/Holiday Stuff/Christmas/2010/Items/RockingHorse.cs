@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Server.Items.Holiday
+namespace RunUO.Items.Holiday
 {
 	[TypeAlias( "Server.Items.RockingHorse" )]
 	[Flipable( 0x4214, 0x4215 )]

@@ -1,11 +1,11 @@
 using System;
-using Server.Misc;
-using Server.Network;
+using RunUO.Misc;
+using RunUO.Network;
 using System.Collections;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class KhaldunSummoner : BaseCreature
 	{

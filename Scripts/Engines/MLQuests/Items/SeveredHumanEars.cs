@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable(0x312F, 0x3130)]
 	public class SeveredHumanEars : Item

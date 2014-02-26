@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Spells
+namespace RunUO.Spells
 {
 	public class NinjaMove : SpecialMove
 	{

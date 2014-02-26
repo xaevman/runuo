@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Armorer : BaseVendor
 	{
@@ -71,8 +71,8 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.HalfApron( Utility.RandomYellowHue() ) );
-			AddItem( new Server.Items.Bascinet() );
+			AddItem( new RunUO.Items.HalfApron( Utility.RandomYellowHue() ) );
+			AddItem( new RunUO.Items.Bascinet() );
 		}
 
 		public Armorer( Serial serial ) : base( serial )

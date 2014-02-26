@@ -1,8 +1,8 @@
 using System;
-using Server.Targeting;
-using Server.HuePickers;
+using RunUO.Targeting;
+using RunUO.HuePickers;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class Dyes : Item /* , IUsesRemaining */ /* TODO complete usesremaing */
 	{

@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server
+namespace RunUO
 {
 	public class JusticeVirtue
 	{
@@ -234,7 +234,7 @@ namespace Server
 			AddImageTiled( 0, 0, 1, 217, 9155 );
 		}
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			if ( info.ButtonID == 2 )
 			{

@@ -1,13 +1,13 @@
 using System;
-using Server.Network;
-using Server.Multis;
-using Server.Items;
-using Server.Targeting;
-using Server.Misc;
-using Server.Regions;
-using Server.Mobiles;
+using RunUO.Network;
+using RunUO.Multis;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Misc;
+using RunUO.Regions;
+using RunUO.Mobiles;
 
-namespace Server.Spells.Seventh
+namespace RunUO.Spells.Seventh
 {
 	public class GateTravelSpell : MagerySpell
 	{

@@ -1,9 +1,9 @@
 using System;
-using Server.Network;
-using Server.Targeting;
-using Server.Items;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public interface ILockpickable : IPoint2D
 	{

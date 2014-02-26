@@ -4,16 +4,17 @@ using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Server;
-using Server.Items;
-using Server.Prompts;
-using Server.Network;
-using Server.Accounting;
-using Server.Commands;
-using Server.Multis;
-using Server.Misc;
+using RunUO;
+using RunUO.Items;
+using RunUO.Prompts;
+using RunUO.Network;
+using RunUO.Accounting;
+using RunUO.Commands;
+using RunUO.Multis;
+using RunUO.Misc;
+using RunUO.Security;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public enum AdminGumpPage
 	{
@@ -421,7 +422,7 @@ namespace Server.Gumps
 
 					AddHtml( 20, 150, 380, 80, Color( "When enabled, only clients with an access level equal to or greater than the specified lockdown level may access the server. After setting a lockdown level, use the <em>Purge Invalid Clients</em> button to disconnect those clients without access.", LabelColor32 ), false, false );
 
-					AccessLevel level = Misc.AccountHandler.LockdownLevel;
+					AccessLevel level = AccountHandler.LockdownLevel;
 					bool isLockedDown = ( level > AccessLevel.Player );
 
 					AddSelectedButton( 20, 230, GetButtonID( 3, 500 ), "Not Locked Down", !isLockedDown );
@@ -1656,7 +1657,7 @@ namespace Server.Gumps
 			from.SendGump( new AdminGump( from, AdminGumpPage.AccountDetails_Access_ClientIPs, 0, null, notice, a ) );
 		}
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			int val = info.ButtonID - 1;
 
@@ -1867,9 +1868,9 @@ namespace Server.Gumps
 						case 503:
 						case 504:
 						{
-							Misc.AccountHandler.LockdownLevel = (AccessLevel)(index - 500);
+							AccountHandler.LockdownLevel = (AccessLevel)(index - 500);
 
-							if ( Misc.AccountHandler.LockdownLevel > AccessLevel.Player )
+							if ( AccountHandler.LockdownLevel > AccessLevel.Player )
 								notice = "The lockdown level has been changed.";
 							else
 								notice = "The server is now accessible to everyone.";
@@ -1879,7 +1880,7 @@ namespace Server.Gumps
 
 						case 510:
 						{
-							AccessLevel level = Misc.AccountHandler.LockdownLevel;
+							AccessLevel level = AccountHandler.LockdownLevel;
 
 							if ( level > AccessLevel.Player )
 							{

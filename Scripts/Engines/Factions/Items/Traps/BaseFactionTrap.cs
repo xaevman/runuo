@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Network;
-using Server.Regions;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Regions;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public enum AllowedPlacing
 	{

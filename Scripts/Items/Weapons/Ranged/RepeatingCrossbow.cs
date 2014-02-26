@@ -1,8 +1,8 @@
 using System;
-using Server.Network;
-using Server.Items;
+using RunUO.Network;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x26C3, 0x26CD )]
 	public class RepeatingCrossbow : BaseRanged

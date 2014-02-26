@@ -1,8 +1,8 @@
 using System;
-using Server.Network;
-using Server;
+using RunUO.Network;
+using RunUO;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class FoodDecayTimer : Timer
 	{

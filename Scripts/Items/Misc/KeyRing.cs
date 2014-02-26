@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Targeting;
+using RunUO;
+using RunUO.Targeting;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class KeyRing : Item
 	{

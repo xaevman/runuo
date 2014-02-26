@@ -1,32 +1,32 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Misc;
-using Server.Items;
-using Server.Gumps;
-using Server.Multis;
-using Server.Engines.Help;
-using Server.Engines.ConPVP;
-using Server.ContextMenus;
-using Server.Network;
-using Server.Spells;
-using Server.Spells.Fifth;
-using Server.Spells.Seventh;
-using Server.Spells.Necromancy;
-using Server.Spells.Ninjitsu;
-using Server.Spells.Bushido;
-using Server.Targeting;
-using Server.Engines.Quests;
-using Server.Factions;
-using Server.Regions;
-using Server.Accounting;
-using Server.Engines.CannedEvil;
-using Server.Engines.Craft;
-using Server.Spells.Spellweaving;
-using Server.Engines.PartySystem;
-using Server.Engines.MLQuests;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Multis;
+using RunUO.Engines.Help;
+using RunUO.Engines.ConPVP;
+using RunUO.ContextMenus;
+using RunUO.Network;
+using RunUO.Spells;
+using RunUO.Spells.Fifth;
+using RunUO.Spells.Seventh;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Ninjitsu;
+using RunUO.Spells.Bushido;
+using RunUO.Targeting;
+using RunUO.Engines.Quests;
+using RunUO.Factions;
+using RunUO.Regions;
+using RunUO.Accounting;
+using RunUO.Engines.CannedEvil;
+using RunUO.Engines.Craft;
+using RunUO.Spells.Spellweaving;
+using RunUO.Engines.PartySystem;
+using RunUO.Engines.MLQuests;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	#region Enums
 	[Flags]
@@ -239,12 +239,12 @@ namespace Server.Mobiles
 			}
 		}
 
-		public Server.Guilds.RankDefinition GuildRank
+		public RunUO.Guilds.RankDefinition GuildRank
 		{
 			get
 			{
 				if( this.AccessLevel >= AccessLevel.GameMaster )
-					return Server.Guilds.RankDefinition.Leader;
+					return RunUO.Guilds.RankDefinition.Leader;
 				else
 					return m_GuildRank;
 			}
@@ -1516,11 +1516,11 @@ namespace Server.Mobiles
 			bool res;
 
 			if ( !Alive )
-				Server.Movement.MovementImpl.IgnoreMovableImpassables = true;
+				RunUO.Movement.MovementImpl.IgnoreMovableImpassables = true;
 
 			res = base.Move( d );
 
-			Server.Movement.MovementImpl.IgnoreMovableImpassables = false;
+			RunUO.Movement.MovementImpl.IgnoreMovableImpassables = false;
 
 			if ( !res )
 				return false;
@@ -2186,10 +2186,10 @@ namespace Server.Mobiles
 
 		private void ToggleQuestItemTarget()
 		{
-			Server.Engines.MLQuests.Gumps.BaseQuestGump.CloseOtherGumps( this );
-			CloseGump( typeof( Server.Engines.MLQuests.Gumps.QuestLogDetailedGump ) );
-			CloseGump( typeof( Server.Engines.MLQuests.Gumps.QuestLogGump ) );
-			CloseGump( typeof( Server.Engines.MLQuests.Gumps.QuestOfferGump ) );
+			RunUO.Engines.MLQuests.Gumps.BaseQuestGump.CloseOtherGumps( this );
+			CloseGump( typeof( RunUO.Engines.MLQuests.Gumps.QuestLogDetailedGump ) );
+			CloseGump( typeof( RunUO.Engines.MLQuests.Gumps.QuestLogGump ) );
+			CloseGump( typeof( RunUO.Engines.MLQuests.Gumps.QuestOfferGump ) );
 			//CloseGump( typeof( UnknownGump802 ) );
 			//CloseGump( typeof( UnknownGump804 ) );
 
@@ -2910,7 +2910,7 @@ namespace Server.Mobiles
 			if ( m_DuelContext == null || !m_DuelContext.Registered || !m_DuelContext.Started || m_DuelPlayer == null || m_DuelPlayer.Eliminated )
 				Faction.HandleDeath( this, killer );
 
-			Server.Guilds.Guild.HandleDeath( this, killer );
+			RunUO.Guilds.Guild.HandleDeath( this, killer );
 
 			MLQuestSystem.HandleDeath( this );
 
@@ -3901,7 +3901,7 @@ namespace Server.Mobiles
 			DisguiseTimers.RemoveTimer( this );
 		}
 
-		public override bool NewGuildDisplay { get { return Server.Guilds.Guild.NewGuildSystem; } }
+		public override bool NewGuildDisplay { get { return RunUO.Guilds.Guild.NewGuildSystem; } }
 
 		public override void GetProperties( ObjectPropertyList list )
 		{
@@ -4002,7 +4002,7 @@ namespace Server.Mobiles
 					}
 					else if( AllowedStealthSteps-- <= 0 )
 					{
-						Server.SkillHandlers.Stealth.OnUse( this );
+						RunUO.SkillHandlers.Stealth.OnUse( this );
 					}
 				}
 				else
@@ -4153,7 +4153,7 @@ namespace Server.Mobiles
 			InvalidateMyRunUO();
 		}
 
-		public override void OnGuildChange( Server.Guilds.BaseGuild oldGuild )
+		public override void OnGuildChange( RunUO.Guilds.BaseGuild oldGuild )
 		{
 			InvalidateMyRunUO();
 		}

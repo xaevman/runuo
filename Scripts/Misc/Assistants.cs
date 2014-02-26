@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Network;
-using Server.Gumps;
+using RunUO;
+using RunUO.Network;
+using RunUO.Gumps;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public static partial class Assistants
 	{

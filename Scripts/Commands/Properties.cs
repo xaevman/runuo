@@ -1,15 +1,15 @@
 using System;
 using System.Reflection;
 using System.Collections;
-using Server;
-using Server.Targeting;
-using Server.Items;
-using Server.Gumps;
-using CPA = Server.CommandPropertyAttribute;
-using Server.Commands;
-using Server.Commands.Generic;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Gumps;
+using CPA = RunUO.CommandPropertyAttribute;
+using RunUO.Commands;
+using RunUO.Commands.Generic;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public enum PropertyAccess
 	{
@@ -577,7 +577,7 @@ namespace Server.Commands
 	}
 }
 
-namespace Server
+namespace RunUO
 {
 	public abstract class PropertyException : ApplicationException
 	{

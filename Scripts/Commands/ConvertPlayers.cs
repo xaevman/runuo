@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class ConvertPlayers
 	{

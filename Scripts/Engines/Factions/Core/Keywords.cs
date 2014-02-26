@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
-using Server.Factions;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Network;
+using RunUO.Factions;
+using RunUO.Mobiles;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class Keywords
 	{

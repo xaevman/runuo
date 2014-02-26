@@ -1,19 +1,19 @@
 using System;
 using System.Text;
 using System.Collections;
-using Server.Network;
-using Server.Targeting;
-using Server.Mobiles;
-using Server.Spells;
-using Server.Spells.Necromancy;
-using Server.Spells.Bushido;
-using Server.Spells.Ninjitsu;
-using Server.Factions;
-using Server.Engines.Craft;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Mobiles;
+using RunUO.Spells;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Bushido;
+using RunUO.Spells.Ninjitsu;
+using RunUO.Factions;
+using RunUO.Engines.Craft;
 using System.Collections.Generic;
-using Server.Spells.Spellweaving;
+using RunUO.Spells.Spellweaving;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public interface ISlayer
 	{
@@ -2257,7 +2257,7 @@ namespace Server.Items
 			int defenseMasteryMalus = 0;
 
 			// Defense Mastery gives a -50%/-80% malus to damage.
-			if ( Server.Items.DefenseMastery.GetMalus( attacker, ref defenseMasteryMalus ) )
+			if ( RunUO.Items.DefenseMastery.GetMalus( attacker, ref defenseMasteryMalus ) )
 				damageBonus -= defenseMasteryMalus;
 
 			int discordanceEffect = 0;

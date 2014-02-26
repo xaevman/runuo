@@ -1,8 +1,8 @@
 using System; 
 using System.Collections.Generic; 
-using Server; 
+using RunUO; 
 
-namespace Server.Mobiles 
+namespace RunUO.Mobiles 
 { 
 	public class Shipwright : BaseVendor 
 	{ 
@@ -25,7 +25,7 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.SmithHammer() );
+			AddItem( new RunUO.Items.SmithHammer() );
 		}
 
 		public Shipwright( Serial serial ) : base( serial ) 

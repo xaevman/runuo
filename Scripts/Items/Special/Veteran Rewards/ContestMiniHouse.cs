@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Engines.VeteranRewards;
+using RunUO;
+using RunUO.Engines.VeteranRewards;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ContestMiniHouse : MiniHouseAddon
 	{				

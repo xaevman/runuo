@@ -25,10 +25,10 @@ using System.IO;
 using System.Threading;
 using System.Diagnostics;
 
-using Server;
-using Server.Guilds;
+using RunUO;
+using RunUO.Guilds;
 
-namespace Server {
+namespace RunUO {
 	public class StandardSaveStrategy : SaveStrategy {
 		public enum SaveOption
 		{

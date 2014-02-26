@@ -1,14 +1,14 @@
 using System;
-using Server.Commands;
-using Server.Mobiles;
-using Server.Spells.Fifth;
-using Server.Spells.First;
-using Server.Spells.Fourth;
-using Server.Spells.Necromancy;
-using Server.Spells.Second;
-using Server.Targeting;
+using RunUO.Commands;
+using RunUO.Mobiles;
+using RunUO.Spells.Fifth;
+using RunUO.Spells.First;
+using RunUO.Spells.Fourth;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Second;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum TalismanRemoval
 	{

@@ -2,11 +2,11 @@ using System;
 using System.Reflection;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Targeting;
-using CPA = Server.CommandPropertyAttribute;
+using RunUO;
+using RunUO.Targeting;
+using CPA = RunUO.CommandPropertyAttribute;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public sealed class ObjectConditional
 	{

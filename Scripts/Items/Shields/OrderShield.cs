@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Guilds;
+using RunUO;
+using RunUO.Guilds;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class OrderShield : BaseShield
 	{

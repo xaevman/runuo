@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Mobiles;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class Bola : Item
 	{
@@ -44,7 +44,7 @@ namespace Server.Items
 			{
 				from.SendLocalizedMessage( 1040016 ); // You cannot use this while riding a mount
 			}
-			else if ( Server.Spells.Ninjitsu.AnimalForm.UnderTransformation( from ) )
+			else if ( RunUO.Spells.Ninjitsu.AnimalForm.UnderTransformation( from ) )
 			{
 				from.SendLocalizedMessage( 1070902 ); // You can't use this while in an animal form!
 			}
@@ -82,7 +82,7 @@ namespace Server.Items
 
 			if (to is PlayerMobile)
 			{
-				if (Server.Spells.Ninjitsu.AnimalForm.UnderTransformation(to))
+				if (RunUO.Spells.Ninjitsu.AnimalForm.UnderTransformation(to))
 				{
 					to.SendLocalizedMessage(1114066, from.Name); // ~1_NAME~ knocked you out of animal form!
 				}
@@ -176,11 +176,11 @@ namespace Server.Items
 					{
 						from.SendLocalizedMessage( 1040016 ); // You cannot use this while riding a mount
 					}
-					else if ( Server.Spells.Ninjitsu.AnimalForm.UnderTransformation( from ) )
+					else if ( RunUO.Spells.Ninjitsu.AnimalForm.UnderTransformation( from ) )
 					{
 						from.SendLocalizedMessage( 1070902 ); // You can't use this while in an animal form!
 					}
-					else if (!to.Mounted && !Server.Spells.Ninjitsu.AnimalForm.UnderTransformation(to))
+					else if (!to.Mounted && !RunUO.Spells.Ninjitsu.AnimalForm.UnderTransformation(to))
 					{
 						from.SendLocalizedMessage( 1049628 ); // You have no reason to throw a bola at that.
 					}

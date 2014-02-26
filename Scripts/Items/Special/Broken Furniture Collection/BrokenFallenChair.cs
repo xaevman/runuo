@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0xC19, 0xC1A )]
 	public class BrokenFallenChairComponent : AddonComponent

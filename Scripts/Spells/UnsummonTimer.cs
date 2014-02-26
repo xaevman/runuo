@@ -1,7 +1,7 @@
 using System;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.Spells
+namespace RunUO.Spells
 {
 	class UnsummonTimer : Timer
 	{

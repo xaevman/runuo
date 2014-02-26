@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Engines.CannedEvil;
+using RunUO;
+using RunUO.Items;
+using RunUO.Engines.CannedEvil;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Harrower : BaseCreature
 	{
@@ -590,8 +590,8 @@ namespace Server.Mobiles
 
 					m.Location = to;
 
-					Server.Spells.SpellHelper.Turn( m_Owner, toTeleport );
-					Server.Spells.SpellHelper.Turn( toTeleport, m_Owner );
+					RunUO.Spells.SpellHelper.Turn( m_Owner, toTeleport );
+					RunUO.Spells.SpellHelper.Turn( toTeleport, m_Owner );
 
 					m.ProcessDelta();
 

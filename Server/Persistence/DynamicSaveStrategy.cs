@@ -29,10 +29,10 @@ using System.Diagnostics;
 using System.Collections.Concurrent;
 using System.Linq;
 
-using Server;
-using Server.Guilds;
+using RunUO;
+using RunUO.Guilds;
 
-namespace Server
+namespace RunUO
 {
 	public sealed class DynamicSaveStrategy : SaveStrategy
 	{

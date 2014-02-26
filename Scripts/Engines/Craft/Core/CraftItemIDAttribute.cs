@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Engines.Craft
+namespace RunUO.Engines.Craft
 {
 	[AttributeUsage( AttributeTargets.Class )]
 	public class CraftItemIDAttribute : Attribute

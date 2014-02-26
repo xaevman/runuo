@@ -1,9 +1,9 @@
 using System;
-using Server.Mobiles;
-using Server.Network;
-using Server.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a unicorn corpse" )]
 	public class Unicorn : BaseMount
@@ -38,7 +38,7 @@ namespace Server.Mobiles
 					{
 						if( Rider.CurePoison( this ) )	//TODO: Confirm if mount is the one flagged for curing it or the rider is
 						{
-							Rider.LocalOverheadMessage( Server.Network.MessageType.Regular, 0x3B2, true, "Your mount senses you are in danger and aids you with magic." );
+							Rider.LocalOverheadMessage( RunUO.Network.MessageType.Regular, 0x3B2, true, "Your mount senses you are in danger and aids you with magic." );
 							Rider.FixedParticles( 0x373A, 10, 15, 5012, EffectLayer.Waist );
 							Rider.PlaySound( 0x1E0 );	// Cure spell effect.
 							Rider.PlaySound( 0xA9 );		// Unicorn's whinny.

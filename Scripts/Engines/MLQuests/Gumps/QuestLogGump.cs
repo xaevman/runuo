@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Engines.MLQuests.Gumps
+namespace RunUO.Engines.MLQuests.Gumps
 {
 	public class QuestLogGump : BaseQuestGump
 	{

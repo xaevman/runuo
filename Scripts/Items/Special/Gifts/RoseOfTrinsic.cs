@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Network;
-using Server.Gumps;
-using Server.Multis;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.Network;
+using RunUO.Gumps;
+using RunUO.Multis;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x234C, 0x234D )]
 	public class RoseOfTrinsic : Item, ISecurable

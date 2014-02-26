@@ -1,8 +1,8 @@
 using System;
-using Server.Commands;
+using RunUO.Commands;
 using System.Collections.Generic;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class Generator
 	{

@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.Spells.Spellweaving
+namespace RunUO.Spells.Spellweaving
 {
 	public class ImmolatingWeaponSpell : ArcanistSpell
 	{

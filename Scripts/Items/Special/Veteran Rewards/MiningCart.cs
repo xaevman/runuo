@@ -1,10 +1,10 @@
 using System;
-using Server.Engines.VeteranRewards;
-using Server.Gumps;
-using Server.Multis;
-using Server.Network;
+using RunUO.Engines.VeteranRewards;
+using RunUO.Gumps;
+using RunUO.Multis;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum MiningCartType
 	{

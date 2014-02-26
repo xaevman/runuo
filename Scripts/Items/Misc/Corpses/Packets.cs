@@ -2,10 +2,10 @@ using System;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Network
+namespace RunUO.Network
 {
 	public sealed class CorpseEquip : Packet
 	{

@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Misc;
-using Server.Network;
-using Server.Accounting;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Network;
+using RunUO.Accounting;
 
-namespace Server.Engines.Chat
+namespace RunUO.Engines.Chat
 {
 	public class ChatSystem
 	{

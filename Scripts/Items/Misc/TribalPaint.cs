@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Spells;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Spells;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class TribalPaint : Item
 	{

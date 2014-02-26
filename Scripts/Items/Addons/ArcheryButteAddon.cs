@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x100A/*East*/, 0x100B/*South*/ )]
 	public class ArcheryButte : AddonComponent

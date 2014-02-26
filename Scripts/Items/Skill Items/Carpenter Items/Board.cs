@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x1BD7, 0x1BDA )]
 	public class Board : Item, ICommodity

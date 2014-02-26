@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Network;
+using RunUO.Network;
 using System.Collections.Generic;
-using Server.ContextMenus;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class Food : Item
 	{

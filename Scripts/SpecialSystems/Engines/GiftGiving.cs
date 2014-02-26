@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Accounting;
-using Server.Items;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Items;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public enum GiftResult
 	{

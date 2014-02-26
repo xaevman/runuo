@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Mobiles;
-using Server.Network;
-using Server.Items;
-using Server.Targeting;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Spells.Chivalry
+namespace RunUO.Spells.Chivalry
 {
 	public class EnemyOfOneSpell : PaladinSpell
 	{

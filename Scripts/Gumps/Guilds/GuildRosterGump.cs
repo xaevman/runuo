@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Guilds;
-using Server.Network;
+using RunUO;
+using RunUO.Guilds;
+using RunUO.Network;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class GuildRosterGump : GuildMobileListGump
 	{

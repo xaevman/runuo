@@ -20,10 +20,10 @@
 
 using System;
 using System.Text;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server
+namespace RunUO
 {
 	public sealed class ObjectPropertyList : Packet
 	{

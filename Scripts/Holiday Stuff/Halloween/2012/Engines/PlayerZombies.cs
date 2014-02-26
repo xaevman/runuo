@@ -1,10 +1,10 @@
 ﻿using System;
-using Server.Items;
-using Server.Mobiles;
+using RunUO.Items;
+using RunUO.Mobiles;
 using System.Collections.Generic;
-using Server.Events.Halloween;
+using RunUO.Events.Halloween;
 
-namespace Server.Engines.Events
+namespace RunUO.Engines.Events
 {
 	public class HalloweenHauntings
 	{

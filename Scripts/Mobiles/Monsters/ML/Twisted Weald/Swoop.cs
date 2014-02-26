@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server.Items;
-using Server.Mobiles;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a Swoop corpse" )]
 	public class Swoop : Eagle

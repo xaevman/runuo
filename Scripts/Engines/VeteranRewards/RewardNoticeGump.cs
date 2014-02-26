@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
 
-namespace Server.Engines.VeteranRewards
+namespace RunUO.Engines.VeteranRewards
 {
 	public class RewardNoticeGump : Gump
 	{

@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class BaseConfirmGump : Gump
 	{
@@ -57,7 +57,7 @@ namespace Server.Gumps
 			AddButton( 265, 220, 0xF7, 0xF8, (int) Buttons.Confirm, GumpButtonType.Reply, 0 );
 		}
 		
-		public override void OnResponse( Server.Network.NetState state, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState state, RelayInfo info )
 		{		
 			if ( info.ButtonID == (int) Buttons.Confirm )
 			{

@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Engines.Quests.Matriarch
+namespace RunUO.Engines.Quests.Matriarch
 {
 	public class DontOfferConversation : QuestConversation
 	{

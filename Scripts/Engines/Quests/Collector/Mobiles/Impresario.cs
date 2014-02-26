@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Items;
-using Server.Gumps;
-using Server.Network;
-using Server.Engines.Quests;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Engines.Quests;
 
-namespace Server.Engines.Quests.Collector
+namespace RunUO.Engines.Quests.Collector
 {
 	public class Impresario : BaseQuester
 	{

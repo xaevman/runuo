@@ -1,9 +1,9 @@
-using Server;
+using RunUO;
 using System;
-using Server.Misc;
-using Server.Mobiles;
+using RunUO.Misc;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class AncientFarmersKasa : Kasa
 	{

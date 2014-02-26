@@ -1,9 +1,9 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xFAF, 0xFB0 )]
-	[Server.Engines.Craft.Anvil]
+	[RunUO.Engines.Craft.Anvil]
 	public class Anvil : Item
 	{
 		[Constructable]
@@ -31,7 +31,7 @@ namespace Server.Items
 		}
 	}
 
-	[Server.Engines.Craft.Forge]
+	[RunUO.Engines.Craft.Forge]
 	public class Forge : Item
 	{
 		[Constructable]

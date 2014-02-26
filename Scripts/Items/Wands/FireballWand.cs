@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Spells.Third;
-using Server.Targeting;
+using RunUO;
+using RunUO.Spells.Third;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class FireballWand : BaseWand
 	{

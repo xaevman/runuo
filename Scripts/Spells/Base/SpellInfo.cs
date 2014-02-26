@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Spells
+namespace RunUO.Spells
 {
 	public class SpellInfo
 	{

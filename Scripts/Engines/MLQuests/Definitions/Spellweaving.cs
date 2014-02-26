@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Engines.MLQuests.Objectives;
-using Server.Items;
-using Server.Engines.MLQuests.Rewards;
-using Server.Mobiles;
+using RunUO.Engines.MLQuests.Objectives;
+using RunUO.Items;
+using RunUO.Engines.MLQuests.Rewards;
+using RunUO.Mobiles;
 
-namespace Server.Engines.MLQuests.Definitions
+namespace RunUO.Engines.MLQuests.Definitions
 {
 	public static class Spellweaving
 	{
@@ -24,9 +24,9 @@ namespace Server.Engines.MLQuests.Definitions
 				Effects.SendLocationParticles( EffectItem.Create( pm.Location, pm.Map, EffectItem.DefaultDuration ), 0, 0, 0, 0, 0, 5060, 0 );
 				Effects.PlaySound( pm.Location, pm.Map, 0x243 );
 
-				Effects.SendMovingParticles( new Entity( Server.Serial.Zero, new Point3D( pm.X - 6, pm.Y - 6, pm.Z + 15 ), pm.Map ), pm, 0x36D4, 7, 0, false, true, 0x497, 0, 9502, 1, 0, (EffectLayer)255, 0x100 );
-				Effects.SendMovingParticles( new Entity( Server.Serial.Zero, new Point3D( pm.X - 4, pm.Y - 6, pm.Z + 15 ), pm.Map ), pm, 0x36D4, 7, 0, false, true, 0x497, 0, 9502, 1, 0, (EffectLayer)255, 0x100 );
-				Effects.SendMovingParticles( new Entity( Server.Serial.Zero, new Point3D( pm.X - 6, pm.Y - 4, pm.Z + 15 ), pm.Map ), pm, 0x36D4, 7, 0, false, true, 0x497, 0, 9502, 1, 0, (EffectLayer)255, 0x100 );
+				Effects.SendMovingParticles( new Entity( RunUO.Serial.Zero, new Point3D( pm.X - 6, pm.Y - 6, pm.Z + 15 ), pm.Map ), pm, 0x36D4, 7, 0, false, true, 0x497, 0, 9502, 1, 0, (EffectLayer)255, 0x100 );
+				Effects.SendMovingParticles( new Entity( RunUO.Serial.Zero, new Point3D( pm.X - 4, pm.Y - 6, pm.Z + 15 ), pm.Map ), pm, 0x36D4, 7, 0, false, true, 0x497, 0, 9502, 1, 0, (EffectLayer)255, 0x100 );
+				Effects.SendMovingParticles( new Entity( RunUO.Serial.Zero, new Point3D( pm.X - 6, pm.Y - 4, pm.Z + 15 ), pm.Map ), pm, 0x36D4, 7, 0, false, true, 0x497, 0, 9502, 1, 0, (EffectLayer)255, 0x100 );
 
 				Effects.SendTargetParticles( pm, 0x375A, 35, 90, 0x00, 0x00, 9502, (EffectLayer)255, 0x100 );
 			}

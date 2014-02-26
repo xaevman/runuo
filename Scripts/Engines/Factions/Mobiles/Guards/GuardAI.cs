@@ -1,21 +1,21 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Factions.AI;
-using Server.Spells;
-using Server.Spells.First;
-using Server.Spells.Second;
-using Server.Spells.Third;
-using Server.Spells.Fourth;
-using Server.Spells.Fifth;
-using Server.Spells.Sixth;
-using Server.Spells.Seventh;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Factions.AI;
+using RunUO.Spells;
+using RunUO.Spells.First;
+using RunUO.Spells.Second;
+using RunUO.Spells.Third;
+using RunUO.Spells.Fourth;
+using RunUO.Spells.Fifth;
+using RunUO.Spells.Sixth;
+using RunUO.Spells.Seventh;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public enum GuardAI
 	{

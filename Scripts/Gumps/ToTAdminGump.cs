@@ -1,13 +1,13 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Misc;
-using Server.Items;
-using Server.Network;
-using Server.Commands;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Commands;
+using RunUO.Mobiles;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class ToTAdminGump : Gump
 	{

@@ -20,7 +20,7 @@
 
 using System;
 
-namespace Server.Targeting
+namespace RunUO.Targeting
 {
 	public class LandTarget : IPoint3D
 	{

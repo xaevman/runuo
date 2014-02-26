@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	#region A Grammar of Orcish
 	public class GrammarOfOrcish : BaseBook

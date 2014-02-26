@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.Events.Halloween
+namespace RunUO.Events.Halloween
 {
 	class HolidaySettings
 	{

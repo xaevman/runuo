@@ -1,10 +1,10 @@
 using System;
-using Server.Network;
-using Server.Prompts;
-using Server.Multis;
-using Server.Regions;
+using RunUO.Network;
+using RunUO.Prompts;
+using RunUO.Multis;
+using RunUO.Regions;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x1f14, 0x1f15, 0x1f16, 0x1f17 )]
 	public class RecallRune : Item

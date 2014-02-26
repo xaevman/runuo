@@ -1,9 +1,9 @@
 using System;
-using Server.Targeting;
-using Server.Network;
-using Server;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO;
 
-namespace Server.Spells.First
+namespace RunUO.Spells.First
 {
 	public class NightSightSpell : MagerySpell
 	{

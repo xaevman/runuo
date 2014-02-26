@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server.Targets
+namespace RunUO.Targets
 {
 	public class AIControlMobileTarget : Target
 	{

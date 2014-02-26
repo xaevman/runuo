@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Network;
-using Server.Commands;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Commands;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class AddDoorGump : Gump
 	{

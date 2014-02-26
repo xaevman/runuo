@@ -1,8 +1,8 @@
 using System;
-using Server.Items;
-using Server.Network;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xF95, 0xF96, 0xF97, 0xF98, 0xF99, 0xF9A, 0xF9B, 0xF9C )]
 	public class BoltOfCloth : Item, IScissorable, IDyable, ICommodity

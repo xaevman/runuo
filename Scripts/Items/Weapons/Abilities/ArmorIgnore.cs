@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// This special move allows the skilled warrior to bypass his target's physical resistance, for one shot only.

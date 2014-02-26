@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Commands;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Network;
-using Server.Spells;
+using RunUO;
+using RunUO.Commands;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Spells;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class PublicMoongate : Item
 	{

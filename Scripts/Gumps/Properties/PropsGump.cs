@@ -2,15 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using Server;
-using Server.Commands.Generic;
-using Server.Network;
-using Server.Menus;
-using Server.Menus.Questions;
-using Server.Targeting;
-using CPA = Server.CommandPropertyAttribute;
+using RunUO;
+using RunUO.Commands.Generic;
+using RunUO.Network;
+using RunUO.Menus;
+using RunUO.Menus.Questions;
+using RunUO.Targeting;
+using CPA = RunUO.CommandPropertyAttribute;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class StackEntry
 	{

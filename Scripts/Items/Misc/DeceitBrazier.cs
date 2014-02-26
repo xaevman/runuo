@@ -1,10 +1,10 @@
 using System;
-using Server.Misc;
-using Server.Network;
+using RunUO.Misc;
+using RunUO.Network;
 using System.Collections.Generic;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class DeceitBrazier : Item
 	{

@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class CheckerBoard : BaseBoard
 	{

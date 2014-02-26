@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.ContextMenus;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a giant beetle corpse" )]
 	public class Beetle : BaseMount

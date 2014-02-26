@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Network;
-using Server.Engines.Craft;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Engines.Craft;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class FactionImbueGump : FactionGump
 	{

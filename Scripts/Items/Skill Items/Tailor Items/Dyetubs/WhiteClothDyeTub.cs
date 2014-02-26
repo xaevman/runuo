@@ -1,7 +1,7 @@
-using Server;
+using RunUO;
 using System;
 
-namespace Server.Items /* High seas, loot from merchant ship's hold, also a "uncommon" loot item */
+namespace RunUO.Items /* High seas, loot from merchant ship's hold, also a "uncommon" loot item */
 {
 	public class WhiteClothDyeTub : DyeTub
 	{

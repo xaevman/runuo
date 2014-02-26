@@ -1,8 +1,8 @@
 using System;
-using Server.Network;
-using Server.Gumps;
+using RunUO.Network;
+using RunUO.Gumps;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x14ED, 0x14EE )]
 	public class SOS : Item

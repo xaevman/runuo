@@ -2,12 +2,12 @@ using System;
 using System.Text;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Mobiles;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public class ArenasMoongate : Item
 	{

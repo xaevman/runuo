@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Accounting;
+using RunUO;
+using RunUO.Accounting;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class AccountPrompt
 	{

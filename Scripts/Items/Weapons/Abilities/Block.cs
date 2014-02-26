@@ -1,8 +1,8 @@
 using System;
-using Server;
+using RunUO;
 using System.Collections;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// Raises your defenses for a short time. Requires Bushido or Ninjitsu skill.

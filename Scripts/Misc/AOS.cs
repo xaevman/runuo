@@ -1,17 +1,17 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Misc;
-using Server.Mobiles;
-using Server.Network;
-using Server.Spells;
-using Server.Spells.Fifth;
-using Server.Spells.Seventh;
-using Server.Spells.Ninjitsu;
+using RunUO;
+using RunUO.Items;
+using RunUO.Misc;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Spells;
+using RunUO.Spells.Fifth;
+using RunUO.Spells.Seventh;
+using RunUO.Spells.Ninjitsu;
 
-namespace Server
+namespace RunUO
 {
 	public class AOS
 	{

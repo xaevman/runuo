@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class MageGuildmaster : BaseGuildmaster
 	{
@@ -29,8 +29,8 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.Robe( Utility.RandomBlueHue() ) );
-			AddItem( new Server.Items.GnarledStaff() );
+			AddItem( new RunUO.Items.Robe( Utility.RandomBlueHue() ) );
+			AddItem( new RunUO.Items.GnarledStaff() );
 		}
 
 		public MageGuildmaster( Serial serial ) : base( serial )

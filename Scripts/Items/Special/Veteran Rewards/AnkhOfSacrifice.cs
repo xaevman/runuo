@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Network;
-using Server.ContextMenus;
-using Server.Engines.VeteranRewards;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.ContextMenus;
+using RunUO.Engines.VeteranRewards;
 
-namespace Server.Items
+namespace RunUO.Items
 {	
 	public class AnkhOfSacrificeComponent : AddonComponent
 	{		

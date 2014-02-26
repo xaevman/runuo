@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a solen infiltrator corpse" )] // TODO: Corpse name?
 	public class BlackSolenInfiltratorQueen : BaseCreature

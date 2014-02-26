@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 using System.Collections;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "an energy vortex corpse" )]
 	public class EnergyVortex : BaseCreature

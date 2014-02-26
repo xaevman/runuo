@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Factions;
+using RunUO.Factions;
 
-namespace Server.Ethics.Evil
+namespace RunUO.Ethics.Evil
 {
 	public sealed class EvilEthic : Ethic
 	{

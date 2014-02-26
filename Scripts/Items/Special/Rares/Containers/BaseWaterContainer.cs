@@ -1,4 +1,4 @@
-﻿namespace Server.Items
+﻿namespace RunUO.Items
 {
 	public abstract class BaseWaterContainer : Container, IHasQuantity
 	{

@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Gumps;
+using RunUO;
+using RunUO.Gumps;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class PricedHealer : BaseHealer
 	{

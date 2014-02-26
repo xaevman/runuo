@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Items;
-using Server.Mobiles;
-using Server.Prompts;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Prompts;
 
-namespace Server.Engines.BulkOrders
+namespace RunUO.Engines.BulkOrders
 {
 	public class BOBGump : Gump
 	{
@@ -247,7 +247,7 @@ namespace Server.Engines.BulkOrders
 		{
 		}
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			int index = info.ButtonID;
 

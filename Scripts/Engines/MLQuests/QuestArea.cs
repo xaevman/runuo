@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Server.Engines.MLQuests
+namespace RunUO.Engines.MLQuests
 {
 	public class QuestArea
 	{

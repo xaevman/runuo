@@ -1,7 +1,7 @@
 using System;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "an ostard corpse" )]
 	public class DesertOstard : BaseMount

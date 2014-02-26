@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Engines.BulkOrders;
+using RunUO;
+using RunUO.Engines.BulkOrders;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Tailor : BaseVendor
 	{

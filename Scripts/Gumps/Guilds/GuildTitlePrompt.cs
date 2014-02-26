@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Guilds;
-using Server.Prompts;
+using RunUO;
+using RunUO.Guilds;
+using RunUO.Prompts;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class GuildTitlePrompt : Prompt
 	{

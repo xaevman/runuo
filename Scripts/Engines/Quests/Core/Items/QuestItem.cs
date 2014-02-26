@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Engines.Quests
+namespace RunUO.Engines.Quests
 {
 	public abstract class QuestItem : Item
 	{

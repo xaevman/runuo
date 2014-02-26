@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public class Ruleset
 	{

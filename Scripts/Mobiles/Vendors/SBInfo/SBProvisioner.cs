@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Server.Items;
-using Server.Guilds;
+using RunUO.Items;
+using RunUO.Guilds;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class SBProvisioner : SBInfo
 	{

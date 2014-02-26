@@ -1,8 +1,8 @@
 using System;
-using Server;
+using RunUO;
 using System.Collections.Generic;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class VendorList
 	{

@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Items;
-using Server.Targeting;
-using Server.Network;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a plague beast corpse" )]
 	public class PlagueBeast : BaseCreature, IDevourer

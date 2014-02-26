@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Engines.Quests.Naturalist
+namespace RunUO.Engines.Quests.Naturalist
 {
 	public class StudyNestsObjective : QuestObjective
 	{

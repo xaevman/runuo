@@ -1,14 +1,14 @@
 using System;
 using System.IO;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Items;
-using Server.Commands;
-using Server.Targeting;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Commands;
+using RunUO.Targeting;
 using System.Collections.Generic;
 
-namespace Server
+namespace RunUO
 {
 	public class Statics
 	{

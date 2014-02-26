@@ -1,11 +1,11 @@
 using System;
-using Server.Misc;
-using Server.Items;
-using Server.Targeting;
-using Server.Network;
-using Server.Mobiles;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Mobiles;
 
-namespace Server.Spells.Sixth
+namespace RunUO.Spells.Sixth
 {
 	public class DispelSpell : MagerySpell
 	{

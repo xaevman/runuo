@@ -1,7 +1,7 @@
 ﻿using System;
-using Server;
+using RunUO;
 
-namespace Server.Engines.MLQuests.Definitions
+namespace RunUO.Engines.MLQuests.Definitions
 {
 	// Base class for escorts providing the AwardHumanInNeed option
 	public class BaseEscort : MLQuest

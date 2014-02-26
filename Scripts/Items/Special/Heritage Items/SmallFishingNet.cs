@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x1EA3, 0x1EA4 )]
 	public class SmallFishingNetComponent : AddonComponent

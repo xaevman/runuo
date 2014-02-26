@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Engines.Craft
+namespace RunUO.Engines.Craft
 {
 	public class CraftGroupCol : System.Collections.CollectionBase
 	{

@@ -22,7 +22,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Server.Diagnostics {
+namespace RunUO.Diagnostics {
 	public class GumpProfile : BaseProfile {
 		private static Dictionary<Type, GumpProfile> _profiles = new Dictionary<Type, GumpProfile>();
 

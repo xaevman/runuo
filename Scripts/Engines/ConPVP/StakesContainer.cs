@@ -1,10 +1,10 @@
 using System;
 using System.Text;
 using System.Collections;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 #if false
 	[Flipable( 0x9A8, 0xE80 )]

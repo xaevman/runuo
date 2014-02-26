@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Spells;
-using Server.Network;
-using Server.Items;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Spells;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Spells.Bushido
+namespace RunUO.Spells.Bushido
 {
 	public abstract class SamuraiSpell : Spell
 	{

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Spells;
+using RunUO.Spells;
 
-namespace Server.Ethics.Evil
+namespace RunUO.Ethics.Evil
 {
 	public sealed class Blight : Power
 	{
@@ -66,7 +66,7 @@ namespace Server.Ethics.Evil
 
 				Effects.PlaySound( p, from.Mobile.Map, 0x1FB );
 
-				from.Mobile.LocalOverheadMessage( Server.Network.MessageType.Regular, 0x3B2, false, "You curse the area." );
+				from.Mobile.LocalOverheadMessage( RunUO.Network.MessageType.Regular, 0x3B2, false, "You curse the area." );
 
 				FinishInvoke( from );
 			}

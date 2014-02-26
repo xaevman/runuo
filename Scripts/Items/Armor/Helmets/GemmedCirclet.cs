@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x2B70, 0x3167 )]
 	public class GemmedCirclet : BaseArmor

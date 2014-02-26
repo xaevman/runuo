@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// A successful Paralyzing Blow will leave the target stunned, unable to move, attack, or cast spells, for a few seconds.

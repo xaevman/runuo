@@ -1,9 +1,9 @@
-using Server;
+using RunUO;
 using System;
-using Server.Items;
-using Server.Gumps;
+using RunUO.Items;
+using RunUO.Gumps;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a cu sidhe corpse" )]
 	public class CuSidhe : BaseMount

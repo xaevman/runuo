@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class TreasuresOfTokunoPersistance : Item
 	{

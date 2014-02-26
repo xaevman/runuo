@@ -22,7 +22,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Server.Diagnostics {
+namespace RunUO.Diagnostics {
 	public class TargetProfile : BaseProfile {
 		private static Dictionary<Type, TargetProfile> _profiles = new Dictionary<Type, TargetProfile>();
 

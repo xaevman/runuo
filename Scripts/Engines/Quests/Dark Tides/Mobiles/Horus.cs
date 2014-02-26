@@ -1,15 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.ContextMenus;
-using Server.Engines.Quests;
-using Server.Engines.Quests.Necro;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.ContextMenus;
+using RunUO.Engines.Quests;
+using RunUO.Engines.Quests.Necro;
 
-namespace Server.Engines.Quests.Necro
+namespace RunUO.Engines.Quests.Necro
 {
 	public class Horus : BaseQuester
 	{

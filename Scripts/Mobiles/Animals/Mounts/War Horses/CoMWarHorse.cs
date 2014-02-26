@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class CoMWarHorse : BaseWarHorse
 	{

@@ -19,9 +19,9 @@
  ***************************************************************************/
 
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.HuePickers
+namespace RunUO.HuePickers
 {
 	public class HuePicker
 	{

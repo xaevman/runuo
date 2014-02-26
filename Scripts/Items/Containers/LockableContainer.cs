@@ -1,9 +1,9 @@
 using System;
-using Server.Network;
-using Server.Items;
-using Server.Engines.Craft;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Engines.Craft;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class LockableContainer : TrapableContainer, ILockable, ILockpickable, ICraftable, IShipwreckedItem
 	{

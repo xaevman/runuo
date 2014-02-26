@@ -1,16 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Items;
-using Server.Network;
-using Server.ContextMenus;
-using Server.Mobiles;
-using Server.Misc;
-using Server.Engines.BulkOrders;
-using Server.Regions;
-using Server.Factions;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.ContextMenus;
+using RunUO.Mobiles;
+using RunUO.Misc;
+using RunUO.Engines.BulkOrders;
+using RunUO.Regions;
+using RunUO.Factions;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public enum VendorShoeType
 	{
@@ -1415,7 +1415,7 @@ namespace Server.Mobiles
 	}
 }
 
-namespace Server.ContextMenus
+namespace RunUO.ContextMenus
 {
 	public class VendorBuyEntry : ContextMenuEntry
 	{
@@ -1452,7 +1452,7 @@ namespace Server.ContextMenus
 	}
 }
 
-namespace Server
+namespace RunUO
 {
 	public interface IShopSellInfo
 	{

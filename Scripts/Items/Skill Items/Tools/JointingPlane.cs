@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Engines.Craft;
+using RunUO;
+using RunUO.Engines.Craft;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x1030, 0x1031 )]
 	public class JointingPlane : BaseTool

@@ -1,7 +1,7 @@
 ﻿using System;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class LuckyNecklace : BaseJewel
 	{

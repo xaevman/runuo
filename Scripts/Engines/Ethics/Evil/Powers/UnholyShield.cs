@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Server.Ethics.Evil
+namespace RunUO.Ethics.Evil
 {
 	public sealed class UnholyShield : Power
 	{
@@ -20,13 +20,13 @@ namespace Server.Ethics.Evil
 		{
 			if ( from.IsShielded )
 			{
-				from.Mobile.LocalOverheadMessage( Server.Network.MessageType.Regular, 0x3B2, false, "You are already under the protection of an unholy shield." );
+				from.Mobile.LocalOverheadMessage( RunUO.Network.MessageType.Regular, 0x3B2, false, "You are already under the protection of an unholy shield." );
 				return;
 			}
 
 			from.BeginShield();
 
-			from.Mobile.LocalOverheadMessage( Server.Network.MessageType.Regular, 0x3B2, false, "You are now under the protection of an unholy shield." );
+			from.Mobile.LocalOverheadMessage( RunUO.Network.MessageType.Regular, 0x3B2, false, "You are now under the protection of an unholy shield." );
 
 			FinishInvoke( from );
 		}

@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x105D, 0x105E )]
 	public class Springs : Item

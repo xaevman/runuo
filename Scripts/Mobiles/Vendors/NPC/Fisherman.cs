@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Fisherman : BaseVendor
 	{
@@ -26,7 +26,7 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.FishingPole() );
+			AddItem( new RunUO.Items.FishingPole() );
 		}
 
 		public Fisherman( Serial serial ) : base( serial )

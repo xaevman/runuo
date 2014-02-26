@@ -1,7 +1,7 @@
 using System;
-using Server.Engines.VeteranRewards;
+using RunUO.Engines.VeteranRewards;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseOuterTorso : BaseClothing
 	{

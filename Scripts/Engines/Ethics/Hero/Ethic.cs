@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Factions;
+using RunUO.Factions;
 
-namespace Server.Ethics.Hero
+namespace RunUO.Ethics.Hero
 {
 	public sealed class HeroEthic : Ethic
 	{

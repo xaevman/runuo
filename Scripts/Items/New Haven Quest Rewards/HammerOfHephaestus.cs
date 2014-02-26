@@ -1,7 +1,7 @@
 using System;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x13E3, 0x13E4 )]
 	public class HammerOfHephaestus : SmithHammer

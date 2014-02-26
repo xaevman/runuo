@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Server.Network;
-using Server.Targeting;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Spells.Fourth
+namespace RunUO.Spells.Fourth
 {
 	public class ManaDrainSpell : MagerySpell
 	{

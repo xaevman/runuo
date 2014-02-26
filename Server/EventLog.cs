@@ -22,7 +22,7 @@ using System;
 using System.Diagnostics;
 using DiagELog = System.Diagnostics.EventLog;
 
-namespace Server
+namespace RunUO
 {
 	public static class EventLog
 	{

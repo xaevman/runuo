@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public class LadderItem : Item
 	{
@@ -61,7 +61,7 @@ namespace Server.Engines.ConPVP
 		{
 			if ( from.InRange( GetWorldLocation(), 2 ) )
 			{
-				Ladder ladder = Server.Engines.ConPVP.Ladder.Instance;
+				Ladder ladder = RunUO.Engines.ConPVP.Ladder.Instance;
 
 				if ( m_Ladder != null )
 					ladder = m_Ladder.Ladder;

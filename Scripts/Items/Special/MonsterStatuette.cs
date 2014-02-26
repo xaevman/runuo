@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Multis;
-using Server.Gumps;
-using Server.Items;
-using Server.Network;
-using Server.Engines.VeteranRewards;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Engines.VeteranRewards;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum MonsterStatuetteType
 	{

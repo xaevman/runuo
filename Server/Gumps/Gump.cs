@@ -22,10 +22,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class Gump
 	{

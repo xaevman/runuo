@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Multis;
-using Server.Mobiles;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Multis;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Spells.Chivalry
+namespace RunUO.Spells.Chivalry
 {
 	public class SacredJourneySpell : PaladinSpell
 	{
@@ -65,7 +65,7 @@ namespace Server.Spells.Chivalry
 				Caster.SendLocalizedMessage( 1061282 ); // You cannot use the Sacred Journey ability to flee from combat.
 				return false;
 			}
-			else if ( Server.Misc.WeightOverloading.IsOverloaded( Caster ) )
+			else if ( RunUO.Misc.WeightOverloading.IsOverloaded( Caster ) )
 			{
 				Caster.SendLocalizedMessage( 502359, "", 0x22 ); // Thou art too encumbered to move.
 				return false;
@@ -106,7 +106,7 @@ namespace Server.Spells.Chivalry
 			{
 				Caster.SendLocalizedMessage( 1061282 ); // You cannot use the Sacred Journey ability to flee from combat.
 			}
-			else if ( Server.Misc.WeightOverloading.IsOverloaded( Caster ) )
+			else if ( RunUO.Misc.WeightOverloading.IsOverloaded( Caster ) )
 			{
 				Caster.SendLocalizedMessage( 502359, "", 0x22 ); // Thou art too encumbered to move.
 			}

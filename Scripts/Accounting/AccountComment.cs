@@ -1,7 +1,7 @@
 using System;
 using System.Xml;
 
-namespace Server.Accounting
+namespace RunUO.Accounting
 {
 	public class AccountComment
 	{

@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Spells.Spellweaving
+namespace RunUO.Spells.Spellweaving
 {
 	public class EtherealVoyageSpell : ArcaneForm
 	{

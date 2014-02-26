@@ -1,8 +1,8 @@
 ﻿using System;
-using Server.Mobiles;
-using Server.Spells.Ninjitsu;
+using RunUO.Mobiles;
+using RunUO.Spells.Ninjitsu;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum TalismanForm
 	{

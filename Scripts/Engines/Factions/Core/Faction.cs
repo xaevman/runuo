@@ -1,17 +1,17 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Guilds;
-using Server.Mobiles;
-using Server.Prompts;
-using Server.Targeting;
-using Server.Accounting;
-using Server.Commands;
-using Server.Commands.Generic;
+using RunUO;
+using RunUO.Items;
+using RunUO.Guilds;
+using RunUO.Mobiles;
+using RunUO.Prompts;
+using RunUO.Targeting;
+using RunUO.Accounting;
+using RunUO.Commands;
+using RunUO.Commands.Generic;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	[CustomEnum( new string[]{ "Minax", "Council of Mages", "True Britannians", "Shadowlords" } )]
 	public abstract class Faction : IComparable

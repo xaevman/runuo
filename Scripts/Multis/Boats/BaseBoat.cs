@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Movement;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Movement;
+using RunUO.Network;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public enum BoatOrder
 	{

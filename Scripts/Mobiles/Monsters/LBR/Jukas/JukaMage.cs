@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server.Items;
-using Server.Targeting;
-using Server.Misc;
-using Server.Spells;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Misc;
+using RunUO.Spells;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a juka corpse" )] // Why is this 'juka' and warriors 'jukan' ? :-(
 	public class JukaMage : BaseCreature

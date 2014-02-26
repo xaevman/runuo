@@ -19,10 +19,10 @@
  ***************************************************************************/
 
 using System;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server
+namespace RunUO
 {
 	public class QuestArrow
 	{

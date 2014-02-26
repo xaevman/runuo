@@ -30,7 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>Server</RootNamespace>
+    <RootNamespace>RunUO</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -114,6 +114,7 @@
     <Compile Include="Commands\Handlers.cs" />
     <Compile Include="Commands\HelpInfo.cs" />
     <Compile Include="Commands\Logging.cs" />
+    <Compile Include="Commands\PasswordCommand.cs" />
     <Compile Include="Commands\Profiling.cs" />
     <Compile Include="Commands\Properties.cs" />
     <Compile Include="Commands\ShardTime.cs" />
@@ -3246,9 +3247,7 @@
     <Compile Include="Spells\Third\Unlock.cs" />
     <Compile Include="Spells\Third\WallOfStone.cs" />
     <Compile Include="Spells\UnsummonTimer.cs" />
-    <Compile Include="Targets\BladedItemTarget.cs" />
-    <Compile Include="Targets\MoveTarget.cs" />
-    <Compile Include="Targets\PickMoveTarget.cs" />
+    <Compile Include="Engines\Harvest\BladedItemTarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="SpecialSystems\README.TXT" />

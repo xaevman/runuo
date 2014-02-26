@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Network;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class GreenThorns : Item
 	{

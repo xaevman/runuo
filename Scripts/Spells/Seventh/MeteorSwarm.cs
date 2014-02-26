@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server.Network;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Spells.Seventh
+namespace RunUO.Spells.Seventh
 {
 	public class MeteorSwarmSpell : MagerySpell
 	{

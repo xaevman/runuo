@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Commands;
+using RunUO;
+using RunUO.Commands;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class MarkContainer : LockableContainer
 	{

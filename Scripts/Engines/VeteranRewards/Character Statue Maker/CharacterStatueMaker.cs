@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Targets;
-using Server.Engines.VeteranRewards;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Targets;
+using RunUO.Engines.VeteranRewards;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class CharacterStatueMaker : Item, IRewardItem
 	{

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Diagnostics;
 using System.Drawing;
 
-namespace Server.Engines.Reports
+namespace RunUO.Engines.Reports
 {
 	// Modified from MS sample
 

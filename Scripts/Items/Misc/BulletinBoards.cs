@@ -2,10 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x1E5E, 0x1E5F )]
 	public class BulletinBoard : BaseBulletinBoard
@@ -347,7 +347,7 @@ namespace Server.Items
 			return m_Time.ToString( "MMM dd, yyyy" );
 		}
 
-		public override bool CheckTarget( Mobile from, Server.Targeting.Target targ, object targeted )
+		public override bool CheckTarget( Mobile from, RunUO.Targeting.Target targ, object targeted )
 		{
 			return false;
 		}

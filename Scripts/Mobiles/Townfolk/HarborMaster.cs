@@ -1,9 +1,9 @@
 using System;
-using Server.Items;
-using Server;
-using Server.Misc;
+using RunUO.Items;
+using RunUO;
+using RunUO.Misc;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class HarborMaster : BaseCreature
 	{

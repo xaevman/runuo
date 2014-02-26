@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Spells;
+using RunUO;
+using RunUO.Spells;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// A godsend to a warrior surrounded, the Whirlwind Attack allows the fighter to strike at all nearby targets in one mighty spinning swing.

@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x1070, 0x1074 )]
 	public class TrainingDummy : AddonComponent

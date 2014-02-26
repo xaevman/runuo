@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server.Network;
-using Server.Items;
-using Server.Targeting;
-using Server.Mobiles;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Mobiles;
 
-namespace Server.Spells.Necromancy
+namespace RunUO.Spells.Necromancy
 {
 	public class WraithFormSpell : TransformationSpell
 	{

@@ -1,11 +1,11 @@
 using System;
 using System.IO;
 using System.Collections;
-using Server;
-using Server.Network;
-using Server.Gumps;
+using RunUO;
+using RunUO.Network;
+using RunUO.Gumps;
 
-namespace Server.Engines.Help
+namespace RunUO.Engines.Help
 {
 	public class MessageSentGump : Gump
 	{

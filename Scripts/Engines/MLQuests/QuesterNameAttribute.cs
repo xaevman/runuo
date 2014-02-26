@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Engines.MLQuests
+namespace RunUO.Engines.MLQuests
 {
 	[AttributeUsage( AttributeTargets.Class )]
 	public class QuesterNameAttribute : Attribute

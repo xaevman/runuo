@@ -4,7 +4,7 @@ using System.Collections;
 using System.Data;
 using System.Data.Odbc;
 
-namespace Server.Engines.MyRunUO
+namespace RunUO.Engines.MyRunUO
 {
 	public class DatabaseCommandQueue
 	{

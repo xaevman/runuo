@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Multis.Deeds;
+using RunUO;
+using RunUO.Items;
+using RunUO.Multis.Deeds;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public class SmallOldHouse : BaseHouse
 	{

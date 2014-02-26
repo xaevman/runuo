@@ -1,11 +1,11 @@
 using System;
-using Server.Items;
-using Server.Network;
-using Server.Targeting;
-using Server.Engines.Craft;
-using Server.Mobiles;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Engines.Craft;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseOre : Item
 	{

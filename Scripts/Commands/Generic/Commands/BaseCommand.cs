@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Gumps;
+using RunUO;
+using RunUO.Gumps;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public enum ObjectTypes
 	{

@@ -1,14 +1,14 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Menus;
-using Server.Menus.Questions;
-using Server.Accounting;
-using Server.Multis;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Menus;
+using RunUO.Menus.Questions;
+using RunUO.Accounting;
+using RunUO.Multis;
+using RunUO.Mobiles;
 
-namespace Server.Engines.Help
+namespace RunUO.Engines.Help
 {
 	public class ContainedMenu : QuestionMenu
 	{
@@ -231,7 +231,7 @@ namespace Server.Engines.Help
 					{
 						from.Location = house.BanLocation;
 					}
-					else if ( from.Region.IsPartOf( typeof( Server.Regions.Jail ) ) )
+					else if ( from.Region.IsPartOf( typeof( RunUO.Regions.Jail ) ) )
 					{
 						from.SendLocalizedMessage( 1114345, "", 0x35 ); // You'll need a better jailbreak plan than that!
 					}

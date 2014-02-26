@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// This powerful ability requires secondary skills to activate.

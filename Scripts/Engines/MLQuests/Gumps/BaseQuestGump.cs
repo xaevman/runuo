@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Network;
-using Server.Engines.MLQuests.Objectives;
-using Server.Engines.MLQuests.Rewards;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Engines.MLQuests.Objectives;
+using RunUO.Engines.MLQuests.Rewards;
 
-namespace Server.Engines.MLQuests.Gumps
+namespace RunUO.Engines.MLQuests.Gumps
 {
 	public enum ButtonPosition : byte
 	{

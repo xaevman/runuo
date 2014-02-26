@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Engines.Quests.Doom
+namespace RunUO.Engines.Quests.Doom
 {
 	public class ChylothStaff : BlackStaff
 	{

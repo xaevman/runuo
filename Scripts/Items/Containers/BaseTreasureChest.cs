@@ -1,10 +1,10 @@
-using Server;
-using Server.Items;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
 using System;
 using System.Collections;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class BaseTreasureChest : LockableContainer
 	{

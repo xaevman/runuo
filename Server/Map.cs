@@ -22,11 +22,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Server.Items;
-using Server.Network;
-using Server.Targeting;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server
+namespace RunUO
 {
 	[Flags]
 	public enum MapRules

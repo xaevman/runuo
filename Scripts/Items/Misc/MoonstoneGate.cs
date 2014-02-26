@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Network;
-using Server.Engines.PartySystem;
+using RunUO;
+using RunUO.Network;
+using RunUO.Engines.PartySystem;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class MoonstoneGate : Moongate
 	{

@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Spells.First;
-using Server.Targeting;
+using RunUO;
+using RunUO.Spells.First;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ClumsyWand : BaseWand
 	{

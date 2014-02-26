@@ -1,7 +1,7 @@
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	/// <summary>
 	/// This timer spouts some welcome messages to a user at a set interval. It is used on character creation and login.

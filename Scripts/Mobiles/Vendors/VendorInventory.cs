@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Multis;
+using RunUO;
+using RunUO.Multis;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class VendorInventory
 	{

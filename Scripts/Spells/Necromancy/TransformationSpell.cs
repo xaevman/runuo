@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Spells.Fifth;
-using Server.Spells.Seventh;
+using RunUO;
+using RunUO.Spells.Fifth;
+using RunUO.Spells.Seventh;
 
-namespace Server.Spells.Necromancy
+namespace RunUO.Spells.Necromancy
 {
 	public abstract class TransformationSpell : NecromancerSpell, ITransformationSpell
 	{

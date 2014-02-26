@@ -1,14 +1,14 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Mobiles;
-using Server.Misc;
-using Server.Items;
-using Server.Gumps;
-using Server.Spells;
-using Server.Spells.Seventh;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Spells;
+using RunUO.Spells.Seventh;
 
-namespace Server.Spells.Fifth
+namespace RunUO.Spells.Fifth
 {
 	public class IncognitoSpell : MagerySpell
 	{

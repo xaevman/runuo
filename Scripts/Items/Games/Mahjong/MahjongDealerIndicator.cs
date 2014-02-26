@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Engines.Mahjong
+namespace RunUO.Engines.Mahjong
 {
 	public class MahjongDealerIndicator
 	{

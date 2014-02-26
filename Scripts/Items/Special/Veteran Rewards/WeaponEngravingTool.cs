@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Gumps;
-using Server.Engines.VeteranRewards;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Gumps;
+using RunUO.Engines.VeteranRewards;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class WeaponEngravingTool : Item, IUsesRemaining, IRewardItem
 	{				
@@ -240,7 +240,7 @@ namespace Server.Items
 				AddTextEntry( 75, 245, 350, 40, 0x0, (int) Buttons.Text, "" );
 			}
 			
-			public override void OnResponse( Server.Network.NetState state, RelayInfo info )
+			public override void OnResponse( RunUO.Network.NetState state, RelayInfo info )
 			{		
 				if ( m_Tool == null || m_Tool.Deleted || m_Target == null || m_Target.Deleted )
 					return;
@@ -317,7 +317,7 @@ namespace Server.Items
 				AddHtmlLocalized( 40, 109, 100, 20, 1060051, 0x7FFF, false, false ); // CANCEL
 			}
 			
-			public override void OnResponse( Server.Network.NetState state, RelayInfo info )
+			public override void OnResponse( RunUO.Network.NetState state, RelayInfo info )
 			{		
 				if ( m_Engraver == null || m_Engraver.Deleted )
 					return;

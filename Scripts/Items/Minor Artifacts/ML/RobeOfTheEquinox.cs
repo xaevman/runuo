@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x1F03, 0x1F04 )]
 	public class RobeOfTheEquinox : BaseOuterTorso

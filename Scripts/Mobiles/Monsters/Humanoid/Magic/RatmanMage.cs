@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Misc;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a glowing ratman corpse" )]
 	public class RatmanMage : BaseCreature

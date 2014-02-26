@@ -1,9 +1,9 @@
 using System;
-using Server.Mobiles;
-using Server.Network;
-using Server.Targeting;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Spells.Fifth
+namespace RunUO.Spells.Fifth
 {
 	public class SummonCreatureSpell : MagerySpell
 	{

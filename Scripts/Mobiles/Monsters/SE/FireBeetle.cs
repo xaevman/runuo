@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a fire beetle corpse" )]
-	[Server.Engines.Craft.Forge]
+	[RunUO.Engines.Craft.Forge]
 	public class FireBeetle : BaseMount
 	{
 		public override bool SubdueBeforeTame{ get{ return true; } } // Must be beaten into submission

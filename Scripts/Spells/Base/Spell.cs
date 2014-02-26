@@ -1,16 +1,16 @@
 using System;
-using Server.Items;
-using Server.Network;
-using Server.Targeting;
-using Server.Mobiles;
-using Server.Spells.Second;
-using Server.Spells.Necromancy;
-using Server.Spells.Ninjitsu;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Mobiles;
+using RunUO.Spells.Second;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Ninjitsu;
 using System.Collections.Generic;
-using Server.Spells.Spellweaving;
-using Server.Spells.Bushido;
+using RunUO.Spells.Spellweaving;
+using RunUO.Spells.Bushido;
 
-namespace Server.Spells
+namespace RunUO.Spells
 {
 	public abstract class Spell : ISpell
 	{

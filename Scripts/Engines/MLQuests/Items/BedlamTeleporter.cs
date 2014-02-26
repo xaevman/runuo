@@ -1,10 +1,10 @@
 ﻿using System;
-using Server;
-using Server.Engines.MLQuests;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Engines.MLQuests;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Engines.MLQuests.Items
+namespace RunUO.Engines.MLQuests.Items
 {
 	public class BedlamTeleporter : Item
 	{

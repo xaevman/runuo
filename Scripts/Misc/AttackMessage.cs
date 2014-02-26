@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class AttackMessage
 	{

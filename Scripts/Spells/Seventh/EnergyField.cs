@@ -1,11 +1,11 @@
 using System;
-using Server.Targeting;
-using Server.Network;
-using Server.Misc;
-using Server.Items;
-using Server.Mobiles;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Spells.Seventh
+namespace RunUO.Spells.Seventh
 {
 	public class EnergyFieldSpell : MagerySpell
 	{

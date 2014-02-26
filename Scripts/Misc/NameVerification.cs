@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Commands;
+using RunUO;
+using RunUO.Commands;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class NameVerification
 	{

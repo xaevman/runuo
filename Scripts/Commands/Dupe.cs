@@ -1,9 +1,9 @@
 using System;
 using System.Reflection;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class Dupe
 	{

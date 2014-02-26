@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Server;
+using RunUO;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	[Flags]
 	public enum IHSFlags

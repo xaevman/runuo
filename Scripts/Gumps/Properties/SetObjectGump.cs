@@ -2,13 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using Server;
-using Server.Commands.Generic;
-using Server.Network;
-using Server.Prompts;
-using Server.Commands;
+using RunUO;
+using RunUO.Commands.Generic;
+using RunUO.Network;
+using RunUO.Prompts;
+using RunUO.Commands;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class SetObjectGump : Gump
 	{

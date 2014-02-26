@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Network;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a vampire bat corpse" )]
 	public class VampireBatFamiliar : BaseFamiliar

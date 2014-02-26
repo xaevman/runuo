@@ -2,10 +2,10 @@ using System;
 using System.IO;
 using System.Xml;
 using System.Collections;
-using Server.Network;
-using Server.Commands;
+using RunUO.Network;
+using RunUO.Commands;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public abstract class CAGNode
 	{

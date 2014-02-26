@@ -3,16 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading;
-using Server;
-using Server.Commands;
-using Server.Gumps;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Spells;
-using Server.Targeting;
+using RunUO;
+using RunUO.Commands;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Spells;
+using RunUO.Targeting;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public enum FoundationType
 	{

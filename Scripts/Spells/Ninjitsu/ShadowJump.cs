@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server.Network;
-using Server.Items;
-using Server.Mobiles;
-using Server.Regions;
-using Server.Targeting;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Regions;
+using RunUO.Targeting;
 
-namespace Server.Spells.Ninjitsu
+namespace RunUO.Spells.Ninjitsu
 {
 	public class Shadowjump : NinjaSpell
 	{
@@ -70,7 +70,7 @@ namespace Server.Spells.Ninjitsu
 			{
 				Caster.SendLocalizedMessage( 1061632 ); // You can't do that while carrying the sigil.
 			}
-			else if ( Server.Misc.WeightOverloading.IsOverloaded( Caster ) )
+			else if ( RunUO.Misc.WeightOverloading.IsOverloaded( Caster ) )
 			{
 				Caster.SendLocalizedMessage( 502359, "", 0x22 ); // Thou art too encumbered to move.
 			}
@@ -102,7 +102,7 @@ namespace Server.Spells.Ninjitsu
 
 				m.PlaySound( 0x512 );
 				
-				Server.SkillHandlers.Stealth.OnUse( m ); // stealth check after the a jump
+				RunUO.SkillHandlers.Stealth.OnUse( m ); // stealth check after the a jump
 			}
 
 			FinishSequence();

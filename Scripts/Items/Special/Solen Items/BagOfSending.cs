@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.ContextMenus;
-using Server.Targeting;
-using Server.Network;
+using RunUO;
+using RunUO.ContextMenus;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum BagOfSendingHue
 	{
@@ -216,7 +216,7 @@ namespace Server.Items
 					{
 						MessageHelper.SendLocalizedMessageTo( m_Bag, from, 1054108, 0x59 ); // The bag of sending rejects the cursed item.
 					}
-					else if ( !item.VerifyMove( from ) || item is Server.Engines.Quests.QuestItem || item.Nontransferable )
+					else if ( !item.VerifyMove( from ) || item is RunUO.Engines.Quests.QuestItem || item.Nontransferable )
 					{
 						MessageHelper.SendLocalizedMessageTo( m_Bag, from, 1054109, 0x59 ); // The bag of sending rejects that item.
 					}

@@ -23,7 +23,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Server.Diagnostics {
+namespace RunUO.Diagnostics {
 	public abstract class BaseProfile {
 		public static void WriteAll<T>( TextWriter op, IEnumerable<T> profiles ) where T : BaseProfile {
 			List<T> list = new List<T>( profiles );

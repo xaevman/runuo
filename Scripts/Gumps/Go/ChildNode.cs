@@ -1,8 +1,8 @@
 using System;
 using System.Xml;
-using Server;
+using RunUO;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class ChildNode
 	{

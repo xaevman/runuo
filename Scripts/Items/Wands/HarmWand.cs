@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Spells.Second;
-using Server.Targeting;
+using RunUO;
+using RunUO.Spells.Second;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class HarmWand : BaseWand
 	{

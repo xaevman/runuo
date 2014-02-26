@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Network;
-using Server.Mobiles;
-using Server.Gumps;
+using RunUO;
+using RunUO.Network;
+using RunUO.Mobiles;
+using RunUO.Gumps;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xA57, 0xA58, 0xA59 )]
 	public class Bedroll : Item

@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Engines.Mahjong
+namespace RunUO.Engines.Mahjong
 {
 	public enum MahjongPieceDirection
 	{

@@ -1,8 +1,8 @@
 using System;
-using Server.Network;
-using Server.Items;
+using RunUO.Network;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xEC4, 0xEC5 )]
 	public class SkinningKnife : BaseKnife

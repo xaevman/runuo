@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Items;
-using Server.Targeting;
-using Server.Factions;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Factions;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "an ogre lords corpse" )]
 	public class OgreLord : BaseCreature

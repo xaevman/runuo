@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Spells.Fourth;
-using Server.Targeting;
+using RunUO;
+using RunUO.Spells.Fourth;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class GreaterHealWand : BaseWand
 	{

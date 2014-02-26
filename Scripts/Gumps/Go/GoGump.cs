@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class GoGump : Gump
 	{

@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Text;
-using Server;
+using RunUO;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public sealed class OrderInfo
 	{

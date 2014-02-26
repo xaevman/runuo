@@ -1,9 +1,9 @@
 using System;
-using Server.Engines.Craft;
-using Server.Network;
+using RunUO.Engines.Craft;
+using RunUO.Network;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseHat : BaseClothing, IShipwreckedItem
 	{

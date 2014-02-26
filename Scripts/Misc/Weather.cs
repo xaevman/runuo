@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class Weather
 	{
@@ -325,7 +325,7 @@ namespace Server.Misc
 						continue;
 
 					if ( weatherPacket == null )
-						weatherPacket = Packet.Acquire( new Server.Network.Weather( type, density, temperature ) );
+						weatherPacket = Packet.Acquire( new RunUO.Network.Weather( type, density, temperature ) );
 
 					ns.Send( weatherPacket );
 				}

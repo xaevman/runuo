@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class RunebookDyeTub : DyeTub, Engines.VeteranRewards.IRewardItem
 	{

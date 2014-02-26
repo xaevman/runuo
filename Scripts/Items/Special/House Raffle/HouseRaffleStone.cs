@@ -2,15 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Text;
-using Server;
-using Server.Accounting;
-using Server.ContextMenus;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Network;
-using Server.Regions;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.ContextMenus;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Regions;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class RaffleEntry
 	{

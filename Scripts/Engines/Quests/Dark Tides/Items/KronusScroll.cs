@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Items;
-using Server.Network;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Engines.Quests.Necro
+namespace RunUO.Engines.Quests.Necro
 {
 	public class KronusScroll : QuestItem
 	{

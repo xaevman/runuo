@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class ConfirmReleaseGump : Gump
 	{
@@ -30,7 +30,7 @@ namespace Server.Gumps
 			AddHtmlLocalized( 170, 80, 75, 20, 1011012, false, false ); // CANCEL
 		}
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			if ( info.ButtonID == 2 )
 			{

@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a ronin corpse" )]
 	public class Ronin : BaseCreature

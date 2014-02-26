@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Network;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Network;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum CampfireStatus
 	{

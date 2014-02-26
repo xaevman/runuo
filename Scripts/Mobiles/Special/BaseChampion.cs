@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Engines.CannedEvil;
+using RunUO;
+using RunUO.Items;
+using RunUO.Engines.CannedEvil;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public abstract class BaseChampion : BaseCreature
 	{

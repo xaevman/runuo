@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Factions;
-using Server.Mobiles;
-using Server.Commands;
+using RunUO;
+using RunUO.Items;
+using RunUO.Factions;
+using RunUO.Mobiles;
+using RunUO.Commands;
 
-namespace Server.Engines.Craft
+namespace RunUO.Engines.Craft
 {
 	public enum ConsumeType
 	{

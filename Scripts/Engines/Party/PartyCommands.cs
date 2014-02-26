@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Engines.PartySystem
+namespace RunUO.Engines.PartySystem
 {
 	public class PartyCommandHandlers : PartyCommands
 	{

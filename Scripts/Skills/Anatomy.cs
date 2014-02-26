@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class Anatomy
 	{

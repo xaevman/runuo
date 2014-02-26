@@ -1,8 +1,8 @@
 using System;
-using Server.Network;
-using Server.Items;
+using RunUO.Network;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xF50, 0xF4F )]
 	public class Crossbow : BaseRanged

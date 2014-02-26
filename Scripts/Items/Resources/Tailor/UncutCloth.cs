@@ -1,8 +1,8 @@
 using System;
-using Server.Items;
-using Server.Network;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x1765, 0x1767 )]
 	public class UncutCloth : Item, IScissorable, IDyable, ICommodity

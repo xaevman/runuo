@@ -3,10 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Misc
+namespace RunUO.Security
 {
 	public class IPLimiter
 	{

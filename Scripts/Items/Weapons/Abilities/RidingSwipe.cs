@@ -1,9 +1,9 @@
 
 using System;
-using Server.Items;
-using Server.Mobiles;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// If you are on foot, dismounts your opponent and damage the ethereal's rider or the
@@ -65,7 +65,7 @@ namespace Server.Items
 				
 				AOS.Damage( defender, attacker, amount, 100, 0, 0, 0, 0 );
 
-				if( Server.Items.ParalyzingBlow.IsImmune( defender ) )	//Does it still do damage?
+				if( RunUO.Items.ParalyzingBlow.IsImmune( defender ) )	//Does it still do damage?
 				{
 					attacker.SendLocalizedMessage( 1070804 ); // Your target resists paralysis.
 					defender.SendLocalizedMessage( 1070813 ); // You resist paralysis.
@@ -73,7 +73,7 @@ namespace Server.Items
 				else
 				{
 					defender.Paralyze( TimeSpan.FromSeconds( 3.0 ) );
-					Server.Items.ParalyzingBlow.BeginImmunity( defender, Server.Items.ParalyzingBlow.FreezeDelayDuration );
+					RunUO.Items.ParalyzingBlow.BeginImmunity( defender, RunUO.Items.ParalyzingBlow.FreezeDelayDuration );
 				}
 			}
 		}

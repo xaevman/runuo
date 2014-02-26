@@ -22,16 +22,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using Server.Guilds;
-using Server.Gumps;
-using Server.Menus;
-using Server.Menus.ItemLists;
-using Server.Menus.Questions;
-using Server.Network;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Guilds;
+using RunUO.Gumps;
+using RunUO.Menus;
+using RunUO.Menus.ItemLists;
+using RunUO.Menus.Questions;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public delegate void CommandEventHandler( CommandEventArgs e );
 

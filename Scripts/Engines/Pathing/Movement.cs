@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Movement
+namespace RunUO.Movement
 {
 	public class MovementImpl : IMovementImpl
 	{

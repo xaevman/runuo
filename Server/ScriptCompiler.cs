@@ -31,7 +31,7 @@ using Microsoft.CSharp;
 using Microsoft.VisualBasic;
 using System.Diagnostics;
 
-namespace Server
+namespace RunUO
 {
 	public static class ScriptCompiler
 	{

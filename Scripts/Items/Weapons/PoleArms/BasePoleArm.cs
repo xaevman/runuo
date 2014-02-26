@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Engines.Harvest;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.Items;
+using RunUO.Engines.Harvest;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BasePoleArm : BaseMeleeWeapon, IUsesRemaining
 	{

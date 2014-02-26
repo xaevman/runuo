@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	[CorpseName( "a war horse corpse" )]
 	public class FactionWarHorse : BaseMount

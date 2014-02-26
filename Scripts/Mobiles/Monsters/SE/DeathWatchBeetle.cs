@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Spells;
+using RunUO;
+using RunUO.Items;
+using RunUO.Spells;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a deathwatchbeetle corpse" )]
 	[TypeAlias( "Server.Mobiles.DeathWatchBeetle" )]

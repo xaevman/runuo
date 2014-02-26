@@ -22,9 +22,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server
+namespace RunUO
 {
 	public delegate TimeSpan SkillUseCallback( Mobile user );
 

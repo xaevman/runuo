@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Spells;
-using Server.Network;
+using RunUO;
+using RunUO.Spells;
+using RunUO.Network;
 
-namespace Server.Spells.Chivalry
+namespace RunUO.Spells.Chivalry
 {
 	public abstract class PaladinSpell : Spell
 	{

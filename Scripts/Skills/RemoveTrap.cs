@@ -1,10 +1,10 @@
 using System;
-using Server.Targeting;
-using Server.Items;
-using Server.Network;
-using Server.Factions;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Factions;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class RemoveTrap
 	{

@@ -1,9 +1,9 @@
 
 using System;
-using Server;
+using RunUO;
 using System.Collections;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// Attack with increased damage with additional damage over time.
@@ -76,7 +76,7 @@ namespace Server.Items
 				if( !m_Defender.Alive || m_DamageRemaining <= 0 )
 				{
 					Stop();
-					Server.Items.TalonStrike.Registry.Remove( m_Defender );
+					RunUO.Items.TalonStrike.Registry.Remove( m_Defender );
 					return;
 				}
 
@@ -98,7 +98,7 @@ namespace Server.Items
 				if( !m_Defender.Alive || m_DamageRemaining <= 0 )
 				{
 					Stop();
-					Server.Items.TalonStrike.Registry.Remove( m_Defender );
+					RunUO.Items.TalonStrike.Registry.Remove( m_Defender );
 				}
 			}
 		}

@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Engines.Reports
+namespace RunUO.Engines.Reports
 {
 	public abstract class Chart : PersistableObject
 	{

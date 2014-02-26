@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public abstract class BaseSystemController : Item
 	{

@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Items;
-using Server.Gumps;
-using Server.Engines.Quests;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Engines.Quests;
 
-namespace Server.Engines.Quests.Ninja
+namespace RunUO.Engines.Quests.Ninja
 {
 	public class Zoel : BaseQuester
 	{

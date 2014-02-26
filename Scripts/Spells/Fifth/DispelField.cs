@@ -1,10 +1,10 @@
 using System;
-using Server.Targeting;
-using Server.Network;
-using Server.Items;
-using Server.Misc;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Misc;
 
-namespace Server.Spells.Fifth
+namespace RunUO.Spells.Fifth
 {
 	public class DispelFieldSpell : MagerySpell
 	{

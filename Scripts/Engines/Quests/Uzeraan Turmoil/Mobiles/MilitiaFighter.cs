@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Engines.Quests.Haven
+namespace RunUO.Engines.Quests.Haven
 {
 	public class MilitiaFighter : BaseCreature
 	{
@@ -114,7 +114,7 @@ namespace Server.Engines.Quests.Haven
 
 		public override void OnSingleClick( Mobile from )
 		{
-			int hue = Notoriety.GetHue( Server.Misc.NotorietyHandlers.CorpseNotoriety( from, this ) );
+			int hue = Notoriety.GetHue( RunUO.Misc.NotorietyHandlers.CorpseNotoriety( from, this ) );
 
 			if ( ItemID == 0x2006 ) // Corpse form
 				from.Send( new MessageLocalized( Serial, ItemID, MessageType.Label, hue, 3, 1049318, "", Name ) ); // the remains of ~1_NAME~ the militia fighter

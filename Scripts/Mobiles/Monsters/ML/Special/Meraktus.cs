@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Items;
-using Server.Targeting;
-using Server.Misc;
-using Server.Engines.CannedEvil;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Misc;
+using RunUO.Engines.CannedEvil;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "the remains of Meraktus" )]
 	public class Meraktus : BaseChampion

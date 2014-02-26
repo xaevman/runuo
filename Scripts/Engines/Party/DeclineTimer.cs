@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using Server;
+using RunUO;
 
-namespace Server.Engines.PartySystem
+namespace RunUO.Engines.PartySystem
 {
 	public class DeclineTimer : Timer
 	{

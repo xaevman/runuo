@@ -1,7 +1,7 @@
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 
 	[FlipableAttribute( 0x156C, 0x156D )] 

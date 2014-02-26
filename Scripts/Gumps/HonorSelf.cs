@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Network;
-using Server.Mobiles;
-using Server.Accounting;
+using RunUO;
+using RunUO.Network;
+using RunUO.Mobiles;
+using RunUO.Accounting;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class HonorSelf: Gump
 	{

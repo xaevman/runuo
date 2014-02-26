@@ -19,9 +19,9 @@
  ***************************************************************************/
 
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Menus.ItemLists
+namespace RunUO.Menus.ItemLists
 {
 	public class ItemListEntry
 	{

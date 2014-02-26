@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Server;
-using Server.Engines.MLQuests.Gumps;
-using Server.Gumps;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Engines.MLQuests.Gumps;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Engines.MLQuests.Mobiles
+namespace RunUO.Engines.MLQuests.Mobiles
 {
 	public class SirHelper : Mage
 	{

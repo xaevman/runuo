@@ -25,13 +25,13 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Threading;
 using System.Diagnostics;
-using Server;
-using Server.Mobiles;
-using Server.Accounting;
-using Server.Network;
-using Server.Guilds;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Accounting;
+using RunUO.Network;
+using RunUO.Guilds;
 
-namespace Server {
+namespace RunUO {
 	public static class World {
 
 		private static Dictionary<Serial, Mobile> m_Mobiles;

@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Items;
-using Server.Targeting;
-using Server.ContextMenus;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.ContextMenus;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a plague spawn corpse" )]
 	public class PlagueSpawn : BaseCreature

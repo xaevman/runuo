@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Xml;
-using Server;
+using RunUO;
 
-namespace Server
+namespace RunUO
 {
 	public class NameList
 	{

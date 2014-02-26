@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Movement;
-using CalcMoves = Server.Movement.Movement;
+using RunUO;
+using RunUO.Movement;
+using CalcMoves = RunUO.Movement.Movement;
 
-namespace Server
+namespace RunUO
 {
 	public class PathFollower
 	{

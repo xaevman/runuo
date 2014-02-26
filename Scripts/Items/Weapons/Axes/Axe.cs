@@ -1,8 +1,8 @@
 using System;
-using Server.Items;
-using Server.Network;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xF49, 0xF4a )]
 	public class Axe : BaseAxe

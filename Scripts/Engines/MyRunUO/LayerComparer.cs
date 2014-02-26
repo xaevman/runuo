@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace Server.Engines.MyRunUO
+namespace RunUO.Engines.MyRunUO
 {
 	public class LayerComparer : IComparer
 	{

@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server
+namespace RunUO
 {
 	public class CompassionVirtue
 	{

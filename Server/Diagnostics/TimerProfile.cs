@@ -23,7 +23,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
-namespace Server.Diagnostics {
+namespace RunUO.Diagnostics {
 	public class TimerProfile : BaseProfile {
 		private static Dictionary<string, TimerProfile> _profiles = new Dictionary<string, TimerProfile>();
 

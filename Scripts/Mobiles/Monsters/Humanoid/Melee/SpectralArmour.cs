@@ -1,7 +1,7 @@
 using System; 
-using Server.Items; 
+using RunUO.Items; 
 
-namespace Server.Mobiles 
+namespace RunUO.Mobiles 
 { 
     
 	public class SpectralArmour : BaseCreature 

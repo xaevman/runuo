@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x14F3, 0x14F4 )]
 	public class ToyBoat : Item

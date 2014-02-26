@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// Also known as the Haymaker, this attack dramatically increases the damage done by a weapon reaching its mark.

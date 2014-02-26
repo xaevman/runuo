@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Text;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public sealed class LimitExtension : BaseExtension
 	{

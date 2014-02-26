@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class IronWorker : BaseVendor
 	{
@@ -51,7 +51,7 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			Item item = ( Utility.RandomBool() ? null : new Server.Items.RingmailChest() );
+			Item item = ( Utility.RandomBool() ? null : new RunUO.Items.RingmailChest() );
 
 			if ( item != null && !EquipItem( item ) )
 			{

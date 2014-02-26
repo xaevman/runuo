@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class FactionStone : BaseSystemController
 	{

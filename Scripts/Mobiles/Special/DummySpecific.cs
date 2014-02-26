@@ -1,9 +1,9 @@
 using System;
-using Server.Items;
-using Server.Mobiles;
-using Server.Spells;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Spells;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	/// <summary>
 	/// This is a test creature

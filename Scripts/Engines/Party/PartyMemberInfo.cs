@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Engines.PartySystem
+namespace RunUO.Engines.PartySystem
 {
 	public class PartyMemberInfo
 	{

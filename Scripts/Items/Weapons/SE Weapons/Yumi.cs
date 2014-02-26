@@ -1,8 +1,8 @@
 using System;
-using Server.Network;
-using Server.Items;
+using RunUO.Network;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x27A5, 0x27F0 )]
 	public class Yumi : BaseRanged

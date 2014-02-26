@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Targeting;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ItemIdentification
 	{

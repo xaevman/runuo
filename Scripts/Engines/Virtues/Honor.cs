@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Gumps;
-using Server.Targeting;
-using Server.Regions;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Gumps;
+using RunUO.Targeting;
+using RunUO.Regions;
 
-namespace Server
+namespace RunUO
 {
 	public class HonorVirtue
 	{

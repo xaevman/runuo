@@ -20,9 +20,9 @@
 
 using System;
 using System.Collections.Generic;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public interface IMount
 	{
@@ -36,7 +36,7 @@ namespace Server.Mobiles
 	}
 }
 
-namespace Server
+namespace RunUO
 {
 	public interface IVendor
 	{

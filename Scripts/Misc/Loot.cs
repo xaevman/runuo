@@ -1,10 +1,10 @@
 using System;
 using System.IO;
 using System.Reflection;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server
+namespace RunUO
 {
 	public class Loot
 	{

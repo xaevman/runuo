@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
 
-namespace Server.Engines.Help
+namespace RunUO.Engines.Help
 {
 	public class PageResponseGump : Gump
 	{

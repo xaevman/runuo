@@ -3,10 +3,10 @@ using System.IO;
 using System.Text;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Diagnostics;
+using RunUO;
+using RunUO.Diagnostics;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class Profiling
 	{

@@ -23,20 +23,20 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Threading;
-using Server.Accounting;
-using Server.Targeting;
-using Server.Items;
-using Server.Mobiles;
-using Server.Gumps;
-using Server.Menus;
-using Server.Menus.ItemLists;
-using Server.Menus.Questions;
-using Server.Prompts;
-using Server.HuePickers;
-using Server.ContextMenus;
-using Server.Diagnostics;
+using RunUO.Accounting;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Gumps;
+using RunUO.Menus;
+using RunUO.Menus.ItemLists;
+using RunUO.Menus.Questions;
+using RunUO.Prompts;
+using RunUO.HuePickers;
+using RunUO.ContextMenus;
+using RunUO.Diagnostics;
 
-namespace Server.Network
+namespace RunUO.Network
 {
 	public enum PMMessage : byte
 	{

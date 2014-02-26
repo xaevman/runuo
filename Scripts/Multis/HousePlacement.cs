@@ -1,14 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Guilds;
-using Server.Items;
-using Server.Misc;
-using Server.Regions;
-using Server.Spells;
+using RunUO;
+using RunUO.Guilds;
+using RunUO.Items;
+using RunUO.Misc;
+using RunUO.Regions;
+using RunUO.Spells;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public enum HousePlacementResult
 	{

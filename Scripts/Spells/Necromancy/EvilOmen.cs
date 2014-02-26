@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server.Spells.Necromancy
+namespace RunUO.Spells.Necromancy
 {
 	public class EvilOmenSpell : NecromancerSpell
 	{

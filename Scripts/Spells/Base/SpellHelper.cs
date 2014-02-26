@@ -1,21 +1,21 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Guilds;
-using Server.Multis;
-using Server.Regions;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Engines.PartySystem;
-using Server.Misc;
-using Server.Spells.Bushido;
-using Server.Spells.Necromancy;
-using Server.Spells.Ninjitsu;
+using RunUO;
+using RunUO.Items;
+using RunUO.Guilds;
+using RunUO.Multis;
+using RunUO.Regions;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Engines.PartySystem;
+using RunUO.Misc;
+using RunUO.Spells.Bushido;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Ninjitsu;
 using System.Collections.Generic;
-using Server.Spells.Seventh;
-using Server.Spells.Fifth;
+using RunUO.Spells.Seventh;
+using RunUO.Spells.Fifth;
 
-namespace Server
+namespace RunUO
 {
 	public class DefensiveSpell
 	{
@@ -45,7 +45,7 @@ namespace Server
 	}
 }
 
-namespace Server.Spells
+namespace RunUO.Spells
 {
 	public enum TravelCheckType
 	{

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public class ArenaController : Item
 	{
@@ -202,7 +202,7 @@ namespace Server.Engines.ConPVP
 			if ( m_Ladder != null )
 				return m_Ladder.Ladder;
 
-			return Server.Engines.ConPVP.Ladder.Instance;
+			return RunUO.Engines.ConPVP.Ladder.Instance;
 		}
 
 		[CommandProperty( AccessLevel.GameMaster )]

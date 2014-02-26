@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Targeting;
-using Server.Network;
-using Server.Mobiles;
-using Server.Factions;
-using Server.Spells;
-using Server.Spells.Spellweaving;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Mobiles;
+using RunUO.Factions;
+using RunUO.Spells;
+using RunUO.Spells.Spellweaving;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class AnimalTaming
 	{

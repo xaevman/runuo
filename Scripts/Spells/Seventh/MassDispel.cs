@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Server.Misc;
-using Server.Network;
-using Server.Items;
-using Server.Targeting;
-using Server.Mobiles;
+using RunUO.Misc;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Mobiles;
 
-namespace Server.Spells.Seventh
+namespace RunUO.Spells.Seventh
 {
 	public class MassDispelSpell : MagerySpell
 	{

@@ -1,13 +1,13 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Multis;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Multis;
+using RunUO.Network;
+using RunUO.Targeting;
 using System.Collections.Generic;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class FinanceGump : FactionGump
 	{

@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server.Targeting;
-using Server.Network;
-using Server.Spells;
-using Server.Spells.First;
-using Server.Spells.Second;
-using Server.Spells.Fourth;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Spells;
+using RunUO.Spells.First;
+using RunUO.Spells.Second;
+using RunUO.Spells.Fourth;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class HealerAI : BaseAI
 	{

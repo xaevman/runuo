@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Network;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Mobiles;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public enum ResurrectMessage
 	{

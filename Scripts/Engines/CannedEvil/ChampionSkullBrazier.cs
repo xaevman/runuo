@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Targeting;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Mobiles;
 
-namespace Server.Engines.CannedEvil
+namespace RunUO.Engines.CannedEvil
 {
 	public class ChampionSkullBrazier : AddonComponent
 	{

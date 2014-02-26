@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Server.Spells.Spellweaving
+namespace RunUO.Spells.Spellweaving
 {
 	public class EssenceOfWindSpell : ArcanistSpell
 	{

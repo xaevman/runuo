@@ -19,9 +19,9 @@
  ***************************************************************************/
 
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Prompts
+namespace RunUO.Prompts
 {
 	public abstract class Prompt
 	{

@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Gumps;
+using RunUO;
+using RunUO.Gumps;
 
-namespace Server.Engines.Quests
+namespace RunUO.Engines.Quests
 {
 	public class QuestItemInfo
 	{

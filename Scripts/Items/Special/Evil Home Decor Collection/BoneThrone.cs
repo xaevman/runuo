@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x2A58, 0x2A59 )]
 	public class BoneThroneComponent : AddonComponent

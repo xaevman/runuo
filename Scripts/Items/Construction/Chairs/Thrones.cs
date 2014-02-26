@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Furniture]
 	[Flipable(0xB32, 0xB33)]

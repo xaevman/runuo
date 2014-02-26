@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using Server;
+using RunUO;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public class RulesetLayout
 	{

@@ -2,7 +2,7 @@ using System;
 using System.Text;
 using System.Threading;
 
-namespace Server.Engines.MyRunUO
+namespace RunUO.Engines.MyRunUO
 {
 	public class Config
 	{

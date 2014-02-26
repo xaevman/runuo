@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server.Targeting;
-using Server.Network;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Spells.First
+namespace RunUO.Spells.First
 {
 	public class ReactiveArmorSpell : MagerySpell
 	{

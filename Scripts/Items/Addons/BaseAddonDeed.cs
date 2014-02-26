@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Multis;
-using Server.Targeting;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x14F0, 0x14EF )]
 	public abstract class BaseAddonDeed : Item
@@ -92,7 +92,7 @@ namespace Server.Items
 				{
 					BaseAddon addon = m_Deed.Addon;
 
-					Server.Spells.SpellHelper.GetSurfaceTop( ref p );
+					RunUO.Spells.SpellHelper.GetSurfaceTop( ref p );
 
 					BaseHouse house = null;
 

@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Engines.Quests;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Engines.Quests;
 
-namespace Server.Engines.Quests.Collector
+namespace RunUO.Engines.Quests.Collector
 {
 	public class EnchantedPaints : QuestItem
 	{

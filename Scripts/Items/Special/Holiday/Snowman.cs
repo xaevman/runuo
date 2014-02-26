@@ -1,8 +1,8 @@
 using System;
-using Server.Items;
-using Server.Network;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x2328, 0x2329 )]
 	public class Snowman : Item, IDyable

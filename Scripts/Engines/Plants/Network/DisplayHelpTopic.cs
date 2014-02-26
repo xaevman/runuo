@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Network
+namespace RunUO.Network
 {
 	public class DisplayHelpTopic : Packet
 	{

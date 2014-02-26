@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Engines.Craft;
-using Server.Items;
-using Mat = Server.Engines.BulkOrders.BulkMaterialType;
+using RunUO;
+using RunUO.Engines.Craft;
+using RunUO.Items;
+using Mat = RunUO.Engines.BulkOrders.BulkMaterialType;
 
-namespace Server.Engines.BulkOrders
+namespace RunUO.Engines.BulkOrders
 {
 	[TypeAlias( "Scripts.Engines.BulkOrders.SmallSmithBOD" )]
 	public class SmallSmithBOD : SmallBOD

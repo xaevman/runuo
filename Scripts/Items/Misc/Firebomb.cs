@@ -1,10 +1,10 @@
-using Server.Network;
-using Server.Spells;
-using Server.Targeting;
+using RunUO.Network;
+using RunUO.Spells;
+using RunUO.Targeting;
 using System;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class Firebomb : Item
 	{

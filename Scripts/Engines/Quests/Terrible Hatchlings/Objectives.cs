@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Engines.Quests.Zento
+namespace RunUO.Engines.Quests.Zento
 {
 	public class FirstKillObjective : QuestObjective
 	{

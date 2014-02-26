@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Ethics;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Ethics;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "an unholy corpse" )]
 	public class UnholySteed : BaseMount

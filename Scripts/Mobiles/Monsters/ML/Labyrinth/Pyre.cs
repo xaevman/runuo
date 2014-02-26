@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Spells;
+using RunUO;
+using RunUO.Items;
+using RunUO.Spells;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a Pyre corpse" )]
 	public class Pyre : Phoenix

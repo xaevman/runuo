@@ -1,11 +1,11 @@
 using System;
-using Server.Misc;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Targeting;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Spells.Eighth
+namespace RunUO.Spells.Eighth
 {
 	public class SummonDaemonSpell : MagerySpell
 	{

@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Accounting;
-using Server.Engines;
-using Server.Engines.Help;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Engines;
+using RunUO.Engines.Help;
 
-namespace Server.Engines.Reports
+namespace RunUO.Engines.Reports
 {
 	public abstract class BaseInfo : IComparable
 	{

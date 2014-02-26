@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Mobiles;
-using Server.Engines.Quests;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Mobiles;
+using RunUO.Engines.Quests;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ScrollofTranscendence : SpecialScroll
 	{

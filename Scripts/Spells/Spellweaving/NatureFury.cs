@@ -1,9 +1,9 @@
 using System;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Regions;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Regions;
 
-namespace Server.Spells.Spellweaving
+namespace RunUO.Spells.Spellweaving
 {
 	public class NatureFurySpell : ArcanistSpell
 	{

@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x2B72, 0x3169 )]
 	public class VultureHelm : BaseArmor

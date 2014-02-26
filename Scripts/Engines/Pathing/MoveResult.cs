@@ -1,6 +1,6 @@
 using System;
 
-namespace Server
+namespace RunUO
 {
 	public delegate MoveResult MoveMethod( Direction d );
 

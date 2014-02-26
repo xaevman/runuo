@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server.Targeting;
-using Server.Network;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Spells.Fourth
+namespace RunUO.Spells.Fourth
 {
 	public class CurseSpell : MagerySpell
 	{

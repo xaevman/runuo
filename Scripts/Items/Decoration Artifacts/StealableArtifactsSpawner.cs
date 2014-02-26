@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Commands;
+using RunUO;
+using RunUO.Commands;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class StealableArtifactsSpawner : Item
 	{

@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Items;
-using Server.Engines.Plants;
-using Server.Engines.Quests;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Engines.Plants;
+using RunUO.Engines.Quests;
 
-namespace Server.Engines.Quests.Naturalist
+namespace RunUO.Engines.Quests.Naturalist
 {
 	public class Naturalist : BaseQuester
 	{

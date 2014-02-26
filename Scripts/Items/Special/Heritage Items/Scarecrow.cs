@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x1E34, 0x1E35 )]
 	public class ScarecrowComponent : AddonComponent

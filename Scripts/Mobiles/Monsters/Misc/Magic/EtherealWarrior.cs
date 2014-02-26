@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Gumps;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
 
-namespace Server.Mobiles 
+namespace RunUO.Mobiles 
 { 
 	[CorpseName( "an ethereal warrior corpse" )] 
 	public class EtherealWarrior : BaseCreature 

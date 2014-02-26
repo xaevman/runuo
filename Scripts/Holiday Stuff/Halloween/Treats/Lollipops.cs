@@ -1,7 +1,7 @@
 ﻿using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[TypeAlias( "Server.Items.Lollipop" )]
 	public class Lollipops : CandyCane

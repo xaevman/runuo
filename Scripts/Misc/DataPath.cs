@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 using Microsoft.Win32;
-using Server;
+using RunUO;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class DataPath
 	{

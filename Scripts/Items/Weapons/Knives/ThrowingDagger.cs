@@ -1,8 +1,8 @@
 using System;
-using Server.Targeting;
-using Server.Network;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xF52, 0xF51 )]
 	public class ThrowingDagger : Item

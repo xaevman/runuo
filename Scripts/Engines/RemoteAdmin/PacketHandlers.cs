@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
-using Server.Accounting;
-using Server.Items;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Network;
+using RunUO.Accounting;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.RemoteAdmin
+namespace RunUO.RemoteAdmin
 {
 	public class RemoteAdminHandlers
 	{

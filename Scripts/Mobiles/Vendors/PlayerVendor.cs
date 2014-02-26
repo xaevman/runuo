@@ -1,17 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Gumps;
-using Server.Prompts;
-using Server.Targeting;
-using Server.Misc;
-using Server.Multis;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Gumps;
+using RunUO.Prompts;
+using RunUO.Targeting;
+using RunUO.Misc;
+using RunUO.Multis;
+using RunUO.ContextMenus;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[AttributeUsage( AttributeTargets.Class )]
 	public class PlayerVendorTargetAttribute : Attribute

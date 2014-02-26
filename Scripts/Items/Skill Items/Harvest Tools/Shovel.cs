@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Engines.Harvest;
+using RunUO;
+using RunUO.Engines.Harvest;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class Shovel : BaseHarvestTool
 	{

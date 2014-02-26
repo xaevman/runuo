@@ -1,17 +1,17 @@
 using System;
-using Server;
+using RunUO;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using System.Reflection;
-using Server.Gumps;
-using Server.Network;
-using Server.Commands;
-using Server.Commands.Generic;
-using CommandInfo=Server.Commands.Docs.DocCommandEntry;
-using CommandInfoSorter=Server.Commands.Docs.CommandEntrySorter;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Commands;
+using RunUO.Commands.Generic;
+using CommandInfo=RunUO.Commands.Docs.DocCommandEntry;
+using CommandInfoSorter=RunUO.Commands.Docs.CommandEntrySorter;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class HelpInfo
 	{

@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Network;
-using Server.Engines.Craft;
+using RunUO;
+using RunUO.Network;
+using RunUO.Engines.Craft;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum ToolQuality
 	{

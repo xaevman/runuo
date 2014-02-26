@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Net.Mail;
-using Server;
-using Server.Accounting;
-using Server.Network;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Network;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class CrashGuard
 	{

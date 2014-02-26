@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server.Targeting;
-using Server.Network;
-using Server.Mobiles;
-using Server.Items;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Mobiles;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class ArcherAI : BaseAI
 	{

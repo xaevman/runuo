@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Commands;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Commands;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class EditSkillGump : Gump
 	{

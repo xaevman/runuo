@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Scribe : BaseVendor
 	{
@@ -35,7 +35,7 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.Robe( Utility.RandomNeutralHue() ) );
+			AddItem( new RunUO.Items.Robe( Utility.RandomNeutralHue() ) );
 		}
 
 		public override bool HandlesOnSpeech( Mobile from )

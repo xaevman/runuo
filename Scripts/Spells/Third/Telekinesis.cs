@@ -1,10 +1,10 @@
 using System;
-using Server.Targeting;
-using Server.Network;
-using Server.Regions;
-using Server.Items;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Regions;
+using RunUO.Items;
 
-namespace Server.Spells.Third
+namespace RunUO.Spells.Third
 {
 	public class TelekinesisSpell : MagerySpell
 	{
@@ -100,7 +100,7 @@ namespace Server.Spells.Third
 	}
 }
 
-namespace Server
+namespace RunUO
 {
 	public interface ITelekinesisable : IPoint3D
 	{

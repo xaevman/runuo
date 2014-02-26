@@ -1,9 +1,9 @@
 using System;
-using Server.Targeting;
-using Server.Network;
-using Server.Items;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Items;
 
-namespace Server.Spells.Third
+namespace RunUO.Spells.Third
 {
 	public class MagicLockSpell : MagerySpell
 	{

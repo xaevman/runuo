@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Engines.Quests.Samurai
+namespace RunUO.Engines.Quests.Samurai
 {
 	public class HaochisTrialsQuest : QuestSystem
 	{

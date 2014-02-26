@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Multis;
+using RunUO;
+using RunUO.Multis;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class SerpentPillar : Item
 	{

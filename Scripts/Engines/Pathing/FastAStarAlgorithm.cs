@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Mobiles;
-using Server.PathAlgorithms;
-using CalcMoves = Server.Movement.Movement;
-using MoveImpl = Server.Movement.MovementImpl;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.PathAlgorithms;
+using CalcMoves = RunUO.Movement.Movement;
+using MoveImpl = RunUO.Movement.MovementImpl;
 
-namespace Server.PathAlgorithms.FastAStar
+namespace RunUO.PathAlgorithms.FastAStar
 {
 	public struct PathNode
 	{

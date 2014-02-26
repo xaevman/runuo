@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x104F, 0x1050 )]
 	public class ClockParts : Item

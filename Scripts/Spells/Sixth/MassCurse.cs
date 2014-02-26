@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Misc;
-using Server.Targeting;
-using Server.Network;
+using RunUO.Misc;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Spells.Sixth
+namespace RunUO.Spells.Sixth
 {
 	public class MassCurseSpell : MagerySpell
 	{

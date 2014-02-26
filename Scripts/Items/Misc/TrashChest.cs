@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xE41, 0xE40 )]
 	public class TrashChest : Container

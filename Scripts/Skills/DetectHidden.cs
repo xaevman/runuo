@@ -1,12 +1,12 @@
 using System;
-using Server.Items;
-using Server.Factions;
-using Server.Mobiles;
-using Server.Multis;
-using Server.Targeting;
-using Server.Regions;
+using RunUO.Items;
+using RunUO.Factions;
+using RunUO.Mobiles;
+using RunUO.Multis;
+using RunUO.Targeting;
+using RunUO.Regions;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class DetectHidden
 	{

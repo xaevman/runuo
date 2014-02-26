@@ -1,8 +1,8 @@
 using System;
-using Server;
+using RunUO;
 using System.Collections;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// Raises your physical resistance for a short time while lowering your ability to inflict damage. Requires Bushido or Ninjitsu skill.

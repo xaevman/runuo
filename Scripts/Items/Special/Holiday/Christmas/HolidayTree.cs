@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Network;
-using Server.Items;
-using Server.Multis;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Multis;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum HolidayTreeType
 	{

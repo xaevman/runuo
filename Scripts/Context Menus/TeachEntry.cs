@@ -1,7 +1,7 @@
 using System;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.ContextMenus
+namespace RunUO.ContextMenus
 {
 	public class TeachEntry : ContextMenuEntry
 	{

@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a dark guardians' corpse" )]
 	public class DarkGuardian : BaseCreature

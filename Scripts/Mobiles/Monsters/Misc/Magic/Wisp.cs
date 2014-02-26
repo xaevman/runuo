@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Misc;
-using Server.Items;
-using Server.Factions;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Factions;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a wisp corpse" )]
 	public class Wisp : BaseCreature

@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public enum ProfanityAction
 	{

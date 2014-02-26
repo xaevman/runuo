@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class PropsConfig
 	{

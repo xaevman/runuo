@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Spells;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Spells;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Engines.Doom
+namespace RunUO.Engines.Doom
 {
 	public class LampRoomBox : Item
 	{
@@ -174,7 +174,7 @@ namespace Server.Engines.Doom
 				}
 				else
 				{
-					Server.Mobiles.BaseCreature.TeleportPets( m, LeverPuzzleController.lr_Exit, Map.Malas );
+					RunUO.Mobiles.BaseCreature.TeleportPets( m, LeverPuzzleController.lr_Exit, Map.Malas );
 					m.MoveToWorld( LeverPuzzleController.lr_Exit, Map.Malas );
 					return false;
 				}

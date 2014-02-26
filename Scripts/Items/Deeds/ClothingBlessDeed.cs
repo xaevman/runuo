@@ -1,10 +1,10 @@
 using System;
-using Server.Network;
-using Server.Prompts;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Network;
+using RunUO.Prompts;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ClothingBlessTarget : Target // Create our targeting class (which we derive from the base target class)
 	{

@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Misc;
-using Server.Targeting;
-using Server.Items;
-using Server.Network;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class Begging
 	{

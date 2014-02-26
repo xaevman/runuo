@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Thief : BaseVendor
 	{
@@ -29,10 +29,10 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.Shirt( Utility.RandomNeutralHue() ) );
-			AddItem( new Server.Items.LongPants( Utility.RandomNeutralHue() ) );
-			AddItem( new Server.Items.Dagger() );
-			AddItem( new Server.Items.ThighBoots( Utility.RandomNeutralHue() ) );
+			AddItem( new RunUO.Items.Shirt( Utility.RandomNeutralHue() ) );
+			AddItem( new RunUO.Items.LongPants( Utility.RandomNeutralHue() ) );
+			AddItem( new RunUO.Items.Dagger() );
+			AddItem( new RunUO.Items.ThighBoots( Utility.RandomNeutralHue() ) );
 		}
 
 		public Thief( Serial serial ) : base( serial )

@@ -1,10 +1,10 @@
 using System;
-using Server.Items;
-using Server.Targeting;
-using Server.Network;
-using Server.Regions;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Regions;
 
-namespace Server.Spells.Sixth
+namespace RunUO.Spells.Sixth
 {
 	public class MarkSpell : MagerySpell
 	{

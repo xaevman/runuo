@@ -2,9 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using Server.Commands;
+using RunUO.Commands;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public sealed class WhereExtension : BaseExtension
 	{

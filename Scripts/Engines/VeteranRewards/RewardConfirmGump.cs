@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
 
-namespace Server.Engines.VeteranRewards
+namespace RunUO.Engines.VeteranRewards
 {
 	public class RewardConfirmGump : Gump
 	{
@@ -51,8 +51,8 @@ namespace Server.Engines.VeteranRewards
 
 				if ( item != null )
 				{
-					if ( item is Server.Items.RedSoulstone )
-						((Server.Items.RedSoulstone) item).Account = m_From.Account.Username;	
+					if ( item is RunUO.Items.RedSoulstone )
+						((RunUO.Items.RedSoulstone) item).Account = m_From.Account.Username;	
 					
 					if ( RewardSystem.ConsumeRewardPoint( m_From ) )
 						m_From.AddToBackpack( item );

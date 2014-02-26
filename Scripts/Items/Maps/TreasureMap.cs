@@ -2,13 +2,13 @@ using System;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Mobiles;
-using Server.Network;
-using Server.Targeting;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class TreasureMap : MapItem
 	{

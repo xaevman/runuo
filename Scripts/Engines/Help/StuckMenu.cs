@@ -1,9 +1,9 @@
 using System;
-using Server.Mobiles;
-using Server.Network;
-using Server.Gumps;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Gumps;
 
-namespace Server.Menus.Questions
+namespace RunUO.Menus.Questions
 {
 	public class StuckMenuEntry
 	{

@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Prompts;
+using RunUO;
+using RunUO.Prompts;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public class RenameBoatPrompt : Prompt
 	{

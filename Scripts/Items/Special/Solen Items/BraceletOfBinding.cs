@@ -1,15 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.ContextMenus;
-using Server.Network;
-using Server.Prompts;
-using Server.Targeting;
-using Server.Spells;
-using Server.Mobiles;
+using RunUO;
+using RunUO.ContextMenus;
+using RunUO.Network;
+using RunUO.Prompts;
+using RunUO.Targeting;
+using RunUO.Spells;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class BraceletOfBinding : BaseBracelet, TranslocationItem
 	{
@@ -299,17 +299,17 @@ namespace Server.Items
 				from.SendLocalizedMessage( 1005564, "", 0x22 ); // Wouldst thou flee during the heat of battle??
 				return false;
 			}
-			else if ( Server.Misc.WeightOverloading.IsOverloaded( from ) )
+			else if ( RunUO.Misc.WeightOverloading.IsOverloaded( from ) )
 			{
 				from.SendLocalizedMessage( 502359, "", 0x22 ); // Thou art too encumbered to move.
 				return false;
 			}
-			else if ( from.Region.IsPartOf( typeof( Server.Regions.Jail ) ) )
+			else if ( from.Region.IsPartOf( typeof( RunUO.Regions.Jail ) ) )
 			{
 				from.SendLocalizedMessage( 1114345, "", 0x35 ); // You'll need a better jailbreak plan than that!
 				return false;
 			}
-			else if ( boundRoot.Region.IsPartOf( typeof( Server.Regions.Jail ) ) )
+			else if ( boundRoot.Region.IsPartOf( typeof( RunUO.Regions.Jail ) ) )
 			{
 				from.SendLocalizedMessage( 1019004 ); // You are not allowed to travel there.
 				return false;

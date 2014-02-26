@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Gumps;
-using Server.Items;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Gumps;
+using RunUO.Items;
 
-namespace Server.Engines.Quests.Ninja
+namespace RunUO.Engines.Quests.Ninja
 {
 	public class Emino : BaseQuester
 	{

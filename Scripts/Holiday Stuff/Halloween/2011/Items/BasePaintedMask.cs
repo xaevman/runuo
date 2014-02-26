@@ -2,7 +2,7 @@
 //using System.Collections.Generic;
 using System.Text;
 
-namespace Server.Items.Holiday
+namespace RunUO.Items.Holiday
 {
 	[TypeAlias( "Server.Items.ClownMask", "Server.Items.DaemonMask", "Server.Items.PlagueMask" )]
 	public class BasePaintedMask : Item

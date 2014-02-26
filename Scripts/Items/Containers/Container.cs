@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Server.Multis;
-using Server.Mobiles;
-using Server.Network;
-using Server.ContextMenus;
+using RunUO.Multis;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseContainer : Container
 	{

@@ -1,7 +1,7 @@
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Spells.Spellweaving
+namespace RunUO.Spells.Spellweaving
 {
 	public class ReaperFormSpell : ArcaneForm
 	{

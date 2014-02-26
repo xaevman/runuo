@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Engines.VeteranRewards;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Engines.VeteranRewards;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class RewardPottedCactus : Item, IRewardItem
 	{

@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x2A73, 0x2A74 )]
 	public class MountedPixieOrangeComponent : AddonComponent

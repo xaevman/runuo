@@ -1,8 +1,8 @@
 using System; 
 using System.Collections.Generic; 
-using Server; 
+using RunUO; 
 
-namespace Server.Mobiles 
+namespace RunUO.Mobiles 
 { 
 	public class Butcher : BaseVendor 
 	{ 
@@ -24,8 +24,8 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.HalfApron() );
-			AddItem( new Server.Items.Cleaver() );
+			AddItem( new RunUO.Items.HalfApron() );
+			AddItem( new RunUO.Items.Cleaver() );
 		}
 
 		public Butcher( Serial serial ) : base( serial ) 

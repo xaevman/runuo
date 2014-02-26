@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Engines.CannedEvil
+namespace RunUO.Engines.CannedEvil
 {
 	public enum ChampionSpawnType
 	{

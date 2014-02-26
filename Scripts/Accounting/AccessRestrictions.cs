@@ -2,10 +2,10 @@ using System;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using Server;
-using Server.Misc;
+using RunUO;
+using RunUO.Misc;
 
-namespace Server
+namespace RunUO.Security
 {
 	public class AccessRestrictions
 	{

@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Multis;
-using Server.Network;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Furniture]
 	[Flipable( 0x2815, 0x2816 )]

@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public class SmallDragonBoat : BaseBoat
 	{

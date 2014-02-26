@@ -1,8 +1,8 @@
 using System;
-using Server.Mobiles;
-using Server.Items;
+using RunUO.Mobiles;
+using RunUO.Items;
 
-namespace Server.Engines.Quests.Samurai
+namespace RunUO.Engines.Quests.Samurai
 {
 	[CorpseName( "a cursed soul corpse" )]
 	public class CursedSoul : BaseCreature

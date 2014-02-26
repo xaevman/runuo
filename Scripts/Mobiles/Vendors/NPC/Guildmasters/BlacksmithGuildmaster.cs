@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class BlacksmithGuildmaster : BaseGuildmaster
 	{
@@ -34,7 +34,7 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			Item item = ( Utility.RandomBool() ? null : new Server.Items.RingmailChest() );
+			Item item = ( Utility.RandomBool() ? null : new RunUO.Items.RingmailChest() );
 
 			if ( item != null && !EquipItem( item ) )
 			{
@@ -43,10 +43,10 @@ namespace Server.Mobiles
 			}
 
 			if ( item == null )
-				AddItem( new Server.Items.FullApron() );
+				AddItem( new RunUO.Items.FullApron() );
 
-			AddItem( new Server.Items.Bascinet() );
-			AddItem( new Server.Items.SmithHammer() );
+			AddItem( new RunUO.Items.Bascinet() );
+			AddItem( new RunUO.Items.SmithHammer() );
 		}
 
 		public BlacksmithGuildmaster( Serial serial ) : base( serial )

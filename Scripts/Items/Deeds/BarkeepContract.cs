@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Network;
-using Server.Multis;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Multis;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class BarkeepContract : Item
 	{

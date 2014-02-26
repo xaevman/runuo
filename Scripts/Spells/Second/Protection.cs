@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server.Targeting;
-using Server.Network;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Spells.Second
+namespace RunUO.Spells.Second
 {
 	public class ProtectionSpell : MagerySpell
 	{

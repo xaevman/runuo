@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Items;
-using Server.Mobiles;
-using Server.Regions;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Regions;
 using System.Collections.Generic;
 
-namespace Server.Engines.CannedEvil
+namespace RunUO.Engines.CannedEvil
 {
 	public class ChampionSpawn : Item
 	{

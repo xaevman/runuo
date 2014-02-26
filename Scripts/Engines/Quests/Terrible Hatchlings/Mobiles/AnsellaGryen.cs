@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Gumps;
-using Server.Items;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Gumps;
+using RunUO.Items;
 
-namespace Server.Engines.Quests.Zento
+namespace RunUO.Engines.Quests.Zento
 {
 	public class AnsellaGryen : BaseQuester
 	{

@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Server.Network;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Items;
-using Server.Engines.Quests;
-using Server.Engines.Quests.Necro;
+using RunUO.Network;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Engines.Quests;
+using RunUO.Engines.Quests.Necro;
 
-namespace Server.Spells.Necromancy
+namespace RunUO.Spells.Necromancy
 {
 	public class AnimateDeadSpell : NecromancerSpell
 	{

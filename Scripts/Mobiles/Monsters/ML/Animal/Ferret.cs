@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Engines.Quests;
+using RunUO;
+using RunUO.Engines.Quests;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a ferret corpse" )]
 	public class Ferret : BaseCreature

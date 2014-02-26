@@ -3,17 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using Server;
-using Server.Accounting;
-using Server.Engines.Help;
-using Server.Items;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Multis;
-using Server.Network;
-using Server.Spells;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Engines.Help;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Multis;
+using RunUO.Network;
+using RunUO.Spells;
+using RunUO.Security;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public class TargetCommands
 	{

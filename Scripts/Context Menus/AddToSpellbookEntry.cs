@@ -1,9 +1,9 @@
 using System;
-using Server.Items;
-using Server.Network;
-using Server.Targeting;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.ContextMenus
+namespace RunUO.ContextMenus
 {
 	public class AddToSpellbookEntry : ContextMenuEntry
 	{

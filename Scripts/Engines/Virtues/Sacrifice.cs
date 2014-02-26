@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server
+namespace RunUO
 {
 	public class SacrificeVirtue
 	{

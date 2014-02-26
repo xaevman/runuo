@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAddon( Direction.South, Direction.East )]
 	public class SacrificialAltarAddon : BaseAddonContainer

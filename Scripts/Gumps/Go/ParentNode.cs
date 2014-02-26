@@ -1,9 +1,9 @@
 using System;
 using System.Xml;
 using System.Collections;
-using Server;
+using RunUO;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class ParentNode
 	{

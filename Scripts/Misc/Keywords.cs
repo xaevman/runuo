@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Guilds;
-using Server.Mobiles;
-using Server.Gumps;
+using RunUO;
+using RunUO.Items;
+using RunUO.Guilds;
+using RunUO.Mobiles;
+using RunUO.Gumps;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class Keywords
 	{

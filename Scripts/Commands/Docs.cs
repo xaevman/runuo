@@ -3,13 +3,13 @@ using System.IO;
 using System.Text;
 using System.Reflection;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Engines.BulkOrders;
-using Server.Commands.Generic;
+using RunUO;
+using RunUO.Items;
+using RunUO.Engines.BulkOrders;
+using RunUO.Commands.Generic;
 using System.Collections.Generic;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class Docs
 	{

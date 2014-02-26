@@ -25,16 +25,16 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Server;
-using Server.Accounting;
-using Server.Network;
-using Server.Items;
-using Server.Gumps;
-using Server.Menus;
-using Server.HuePickers;
-using Server.Diagnostics;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Menus;
+using RunUO.HuePickers;
+using RunUO.Diagnostics;
 
-namespace Server.Network {
+namespace RunUO.Network {
 	public interface IPacketEncoder {
 		void EncodeOutgoingPacket( NetState to, ref byte[] buffer, ref int length );
 		void DecodeIncomingPacket( NetState from, ref byte[] buffer, ref int length );

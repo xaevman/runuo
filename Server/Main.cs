@@ -29,13 +29,13 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Server;
-using Server.Accounting;
-using Server.Gumps;
-using Server.Network;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Gumps;
+using RunUO.Network;
 using System.Runtime;
 
-namespace Server
+namespace RunUO
 {
 	public delegate void Slice();
 

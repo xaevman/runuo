@@ -1,13 +1,13 @@
 using System;
 using System.Reflection;
 using System.Collections;
-using Server.Network;
-using Server.Prompts;
-using Server.Multis;
-using Server.Multis.Deeds;
-using Server.Items;
+using RunUO.Network;
+using RunUO.Prompts;
+using RunUO.Multis;
+using RunUO.Multis.Deeds;
+using RunUO.Items;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class HouseListGump : Gump
 	{
@@ -730,7 +730,7 @@ namespace Server.Gumps
 	}
 }
 
-namespace Server.Prompts
+namespace RunUO.Prompts
 {
 	public class RenamePrompt : Prompt
 	{

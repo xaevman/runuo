@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Gumps;
-using Server.Items;
-using Server.Network;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class AquariumGump : Gump
 	{

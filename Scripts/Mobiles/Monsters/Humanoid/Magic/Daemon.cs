@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Factions;
+using RunUO;
+using RunUO.Items;
+using RunUO.Factions;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a daemon corpse" )]
 	public class Daemon : BaseCreature

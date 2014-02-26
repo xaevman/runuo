@@ -1,10 +1,10 @@
 using System;
 using System.Text;
-using Server;
-using Server.Mobiles;
-using Server.Engines.CannedEvil;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Engines.CannedEvil;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class Titles
 	{

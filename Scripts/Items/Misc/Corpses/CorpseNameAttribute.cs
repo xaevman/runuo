@@ -1,6 +1,6 @@
 using System;
 
-namespace Server
+namespace RunUO
 {
 	[AttributeUsage( AttributeTargets.Class )]
 	public class CorpseNameAttribute : Attribute

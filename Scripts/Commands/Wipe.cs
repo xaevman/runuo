@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Multis;
-using Server.Targeting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Multis;
+using RunUO.Targeting;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class Wipe
 	{

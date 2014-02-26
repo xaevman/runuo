@@ -1,9 +1,9 @@
-using Server;
+using RunUO;
 using System;
-using Server.Misc;
-using Server.Mobiles;
+using RunUO.Misc;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BasePigmentsOfTokuno : Item, IUsesRemaining
 	{
@@ -111,7 +111,7 @@ namespace Server.Items
 			if( IsAccessibleTo( from ) && from.InRange( GetWorldLocation(), 3 ) )
 			{
 				from.SendLocalizedMessage( 1070929 ); // Select the artifact or enhanced magic item to dye.
-				from.BeginTarget( 3, false, Server.Targeting.TargetFlags.None, new TargetStateCallback( InternalCallback ), this );
+				from.BeginTarget( 3, false, RunUO.Targeting.TargetFlags.None, new TargetStateCallback( InternalCallback ), this );
 			}
 			else
 				from.SendLocalizedMessage( 502436 ); // That is not accessible.

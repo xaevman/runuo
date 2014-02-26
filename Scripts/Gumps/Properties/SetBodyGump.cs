@@ -2,12 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using Server;
-using Server.Network;
-using Server.HuePickers;
-using Server.Commands;
+using RunUO;
+using RunUO.Network;
+using RunUO.HuePickers;
+using RunUO.Commands;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class SetBodyGump : Gump
 	{

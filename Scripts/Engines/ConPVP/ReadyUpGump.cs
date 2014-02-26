@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Gumps;
-using Server.Network;
-using Server.Mobiles;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Mobiles;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public class ReadyUpGump : Gump
 	{

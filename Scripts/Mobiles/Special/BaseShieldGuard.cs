@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Misc;
-using Server.Items;
-using Server.Guilds;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Guilds;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public abstract class BaseShieldGuard : BaseCreature
 	{

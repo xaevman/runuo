@@ -2,12 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using Server;
-using Server.Commands;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.Commands;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class AddGump : Gump
 	{
@@ -189,7 +189,7 @@ namespace Server.Gumps
 					else if ( p is Mobile )
 						p = ((Mobile)p).Location;
 
-					Server.Commands.Add.Invoke( from, new Point3D( p ), new Point3D( p ), new string[]{ m_Type.Name } );
+					RunUO.Commands.Add.Invoke( from, new Point3D( p ), new Point3D( p ), new string[]{ m_Type.Name } );
 
 					from.Target = new InternalTarget( m_Type, m_SearchResults, m_SearchString, m_Page );
 				}

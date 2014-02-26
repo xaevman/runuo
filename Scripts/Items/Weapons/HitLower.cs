@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class HitLower
 	{

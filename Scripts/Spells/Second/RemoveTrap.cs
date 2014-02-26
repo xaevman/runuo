@@ -1,9 +1,9 @@
 using System;
-using Server.Targeting;
-using Server.Network;
-using Server.Items;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Items;
 
-namespace Server.Spells.Second
+namespace RunUO.Spells.Second
 {
 	public class RemoveTrapSpell : MagerySpell
 	{

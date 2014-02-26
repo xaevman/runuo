@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[TypeAlias( "Server.Mobiles.Bower" )]
 	public class Bowyer : BaseVendor
@@ -31,8 +31,8 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.Bow() );
-			AddItem( new Server.Items.LeatherGorget() );
+			AddItem( new RunUO.Items.Bow() );
+			AddItem( new RunUO.Items.LeatherGorget() );
 		}
 
 		public override void InitSBInfo()

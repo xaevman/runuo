@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Multis;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Multis;
+using RunUO.ContextMenus;
 
-namespace Server.Engines.Mahjong
+namespace RunUO.Engines.Mahjong
 {
 	public class MahjongGame : Item, ISecurable
 	{

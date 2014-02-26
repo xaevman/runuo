@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
-using Server.Multis;
+using RunUO;
+using RunUO.Network;
+using RunUO.Multis;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class ReclaimVendorGump : Gump
 	{

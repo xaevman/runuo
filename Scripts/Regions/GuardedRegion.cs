@@ -2,12 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
-using Server;
-using Server.Commands;
-using Server.Mobiles;
-using Server.Spells;
+using RunUO;
+using RunUO.Commands;
+using RunUO.Mobiles;
+using RunUO.Spells;
 
-namespace Server.Regions
+namespace RunUO.Regions
 {
 	public class GuardedRegion : BaseRegion
 	{

@@ -1,7 +1,7 @@
 using System;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.Engines.Craft
+namespace RunUO.Engines.Craft
 {
 	public class DefTailoring : CraftSystem
 	{

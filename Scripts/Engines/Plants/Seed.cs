@@ -1,9 +1,9 @@
 using System;
 using System.Text;
-using Server;
-using Server.Targeting;
+using RunUO;
+using RunUO.Targeting;
 
-namespace Server.Engines.Plants
+namespace RunUO.Engines.Plants
 {
 	public class Seed : Item
 	{

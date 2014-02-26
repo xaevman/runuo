@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace Server.Engines.Reports
+namespace RunUO.Engines.Reports
 {
 	public abstract class PersistableObject
 	{

@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Targeting;
-using Server.Gumps;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Gumps;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class Skills
 	{

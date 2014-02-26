@@ -1,7 +1,7 @@
 using System;
-using Server.Engines.Craft;
+using RunUO.Engines.Craft;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum GemType
 	{

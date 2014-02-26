@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.Ethics.Evil
+namespace RunUO.Ethics.Evil
 {
 	public sealed class SummonFamiliar : Power
 	{
@@ -24,7 +24,7 @@ namespace Server.Ethics.Evil
 
 			if ( from.Familiar != null )
 			{
-				from.Mobile.LocalOverheadMessage( Server.Network.MessageType.Regular, 0x3B2, false, "You already have an unholy familiar." );
+				from.Mobile.LocalOverheadMessage( RunUO.Network.MessageType.Regular, 0x3B2, false, "You already have an unholy familiar." );
 				return;
 			}
 

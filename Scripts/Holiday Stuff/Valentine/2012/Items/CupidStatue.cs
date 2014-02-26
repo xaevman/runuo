@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x4F7C, 0x4F7D )]
 	public class CupidStatue : Item

@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Targeting;
+using RunUO;
+using RunUO.Targeting;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public class SingleCommandImplementor : BaseCommandImplementor
 	{

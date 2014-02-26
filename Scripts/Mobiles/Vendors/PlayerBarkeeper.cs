@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Prompts;
-using Server.Network;
-using Server.ContextMenus;
-using Server.Multis;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Prompts;
+using RunUO.Network;
+using RunUO.ContextMenus;
+using RunUO.Multis;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class ChangeRumorMessagePrompt : Prompt
 	{

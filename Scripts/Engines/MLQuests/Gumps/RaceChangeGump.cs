@@ -1,16 +1,16 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Engines.MLQuests.Mobiles;
-using Server.Gumps;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Spells.Fifth;
-using Server.Spells.Ninjitsu;
-using Server.Spells.Seventh;
+using RunUO;
+using RunUO.Engines.MLQuests.Mobiles;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Spells.Fifth;
+using RunUO.Spells.Ninjitsu;
+using RunUO.Spells.Seventh;
 
-namespace Server.Engines.MLQuests.Gumps
+namespace RunUO.Engines.MLQuests.Gumps
 {
 	public interface IRaceChanger
 	{

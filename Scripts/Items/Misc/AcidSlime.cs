@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Spells;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Spells;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class AcidSlime : Item
 	{

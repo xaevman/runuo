@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server.Gumps;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Spells.Fifth;
-using Server.Spells.Seventh;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Spells.Fifth;
+using RunUO.Spells.Seventh;
 
-namespace Server.Spells.Ninjitsu
+namespace RunUO.Spells.Ninjitsu
 {
 	public class AnimalForm : NinjaSpell
 	{

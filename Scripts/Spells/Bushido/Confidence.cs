@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Network;
-using Server.Items;
-using Server.Mobiles;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Spells.Bushido
+namespace RunUO.Spells.Bushido
 {
 	public class Confidence : SamuraiSpell
 	{

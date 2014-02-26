@@ -1,9 +1,9 @@
 using System;
 using System.Text;
-using Server.Gumps;
-using Server.Network;
+using RunUO.Gumps;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class HairDye : Item
 	{

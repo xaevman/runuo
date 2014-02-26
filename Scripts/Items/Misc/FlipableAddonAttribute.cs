@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
 using System.Collections.Generic;
-using Server.Multis;
+using RunUO.Multis;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[AttributeUsage( AttributeTargets.Class )]
 	public class FlipableAddonAttribute : Attribute

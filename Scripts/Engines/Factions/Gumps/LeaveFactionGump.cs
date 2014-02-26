@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Guilds;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Guilds;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class LeaveFactionGump : FactionGump
 	{

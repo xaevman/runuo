@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public enum DFAlgorithm
 	{

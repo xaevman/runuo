@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public static class DragEffects
 	{

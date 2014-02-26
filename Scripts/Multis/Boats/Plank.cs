@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Factions;
-using Server.Multis;
+using RunUO;
+using RunUO.Factions;
+using RunUO.Multis;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum PlankSide{ Port, Starboard }
 
@@ -173,7 +173,7 @@ namespace Server.Items
 					{
 						z = from.Z + j;
 
-						if ( map.CanFit( x, y, z, 16, false, false ) && !Server.Spells.SpellHelper.CheckMulti( new Point3D( x, y, z ), map ) && !Region.Find( new Point3D( x, y, z ), map ).IsPartOf( typeof( Factions.StrongholdRegion ) ) )
+						if ( map.CanFit( x, y, z, 16, false, false ) && !RunUO.Spells.SpellHelper.CheckMulti( new Point3D( x, y, z ), map ) && !Region.Find( new Point3D( x, y, z ), map ).IsPartOf( typeof( Factions.StrongholdRegion ) ) )
 						{
 							if ( i == 1 && j >= -2 && j <= 2 )
 								return true;
@@ -185,7 +185,7 @@ namespace Server.Items
 
 					z = map.GetAverageZ( x, y );
 
-					if ( map.CanFit( x, y, z, 16, false, false ) && !Server.Spells.SpellHelper.CheckMulti( new Point3D( x, y, z ), map ) && !Region.Find( new Point3D( x, y, z ), map ).IsPartOf( typeof( Factions.StrongholdRegion ) ) )
+					if ( map.CanFit( x, y, z, 16, false, false ) && !RunUO.Spells.SpellHelper.CheckMulti( new Point3D( x, y, z ), map ) && !Region.Find( new Point3D( x, y, z ), map ).IsPartOf( typeof( Factions.StrongholdRegion ) ) )
 					{
 						if ( i == 1 )
 							return true;

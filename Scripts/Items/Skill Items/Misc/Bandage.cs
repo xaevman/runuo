@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class Bandage : Item, IDyable
 	{

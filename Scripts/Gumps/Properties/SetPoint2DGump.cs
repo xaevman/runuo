@@ -2,12 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using Server;
-using Server.Targeting;
-using Server.Network;
-using Server.Commands;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Commands;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class SetPoint2DGump : Gump
 	{

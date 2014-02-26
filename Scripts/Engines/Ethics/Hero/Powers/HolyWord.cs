@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Server.Ethics.Hero
+namespace RunUO.Ethics.Hero
 {
 	public sealed class HolyWord : Power
 	{

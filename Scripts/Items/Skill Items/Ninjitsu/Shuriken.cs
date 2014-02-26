@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Engines.Craft;
+using RunUO;
+using RunUO.Engines.Craft;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x27AC, 0x27F7 )]
 	public class Shuriken : Item, ICraftable, INinjaAmmo

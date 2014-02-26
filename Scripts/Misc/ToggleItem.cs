@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Commands;
-using Server.Commands.Generic;
+using RunUO;
+using RunUO.Commands;
+using RunUO.Commands.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ToggleItem : Item
 	{

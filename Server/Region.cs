@@ -22,10 +22,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
-using Server.Network;
-using Server.Targeting;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server
+namespace RunUO
 {
 	public enum MusicName
 	{

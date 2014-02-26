@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class HeritageTokenGump : Gump
 	{

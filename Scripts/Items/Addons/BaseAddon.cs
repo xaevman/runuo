@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Multis;
-using Server.Regions;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Regions;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum AddonFitResult
 	{

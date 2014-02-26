@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Targeting;
-using Server.Engines.Harvest;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Engines.Harvest;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ProspectorsTool : BaseBashing, IUsesRemaining
 	{

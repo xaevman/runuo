@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Multis;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Multis;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x234E, 0x234F )]
 	public class TapestryOfSosaria : Item, ISecurable

@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Multis;
-using Server.Gumps;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Gumps;
 using System.Collections.Generic;
-using Server.ContextMenus;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class MetalHouseDoor : BaseHouseDoor
 	{

@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using Server;
+using RunUO;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public class LadderController : Item
 	{
@@ -48,7 +48,7 @@ namespace Server.Engines.ConPVP
 
 			m_Ladder.Serialize( writer );
 
-			writer.Write( (bool) ( Server.Engines.ConPVP.Ladder.Instance == m_Ladder ) );
+			writer.Write( (bool) ( RunUO.Engines.ConPVP.Ladder.Instance == m_Ladder ) );
 		}
 
 		public override void Deserialize( GenericReader reader )
@@ -65,7 +65,7 @@ namespace Server.Engines.ConPVP
 					m_Ladder = new Ladder( reader );
 
 					if ( version < 1 || reader.ReadBool() )
-						Server.Engines.ConPVP.Ladder.Instance = m_Ladder;
+						RunUO.Engines.ConPVP.Ladder.Instance = m_Ladder;
 
 					break;
 				}

@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// Send two arrows flying at your opponent if you're mounted. Requires Bushido or Ninjitsu skill.

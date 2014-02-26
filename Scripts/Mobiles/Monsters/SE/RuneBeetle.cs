@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a rune beetle corpse" )]
 	public class RuneBeetle : BaseCreature

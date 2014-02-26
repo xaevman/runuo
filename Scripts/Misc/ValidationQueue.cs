@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Server;
+using RunUO;
 
-namespace Server
+namespace RunUO
 {
 	public delegate void ValidationEventHandler();
 

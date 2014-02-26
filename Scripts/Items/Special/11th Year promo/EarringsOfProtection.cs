@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class EarringBoxSet : RedVelvetGiftBox
 	{

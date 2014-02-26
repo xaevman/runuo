@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Multis;
-using Server.Multis.Deeds;
-using Server.Network;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Multis;
+using RunUO.Multis.Deeds;
+using RunUO.Network;
+using RunUO.Mobiles;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class HouseDemolishGump : Gump
 	{

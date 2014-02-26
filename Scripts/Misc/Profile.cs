@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Network;
-using Server.Accounting;
+using RunUO;
+using RunUO.Network;
+using RunUO.Accounting;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class Profile
 	{

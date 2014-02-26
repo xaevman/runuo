@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Mage : BaseVendor
 	{
@@ -36,7 +36,7 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.Robe( Utility.RandomBlueHue() ) );
+			AddItem( new RunUO.Items.Robe( Utility.RandomBlueHue() ) );
 		}
 
 		public Mage( Serial serial ) : base( serial )

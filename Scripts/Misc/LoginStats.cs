@@ -1,7 +1,7 @@
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class LoginStats
 	{

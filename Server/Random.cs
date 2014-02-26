@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Threading;
 
-namespace Server {
+namespace RunUO {
 	/// <summary>
 	/// Handles random number generation.
 	/// </summary>

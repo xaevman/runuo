@@ -1,12 +1,12 @@
 using System;
 using System.IO;
-using Server.Gumps;
-using Server.Guilds;
-using Server.Network;
-using Server.Factions;
-using Server.Multis;
+using RunUO.Gumps;
+using RunUO.Guilds;
+using RunUO.Network;
+using RunUO.Factions;
+using RunUO.Multis;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class Guildstone : Item, IAddon, IChopable
 	{

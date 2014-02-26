@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Mobiles;
-using Server.Engines.MLQuests.Objectives;
+using RunUO.Mobiles;
+using RunUO.Engines.MLQuests.Objectives;
 
-namespace Server.Engines.MLQuests
+namespace RunUO.Engines.MLQuests
 {
 	[Flags]
 	public enum MLQuestFlag

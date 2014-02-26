@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.Ethics.Hero
+namespace RunUO.Ethics.Hero
 {
 	public sealed class HolySteed : Power
 	{
@@ -24,7 +24,7 @@ namespace Server.Ethics.Hero
 
 			if ( from.Steed != null )
 			{
-				from.Mobile.LocalOverheadMessage( Server.Network.MessageType.Regular, 0x3B2, false, "You already have a holy steed." );
+				from.Mobile.LocalOverheadMessage( RunUO.Network.MessageType.Regular, 0x3B2, false, "You already have a holy steed." );
 				return;
 			}
 

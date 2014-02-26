@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using Server;
-using Server.ContextMenus;
-using Server.Network;
-using Server.Gumps;
-using Server.Multis;
+using RunUO;
+using RunUO.ContextMenus;
+using RunUO.Network;
+using RunUO.Gumps;
+using RunUO.Multis;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class BookPageInfo
 	{

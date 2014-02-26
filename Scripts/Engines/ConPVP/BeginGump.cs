@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server.Gumps;
-using Server.Network;
+using RunUO.Gumps;
+using RunUO.Network;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public class BeginGump : Gump
 	{

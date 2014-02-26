@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class TownStoneGump : FactionGump
 	{

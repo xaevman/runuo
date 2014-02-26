@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.ContextMenus;
-using Server.Engines.PartySystem;
-using Server.Gumps;
-using Server.Multis;
-using Server.Network;
+using RunUO;
+using RunUO.ContextMenus;
+using RunUO.Engines.PartySystem;
+using RunUO.Gumps;
+using RunUO.Multis;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class TreasureMapChest : LockableContainer
 	{

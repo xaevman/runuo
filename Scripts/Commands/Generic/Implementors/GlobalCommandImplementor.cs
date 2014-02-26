@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using Server;
+using RunUO;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public class GlobalCommandImplementor : BaseCommandImplementor
 	{

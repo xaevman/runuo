@@ -24,9 +24,9 @@ using System.Diagnostics;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using Server.Diagnostics;
+using RunUO.Diagnostics;
 
-namespace Server
+namespace RunUO
 {
 	public enum TimerPriority
 	{

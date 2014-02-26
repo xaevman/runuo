@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Misc;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Misc;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class HouseRaffleDeed : Item
 	{

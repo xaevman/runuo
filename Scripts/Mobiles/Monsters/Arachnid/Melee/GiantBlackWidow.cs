@@ -1,9 +1,9 @@
 using System;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Items;
+using RunUO.Targeting;
 using System.Collections;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a giant black widow spider corpse" )] // stupid corpse name
 	public class GiantBlackWidow : BaseCreature

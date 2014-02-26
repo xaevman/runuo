@@ -1,8 +1,8 @@
 using System;
-using Server.Mobiles;
-using Server.Multis;
+using RunUO.Mobiles;
+using RunUO.Multis;
 
-namespace Server.ContextMenus
+namespace RunUO.ContextMenus
 {
 	public class EjectPlayerEntry : ContextMenuEntry
 	{

@@ -1,13 +1,13 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Network;
-using Server.Mobiles;
-using Server.Spells;
-using Server.Spells.Necromancy;
-using Server.Spells.Ninjitsu;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Mobiles;
+using RunUO.Spells;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Ninjitsu;
 
-namespace Server
+namespace RunUO
 {
 	public class PoisonImpl : Poison
 	{

@@ -1,11 +1,11 @@
 using System;
 using System.IO;
 using System.Text;
-using Server;
-using Server.Network;
-using Server.Guilds;
+using RunUO;
+using RunUO.Network;
+using RunUO.Guilds;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class StatusPage : Timer
 	{

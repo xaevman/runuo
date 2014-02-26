@@ -1,24 +1,24 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Server.Regions;
-using Server.Targeting;
-using Server.Network;
-using Server.Multis;
-using Server.Spells;
-using Server.Misc;
-using Server.Items;
-using Server.ContextMenus;
-using Server.Engines.Quests;
-using Server.Engines.MLQuests;
-using Server.Engines.PartySystem;
-using Server.Factions;
-using Server.SkillHandlers;
-using Server.Spells.Bushido;
-using Server.Spells.Spellweaving;
-using Server.Spells.Necromancy;
+using RunUO.Regions;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Multis;
+using RunUO.Spells;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.ContextMenus;
+using RunUO.Engines.Quests;
+using RunUO.Engines.MLQuests;
+using RunUO.Engines.PartySystem;
+using RunUO.Factions;
+using RunUO.SkillHandlers;
+using RunUO.Spells.Bushido;
+using RunUO.Spells.Spellweaving;
+using RunUO.Spells.Necromancy;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	#region Enums
 	/// <summary>
@@ -983,7 +983,7 @@ namespace Server.Mobiles
 			if ( pl != null && pl.IsShielded && ( ourEthic == null || ourEthic == pl.Ethic ) )
 				return false;
 
-			if ( !(m is BaseCreature) || m is Server.Engines.Quests.Haven.MilitiaFighter )
+			if ( !(m is BaseCreature) || m is RunUO.Engines.Quests.Haven.MilitiaFighter )
 				return true;
 
 			if( TransformationSpellHelper.UnderTransformation( m, typeof( EtherealVoyageSpell ) ) )
@@ -1049,7 +1049,7 @@ namespace Server.Mobiles
 
 			double dMinTameSkill = m_dMinTameSkill;
 
-			if ( dMinTameSkill > -24.9 && Server.SkillHandlers.AnimalTaming.CheckMastery( m, this ) )
+			if ( dMinTameSkill > -24.9 && RunUO.SkillHandlers.AnimalTaming.CheckMastery( m, this ) )
 				dMinTameSkill = -24.9;
 
 			int taming = (int)((useBaseSkill ? m.Skills[SkillName.AnimalTaming].Base : m.Skills[SkillName.AnimalTaming].Value ) * 10);

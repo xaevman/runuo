@@ -1,8 +1,8 @@
 using System;
-using Server.Items;
-using Server.Spells;
+using RunUO.Items;
+using RunUO.Spells;
 
-namespace Server.Engines.Craft
+namespace RunUO.Engines.Craft
 {
 	public class DefInscription : CraftSystem
 	{

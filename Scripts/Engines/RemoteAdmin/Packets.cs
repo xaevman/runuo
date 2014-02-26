@@ -1,12 +1,13 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Network;
-using Server.Accounting;
-using Server.Commands;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Accounting;
+using RunUO.Commands;
+using RunUO.Security;
 
-namespace Server.RemoteAdmin
+namespace RunUO.RemoteAdmin
 {
 	public enum LoginResponse : byte
 	{

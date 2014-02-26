@@ -1,7 +1,7 @@
 using System;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.Spells
+namespace RunUO.Spells
 {
 	public class Reagent
 	{

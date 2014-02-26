@@ -1,8 +1,8 @@
 using System;
-using Server.Mobiles;
-using Server.Engines.MLQuests;
+using RunUO.Mobiles;
+using RunUO.Engines.MLQuests;
 
-namespace Server.Spells.Spellweaving
+namespace RunUO.Spells.Spellweaving
 {
 	public class SummonFeySpell : ArcaneSummon<ArcaneFey>
 	{

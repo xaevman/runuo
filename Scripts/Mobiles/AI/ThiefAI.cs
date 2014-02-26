@@ -1,15 +1,15 @@
 using System;
 using System.Collections;
-using Server.Targeting;
-using Server.Network;
-using Server.Items;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Items;
 
 //
 // This is a first simple AI
 //
 //
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class ThiefAI : BaseAI
 	{

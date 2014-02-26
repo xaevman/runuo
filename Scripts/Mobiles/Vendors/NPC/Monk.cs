@@ -1,10 +1,10 @@
 
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Monk : BaseVendor
 	{

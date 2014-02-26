@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Mobiles;
-using Server.Gumps;
-using Server.Targeting;
+using RunUO.Mobiles;
+using RunUO.Gumps;
+using RunUO.Targeting;
 
-namespace Server.Spells.Spellweaving
+namespace RunUO.Spells.Spellweaving
 {
 	public class GiftOfLifeSpell : ArcanistSpell
 	{

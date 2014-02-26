@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Spells;
-using Server.Engines.PartySystem;
+using RunUO;
+using RunUO.Spells;
+using RunUO.Engines.PartySystem;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// A quick attack to all enemies in range of your weapon that causes damage over time. Requires Bushido or Ninjitsu skill.
@@ -139,7 +139,7 @@ namespace Server.Items
 				if( !m_Defender.Alive || m_DamageRemaining <= 0 )
 				{
 					Stop();
-					Server.Items.FrenziedWhirlwind.Registry.Remove( m_Defender );
+					RunUO.Items.FrenziedWhirlwind.Registry.Remove( m_Defender );
 					return;
 				}
 
@@ -160,7 +160,7 @@ namespace Server.Items
 				if( !m_Defender.Alive || m_DamageRemaining <= 0 )
 				{
 					Stop();
-					Server.Items.FrenziedWhirlwind.Registry.Remove( m_Defender );
+					RunUO.Items.FrenziedWhirlwind.Registry.Remove( m_Defender );
 				}
 			}
 		}

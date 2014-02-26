@@ -3,12 +3,12 @@ using System.Net;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Prompts;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Prompts;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class ShardPoller : Item
 	{

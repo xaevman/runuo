@@ -22,7 +22,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Server.ContextMenus
+namespace RunUO.ContextMenus
 {
 	/// <summary>
 	/// Represents the state of an active context menu. This includes who opened the menu, the menu's focus object, and a list of <see cref="ContextMenuEntry">entries</see> that the menu is composed of.

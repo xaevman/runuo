@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Targeting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Revenant : BaseCreature
 	{

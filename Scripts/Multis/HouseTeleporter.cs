@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Multis;
-using Server.Targeting;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Multis;
+using RunUO.Targeting;
 using System.Collections.Generic;
-using Server.ContextMenus;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class HouseTeleporter : Item, ISecurable
 	{
@@ -166,7 +166,7 @@ namespace Server.Items
 						Point3D p = target.GetWorldTop();
 						Map map = target.Map;
 
-						Server.Mobiles.BaseCreature.TeleportPets( m, p, map );
+						RunUO.Mobiles.BaseCreature.TeleportPets( m, p, map );
 
 						m.MoveToWorld( p, map );
 

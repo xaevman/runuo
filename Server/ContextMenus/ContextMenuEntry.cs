@@ -19,10 +19,10 @@
  ***************************************************************************/
 
 using System;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.ContextMenus
+namespace RunUO.ContextMenus
 {
 	/// <summary>
 	/// Represents a single entry of a <see cref="ContextMenu">context menu</see>.

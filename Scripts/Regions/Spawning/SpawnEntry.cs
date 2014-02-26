@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Mobiles;
-using Server.Commands;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Commands;
 
-namespace Server.Regions
+namespace RunUO.Regions
 {
 	public class SpawnEntry : ISpawner
 	{

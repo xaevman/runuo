@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x2A7B, 0x2A7D )]
 	public class HaunterMirrorComponent : AddonComponent

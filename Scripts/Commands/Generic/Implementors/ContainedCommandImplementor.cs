@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Targeting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public class ContainedCommandImplementor : BaseCommandImplementor
 	{

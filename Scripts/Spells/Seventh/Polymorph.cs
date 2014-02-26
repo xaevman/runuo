@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Spells;
-using Server.Spells.Fifth;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Spells;
+using RunUO.Spells.Fifth;
 
-namespace Server.Spells.Seventh
+namespace RunUO.Spells.Seventh
 {
 	public class PolymorphSpell : MagerySpell
 	{

@@ -1,9 +1,9 @@
 
 using System;
 using System.Collections;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// Gain a defensive advantage over your primary opponent for a short time.

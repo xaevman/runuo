@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Engines.Quests
+namespace RunUO.Engines.Quests
 {
 	public class QuestRestartInfo
 	{

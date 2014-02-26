@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Misc;
-using Server.Items;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a savage corpse" )]
 	public class Savage : BaseCreature

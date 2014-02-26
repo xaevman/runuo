@@ -1,10 +1,10 @@
-using Server;
-using Server.Items;
-using Server.Multis;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Multis;
+using RunUO.Network;
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xe43, 0xe42 )] 
 	public class WoodenTreasureChest : BaseTreasureChest 

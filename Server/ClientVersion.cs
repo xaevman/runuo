@@ -22,7 +22,7 @@ using System;
 using System.Text;
 using System.Collections;
 
-namespace Server
+namespace RunUO
 {
 	public enum ClientType
 	{

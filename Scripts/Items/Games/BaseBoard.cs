@@ -1,14 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Multis;
-using Server.Network;
-using Server.ContextMenus;
-using Server.Gumps;
+using RunUO;
+using RunUO.Items;
+using RunUO.Multis;
+using RunUO.Network;
+using RunUO.ContextMenus;
+using RunUO.Gumps;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseBoard : Container, ISecurable
 	{

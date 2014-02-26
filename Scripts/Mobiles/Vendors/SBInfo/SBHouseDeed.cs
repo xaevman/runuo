@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server.Multis.Deeds;
+using RunUO.Multis.Deeds;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class SBHouseDeed: SBInfo
 	{

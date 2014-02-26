@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Spells;
-using Server.Spells.Necromancy;
-using Server.Spells.Ninjitsu;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Spells;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Ninjitsu;
 
-namespace Server.Spells.Ninjitsu
+namespace RunUO.Spells.Ninjitsu
 {
 	public class MirrorImage : NinjaSpell
 	{
@@ -120,7 +120,7 @@ namespace Server.Spells.Ninjitsu
 	}
 }
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Clone : BaseCreature
 	{
@@ -237,7 +237,7 @@ namespace Server.Mobiles
 }
 
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class CloneAI : BaseAI
 	{

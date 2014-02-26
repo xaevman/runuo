@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Engines.Quests.Haven
+namespace RunUO.Engines.Quests.Haven
 {
 	public class AcceptConversation : QuestConversation
 	{

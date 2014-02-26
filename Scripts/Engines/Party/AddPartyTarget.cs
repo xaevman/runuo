@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Targeting;
+using RunUO;
+using RunUO.Targeting;
 
-namespace Server.Engines.PartySystem
+namespace RunUO.Engines.PartySystem
 {
 	public class AddPartyTarget : Target
 	{

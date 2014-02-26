@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Regions;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Regions;
 
-namespace Server.Engines.Doom
+namespace RunUO.Engines.Doom
 {
 	public class LampRoomRegion : BaseRegion
 	{

@@ -1,13 +1,13 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Network;
-using Server.Prompts;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Multis;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Prompts;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Multis;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public abstract class BaseVendorRentalGump : Gump
 	{

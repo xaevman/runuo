@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public delegate void DoEffect_Callback( Point3D p, Map map );
 	

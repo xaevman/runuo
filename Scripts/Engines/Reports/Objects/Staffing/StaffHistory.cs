@@ -3,7 +3,7 @@ using System.IO;
 using System.Xml;
 using System.Collections;
 
-namespace Server.Engines.Reports
+namespace RunUO.Engines.Reports
 {
 	public class StaffHistory : PersistableObject
 	{

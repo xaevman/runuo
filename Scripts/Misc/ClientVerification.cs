@@ -1,12 +1,12 @@
 using System;
-using Server;
+using RunUO;
 using System.Diagnostics;
 using System.IO;
-using Server.Network;
-using Server.Gumps;
-using Server.Mobiles;
+using RunUO.Network;
+using RunUO.Gumps;
+using RunUO.Mobiles;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class ClientVerification
 	{

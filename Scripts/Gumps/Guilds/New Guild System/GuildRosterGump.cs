@@ -1,14 +1,14 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Mobiles;
 using System.Collections;
-using Server.Targets;
-using Server.Factions;
+using RunUO.Targets;
+using RunUO.Factions;
 using System.Collections.Generic;
 
-namespace Server.Guilds
+namespace RunUO.Guilds
 {
 	public class GuildRosterGump : BaseGuildListGump<PlayerMobile>
 	{

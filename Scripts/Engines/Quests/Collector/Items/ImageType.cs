@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Engines.Quests.Collector
+namespace RunUO.Engines.Quests.Collector
 {
 	public enum ImageType
 	{

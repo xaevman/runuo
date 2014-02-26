@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x2684, 0x2683 )]
 	public class HoodedShroudOfShadows : BaseOuterTorso

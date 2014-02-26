@@ -2,12 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using Server;
-using Server.Accounting;
-using Server.Commands;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Commands;
+using RunUO.Mobiles;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	/**
 	 * This file requires to be saved in a Unicode

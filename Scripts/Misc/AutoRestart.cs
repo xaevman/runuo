@@ -2,10 +2,10 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
-using Server;
-using Server.Commands;
+using RunUO;
+using RunUO.Commands;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class AutoRestart : Timer
 	{

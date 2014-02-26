@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	// This fastwalk detection is no longer required
 	// As of B36 PlayerMobile implements movement packet throttling which more reliably controls movement speeds

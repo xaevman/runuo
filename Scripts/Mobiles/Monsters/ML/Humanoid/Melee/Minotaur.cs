@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Items;
-using Server.Targeting;
-using Server.Misc;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Misc;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a minotaur corpse" )]
 	public class Minotaur : BaseCreature

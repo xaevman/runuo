@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Network;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class CustomHairstylist : BaseVendor
 	{
@@ -71,7 +71,7 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.Robe( Utility.RandomPinkHue() ) );
+			AddItem( new RunUO.Items.Robe( Utility.RandomPinkHue() ) );
 		}
 
 		public override void InitSBInfo()

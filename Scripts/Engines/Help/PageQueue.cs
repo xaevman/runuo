@@ -2,16 +2,16 @@ using System;
 using System.Collections;
 using System.Net.Mail;
 using System.IO;
-using Server;
-using Server.Mobiles;
-using Server.Network;
-using Server.Misc;
-using Server.Accounting;
-using Server.Engines.Reports;
-using Server.Commands;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Misc;
+using RunUO.Accounting;
+using RunUO.Engines.Reports;
+using RunUO.Commands;
 using System.Collections.Generic;
 
-namespace Server.Engines.Help
+namespace RunUO.Engines.Help
 {
 	public enum PageType
 	{

@@ -1,7 +1,7 @@
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server
+namespace RunUO
 {
 	public class MessageHelper
 	{

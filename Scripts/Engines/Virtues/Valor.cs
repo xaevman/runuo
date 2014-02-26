@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Engines.CannedEvil;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Engines.CannedEvil;
 
-namespace Server
+namespace RunUO
 {
 	public class ValorVirtue
 	{

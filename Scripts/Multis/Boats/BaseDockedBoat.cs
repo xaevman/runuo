@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Regions;
-using Server.Targeting;
-using Server.Engines.CannedEvil;
+using RunUO;
+using RunUO.Regions;
+using RunUO.Targeting;
+using RunUO.Engines.CannedEvil;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public abstract class BaseDockedBoat : Item
 	{

@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Multis;
-using Server.Gumps;
-using Server.Network;
-using Server.Prompts;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Prompts;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class BallotBox : AddonComponent
 	{

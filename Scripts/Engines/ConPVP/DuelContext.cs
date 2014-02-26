@@ -3,23 +3,23 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
-using Server;
-using Server.Commands;
-using Server.Engines.PartySystem;
-using Server.Factions;
-using Server.Gumps;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Spells;
-using Server.Spells.Bushido;
-using Server.Spells.Chivalry;
-using Server.Spells.Necromancy;
-using Server.Spells.Ninjitsu;
-using Server.Spells.Seventh;
-using Server.Spells.Spellweaving;
+using RunUO;
+using RunUO.Commands;
+using RunUO.Engines.PartySystem;
+using RunUO.Factions;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Spells;
+using RunUO.Spells.Bushido;
+using RunUO.Spells.Chivalry;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Ninjitsu;
+using RunUO.Spells.Seventh;
+using RunUO.Spells.Spellweaving;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public delegate void CountdownCallback( int count );
 
@@ -128,7 +128,7 @@ namespace Server.Engines.ConPVP
 			if ( CantDoAnything( from ) )
 				return false;
 
-			if ( spell is Server.Spells.Fourth.RecallSpell )
+			if ( spell is RunUO.Spells.Fourth.RecallSpell )
 				from.SendMessage( "You may not cast this spell." );
 
 			string title = null, option = null;

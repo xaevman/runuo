@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Spells.Necromancy;
-using Server.Spells;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class Tracking
 	{

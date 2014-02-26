@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Mobiles;
-using Server.Items;
-using Server.Network;
-using Server.Engines.MLQuests.Gumps;
-using Server.Engines.MLQuests.Definitions;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Engines.MLQuests.Gumps;
+using RunUO.Engines.MLQuests.Definitions;
 
-namespace Server.Engines.MLQuests.Mobiles
+namespace RunUO.Engines.MLQuests.Mobiles
 {
 	public abstract class DoneQuestCollector : BaseCreature, IRaceChanger
 	{

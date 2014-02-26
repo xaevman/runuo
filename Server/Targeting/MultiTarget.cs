@@ -19,10 +19,10 @@
  ***************************************************************************/
 
 using System;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Targeting
+namespace RunUO.Targeting
 {
 	public abstract class MultiTarget : Target
 	{

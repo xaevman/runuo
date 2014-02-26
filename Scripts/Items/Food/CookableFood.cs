@@ -1,9 +1,9 @@
 using System;
-using Server.Targeting;
-using Server.Items;
-using Server.Network;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class CookableFood : Item
 	{

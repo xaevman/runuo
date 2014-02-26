@@ -1,11 +1,10 @@
 using System;
-using Server;
-using Server.Commands;
-using Server.Accounting;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server
+namespace RunUO.Commands
 {
 	public class HardwareInfo
 	{

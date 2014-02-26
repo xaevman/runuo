@@ -19,9 +19,9 @@
  ***************************************************************************/
 
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Menus
+namespace RunUO.Menus
 {
 	public interface IMenu
 	{

@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Server.Network;
-using Server.Items;
-using Server.Targeting;
-using Server.Engines.PartySystem;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Engines.PartySystem;
 
-namespace Server.Spells.Fourth
+namespace RunUO.Spells.Fourth
 {
 	public class ArchProtectionSpell : MagerySpell
 	{

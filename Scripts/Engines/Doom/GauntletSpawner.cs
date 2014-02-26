@@ -1,14 +1,14 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Regions;
-using Server.Commands;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Regions;
+using RunUO.Commands;
 using System.Collections.Generic;
 
-namespace Server.Engines.Doom
+namespace RunUO.Engines.Doom
 {
 	public enum GauntletSpawnerState
 	{

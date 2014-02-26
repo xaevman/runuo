@@ -1,9 +1,9 @@
 using System;
 using System.Xml;
-using Server;
-using Server.Spells;
+using RunUO;
+using RunUO.Spells;
 
-namespace Server.Regions
+namespace RunUO.Regions
 {
 	public class Jail : BaseRegion
 	{

@@ -19,15 +19,15 @@
 ***************************************************************************/
 
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Mobiles;
 using System.Collections;
-using Server.Engines.Quests;
+using RunUO.Engines.Quests;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ScrollofAlacrity : SpecialScroll
 	{

@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Targeting;
-using Server.Commands;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Commands;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x1f14, 0x1f15, 0x1f16, 0x1f17 )]
 	public class WayPoint : Item

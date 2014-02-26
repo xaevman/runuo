@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Spells
+namespace RunUO.Spells
 {
     public class FlySpell : Spell
     {

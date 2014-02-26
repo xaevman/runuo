@@ -3,14 +3,14 @@ using System.Net;
 using System.Text;
 using System.Collections;
 using System.Diagnostics;
-using Server;
-using Server.Items;
-using Server.Prompts;
-using Server.Network;
-using Server.Accounting;
-using Server.Commands;
+using RunUO;
+using RunUO.Items;
+using RunUO.Prompts;
+using RunUO.Network;
+using RunUO.Accounting;
+using RunUO.Commands;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class BanDurationGump : Gump
 	{
@@ -78,7 +78,7 @@ namespace Server.Gumps
 			AddTextField( x + 35, y + 20, 100, 20, idx );
 		}
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			Mobile from = sender.Mobile;
 

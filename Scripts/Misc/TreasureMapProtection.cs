@@ -1,10 +1,10 @@
 using System;
 using System.IO;
 using System.Collections;
-using Server;
-using Server.Regions;
+using RunUO;
+using RunUO.Regions;
 
-namespace Server
+namespace RunUO
 {
 	public class TreasureRegion : BaseRegion
 	{

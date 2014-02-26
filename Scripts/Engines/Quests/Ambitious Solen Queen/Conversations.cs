@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Engines.Quests.Ambitious
+namespace RunUO.Engines.Quests.Ambitious
 {
 	public class DontOfferConversation : QuestConversation
 	{

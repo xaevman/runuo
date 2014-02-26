@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Engines.Craft;
+using RunUO;
+using RunUO.Engines.Craft;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x1EB8, 0x1EB9 )]
 	public class TinkerTools : BaseTool

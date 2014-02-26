@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Spells.Spellweaving;
+using RunUO;
+using RunUO.Spells.Spellweaving;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseMeleeWeapon : BaseWeapon
 	{

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class AddonContainerComponent : Item, IChopable
 	{

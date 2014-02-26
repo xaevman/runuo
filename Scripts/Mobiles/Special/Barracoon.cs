@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Spells;
-using Server.Spells.Seventh;
-using Server.Spells.Fifth;
-using Server.Engines.CannedEvil;
+using RunUO;
+using RunUO.Items;
+using RunUO.Spells;
+using RunUO.Spells.Seventh;
+using RunUO.Spells.Fifth;
+using RunUO.Engines.CannedEvil;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Barracoon : BaseChampion
 	{

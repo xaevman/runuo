@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public class ComponentVerification
 	{

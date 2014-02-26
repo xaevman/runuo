@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Server;
-using Server.Mobiles;
-using Server.Network;
-using Server.Spells;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Spells;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class Teleporter : Item
 	{
@@ -195,7 +195,7 @@ namespace Server.Items
 			if (p == Point3D.Zero)
 				p = m.Location;
 
-			Server.Mobiles.BaseCreature.TeleportPets(m, p, map);
+			RunUO.Mobiles.BaseCreature.TeleportPets(m, p, map);
 
 			bool sendEffect = (!m.Hidden || m.AccessLevel == AccessLevel.Player);
 

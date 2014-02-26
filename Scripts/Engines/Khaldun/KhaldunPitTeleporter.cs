@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class KhaldunPitTeleporter : Item
 	{
@@ -68,7 +68,7 @@ namespace Server.Items
 
 			if ( m.InRange( this, 3 ) )
 			{
-				Server.Mobiles.BaseCreature.TeleportPets( m, m_PointDest, m_MapDest );
+				RunUO.Mobiles.BaseCreature.TeleportPets( m, m_PointDest, m_MapDest );
 
 				m.MoveToWorld( m_PointDest, m_MapDest );
 			}

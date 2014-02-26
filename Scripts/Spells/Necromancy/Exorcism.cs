@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
-using Server.Network;
-using Server.Items;
-using Server.Engines.CannedEvil;
-using Server.Guilds;
-using Server.Factions;
-using Server.Engines.PartySystem;
-using Server.Regions;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Engines.CannedEvil;
+using RunUO.Guilds;
+using RunUO.Factions;
+using RunUO.Engines.PartySystem;
+using RunUO.Regions;
 
-namespace Server.Spells.Necromancy
+namespace RunUO.Spells.Necromancy
 {
 	public class ExorcismSpell : NecromancerSpell
 	{

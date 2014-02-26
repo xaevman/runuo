@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Engines.Craft;
+using RunUO;
+using RunUO.Network;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Engines.Craft;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public delegate void InstrumentPickedCallback( Mobile from, BaseInstrument instrument );
 

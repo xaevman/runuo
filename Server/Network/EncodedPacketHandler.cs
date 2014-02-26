@@ -20,7 +20,7 @@
 
 using System;
 
-namespace Server.Network
+namespace RunUO.Network
 {
 	public delegate void OnEncodedPacketReceive( NetState state, IEntity ent, EncodedReader pvSrc );
 

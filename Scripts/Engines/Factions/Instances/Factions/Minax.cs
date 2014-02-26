@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class Minax : Faction
 	{

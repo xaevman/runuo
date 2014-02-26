@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Multis;
-using Server.Multis.Deeds;
-using Server.Targeting;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Multis;
+using RunUO.Multis.Deeds;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class RealEstateBroker : BaseVendor
 	{

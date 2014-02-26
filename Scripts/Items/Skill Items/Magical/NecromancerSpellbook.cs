@@ -1,8 +1,8 @@
 using System;
-using Server.Network;
-using Server.Spells;
+using RunUO.Network;
+using RunUO.Spells;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class NecromancerSpellbook : Spellbook
 	{

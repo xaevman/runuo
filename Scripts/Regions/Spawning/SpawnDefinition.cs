@@ -2,12 +2,12 @@ using System;
 using System.Collections;
 using System.IO;
 using System.Xml;
-using Server;
-using Server.Mobiles;
-using Server.Items;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Items;
 using System.Collections.Generic;
 
-namespace Server.Regions
+namespace RunUO.Regions
 {
 	public abstract class SpawnDefinition
 	{

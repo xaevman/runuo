@@ -19,9 +19,9 @@
  ***************************************************************************/
 
 using System;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.ContextMenus
+namespace RunUO.ContextMenus
 {
 	public class OpenBackpackEntry : ContextMenuEntry
 	{

@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
-using Server.Regions;
+using RunUO;
+using RunUO.Network;
+using RunUO.Regions;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class Kindling : Item
 	{

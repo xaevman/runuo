@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Targeting;
+using RunUO;
+using RunUO.Targeting;
 
-namespace Server
+namespace RunUO
 {
 	public delegate void BoundingBoxCallback( Mobile from, Map map, Point3D start, Point3D end, object state );
 

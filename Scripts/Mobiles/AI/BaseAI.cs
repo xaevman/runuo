@@ -4,20 +4,20 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Server;
-using Server.Items;
-using Server.Targeting;
-using Server.Targets;
-using Server.Network;
-using Server.Regions;
-using Server.ContextMenus;
-using Server.Engines.Quests;
-using Server.Engines.Quests.Necro;
-using MoveImpl = Server.Movement.MovementImpl;
-using Server.Spells;
-using Server.Spells.Spellweaving;
+using RunUO;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Targets;
+using RunUO.Network;
+using RunUO.Regions;
+using RunUO.ContextMenus;
+using RunUO.Engines.Quests;
+using RunUO.Engines.Quests.Necro;
+using MoveImpl = RunUO.Movement.MovementImpl;
+using RunUO.Spells;
+using RunUO.Spells.Spellweaving;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public enum AIType
 	{
@@ -2527,7 +2527,7 @@ namespace Server.Mobiles
 							continue;
 
 						// It also must abide by harmful spell rules.
-						if (!Server.Spells.SpellHelper.ValidIndirectTarget(m_Mobile.SummonMaster, m))
+						if (!RunUO.Spells.SpellHelper.ValidIndirectTarget(m_Mobile.SummonMaster, m))
 							continue;
 
 						// Animated creatures cannot attack players directly.

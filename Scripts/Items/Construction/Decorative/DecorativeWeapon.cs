@@ -1,7 +1,7 @@
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x155E, 0x155F, 0x155C, 0x155D )] 
 	public class DecorativeBowWest : Item

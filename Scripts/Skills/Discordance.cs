@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Items;
-using Server.Targeting;
-using Server.Mobiles;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Mobiles;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class Discordance
 	{

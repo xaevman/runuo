@@ -2,12 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using Server;
-using Server.Items;
-using Server.Targeting;
-using Server.Commands;
+using RunUO;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Commands;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class SetObjectTarget : Target
 	{

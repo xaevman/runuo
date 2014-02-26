@@ -20,7 +20,7 @@
 
 using System;
 
-namespace Server
+namespace RunUO
 {
 	[Parsable]
 	public struct Point2D : IPoint2D, IComparable, IComparable<Point2D>

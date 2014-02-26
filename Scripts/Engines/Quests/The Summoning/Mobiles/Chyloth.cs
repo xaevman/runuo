@@ -1,16 +1,16 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.ContextMenus;
-using Server.Engines.PartySystem;
-using Server.Engines.Quests;
-using Server.Engines.Quests.Necro;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.ContextMenus;
+using RunUO.Engines.PartySystem;
+using RunUO.Engines.Quests;
+using RunUO.Engines.Quests.Necro;
 
-namespace Server.Engines.Quests.Doom
+namespace RunUO.Engines.Quests.Doom
 {
 	public class Chyloth : BaseQuester
 	{

@@ -20,11 +20,11 @@
 
 using System;
 using System.Collections;
-using Server;
-using Server.Guilds;
-using Server.Items;
+using RunUO;
+using RunUO.Guilds;
+using RunUO.Items;
 
-namespace Server
+namespace RunUO
 {
 	public delegate int NotorietyHandler( Mobile source, Mobile target );
 

@@ -1,15 +1,15 @@
 using System;
 using System.Text;
 using System.Collections.Generic;
-using Server;
-using Server.Prompts;
-using Server.Gumps;
-using Server.Network;
-using Server.Items;
-using Server.Misc;
-using Server.Commands;
+using RunUO;
+using RunUO.Prompts;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Misc;
+using RunUO.Commands;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public interface ITownCrierEntryList
 	{

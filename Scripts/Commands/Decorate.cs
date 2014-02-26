@@ -2,12 +2,12 @@ using System;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Engines.Quests.Haven;
-using Server.Engines.Quests.Necro;
+using RunUO;
+using RunUO.Items;
+using RunUO.Engines.Quests.Haven;
+using RunUO.Engines.Quests.Necro;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class Decorate
 	{
@@ -441,9 +441,9 @@ namespace Server.Commands
 				if ( m_ItemID > 0 )
 					item.ItemID = m_ItemID;
 			}
-			else if ( item is Server.Mobiles.Spawner )
+			else if ( item is RunUO.Mobiles.Spawner )
 			{
-				Server.Mobiles.Spawner sp = (Server.Mobiles.Spawner)item;
+				RunUO.Mobiles.Spawner sp = (RunUO.Mobiles.Spawner)item;
 
 				sp.NextSpawn = TimeSpan.Zero;
 

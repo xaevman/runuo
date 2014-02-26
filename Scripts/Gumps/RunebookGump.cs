@@ -1,16 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Network;
-using Server.Spells;
-using Server.Spells.Fourth;
-using Server.Spells.Seventh;
-using Server.Spells.Chivalry;
-using Server.Prompts;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Spells;
+using RunUO.Spells.Fourth;
+using RunUO.Spells.Seventh;
+using RunUO.Spells.Chivalry;
+using RunUO.Prompts;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class RunebookGump : Gump
 	{

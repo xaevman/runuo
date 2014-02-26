@@ -21,10 +21,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Items;
-using Server.Network;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server {
+namespace RunUO {
 	public class RegionRect : IComparable {
 		private Region m_Region;
 		private Rectangle3D m_Rect;

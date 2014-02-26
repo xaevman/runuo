@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Engines.Craft;
-using Server.Factions;
-using Server.Network;
+using RunUO;
+using RunUO.Engines.Craft;
+using RunUO.Factions;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum ClothingQuality
 	{

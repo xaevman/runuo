@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Spells;
-using Server.Engines.CannedEvil;
+using RunUO;
+using RunUO.Items;
+using RunUO.Spells;
+using RunUO.Engines.CannedEvil;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Rikktor : BaseChampion
 	{

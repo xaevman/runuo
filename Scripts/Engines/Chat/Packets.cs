@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Engines.Chat
+namespace RunUO.Engines.Chat
 {
 	public sealed class ChatMessagePacket : Packet
 	{

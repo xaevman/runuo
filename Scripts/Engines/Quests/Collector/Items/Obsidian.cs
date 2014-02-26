@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Network;
-using Server.Targeting;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.ContextMenus;
 
-namespace Server.Engines.Quests.Collector
+namespace RunUO.Engines.Quests.Collector
 {
 	public class Obsidian : Item
 	{

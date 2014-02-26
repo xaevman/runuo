@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Network;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Spells.Necromancy
+namespace RunUO.Spells.Necromancy
 {
 	public class StrangleSpell : NecromancerSpell
 	{

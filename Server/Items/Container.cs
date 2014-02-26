@@ -22,9 +22,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public delegate void OnItemConsumed( Item item, int amount );
 	public delegate int CheckItemGroup( Item a, Item b );

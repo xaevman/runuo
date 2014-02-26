@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server.Network;
-using Server.Items;
-using Server.Mobiles;
-using Server.Spells;
-using Server.Targeting;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Spells;
+using RunUO.Targeting;
 
-namespace Server.Spells.Bushido
+namespace RunUO.Spells.Bushido
 {
 	public class Evasion : SamuraiSpell
 	{

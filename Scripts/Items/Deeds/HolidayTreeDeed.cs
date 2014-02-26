@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Multis;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Multis;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class HolidayTreeDeed : Item
 	{

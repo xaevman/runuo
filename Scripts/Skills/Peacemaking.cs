@@ -1,10 +1,10 @@
 using System;
-using Server.Targeting;
-using Server.Network;
-using Server.Mobiles;
-using Server.Items;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Mobiles;
+using RunUO.Items;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class Peacemaking
 	{

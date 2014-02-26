@@ -1,8 +1,8 @@
 using System;
-using Server.Mobiles;
-using Server.Factions;
+using RunUO.Mobiles;
+using RunUO.Factions;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName("a silver serpent corpse")]
 	[TypeAlias( "Server.Mobiles.Silverserpant" )]

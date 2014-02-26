@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Commands;
+using RunUO;
+using RunUO.Items;
+using RunUO.Commands;
 
-namespace Server
+namespace RunUO
 {
 	public class DoorGenerator
 	{

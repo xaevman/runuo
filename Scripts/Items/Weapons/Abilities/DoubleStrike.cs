@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// The highly skilled warrior can use this special attack to make two quick swings in succession.

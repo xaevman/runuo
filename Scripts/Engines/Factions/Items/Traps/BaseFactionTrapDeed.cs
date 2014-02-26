@@ -1,11 +1,11 @@
 using System;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Items;
-using Server;
-using Server.Engines.Craft;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO;
+using RunUO.Engines.Craft;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public abstract class BaseFactionTrapDeed : Item, ICraftable
 	{

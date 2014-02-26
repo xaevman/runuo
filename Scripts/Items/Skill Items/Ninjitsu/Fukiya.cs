@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Targeting;
+using RunUO;
+using RunUO.Targeting;
 using System.Collections;
 using System.Collections.Generic;
-using Server.ContextMenus;
-using Server.Mobiles;
+using RunUO.ContextMenus;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x27AA, 0x27F5 )]
 	public class Fukiya : Item, INinjaWeapon

@@ -24,10 +24,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server {
+namespace RunUO {
 	public delegate void FileCommitCallback( FileQueue.Chunk chunk );
 
 	public sealed class FileQueue : IDisposable {

@@ -23,7 +23,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 
-namespace Server {
+namespace RunUO {
 	public sealed class SaveMetrics : IDisposable {
 		private const string PerformanceCategoryName = "RunUO 2.1";
 		private const string PerformanceCategoryDesc = "Performance counters for RunUO 2.1.";

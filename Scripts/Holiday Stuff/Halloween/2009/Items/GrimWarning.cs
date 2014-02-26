@@ -1,7 +1,7 @@
 ﻿using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/* 
 	first seen halloween 2009.  subsequently in 2010, 

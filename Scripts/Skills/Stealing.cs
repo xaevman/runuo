@@ -1,19 +1,19 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Items;
-using Server.Network;
-using Server.Factions;
-using Server.Spells.Seventh;
-using Server.Spells.Fifth;
-using Server.Spells.Necromancy;
-using Server.Spells;
-using Server.Spells.Ninjitsu;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Factions;
+using RunUO.Spells.Seventh;
+using RunUO.Spells.Fifth;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells;
+using RunUO.Spells.Ninjitsu;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class Stealing
 	{

@@ -1,21 +1,21 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Misc;
-using Server.Mobiles;
-using Server.Multis.Deeds;
-using Server.Regions;
-using Server.Network;
-using Server.Targeting;
-using Server.Accounting;
-using Server.ContextMenus;
-using Server.Gumps;
-using Server.Guilds;
-using Server.Engines.BulkOrders;
+using RunUO;
+using RunUO.Items;
+using RunUO.Misc;
+using RunUO.Mobiles;
+using RunUO.Multis.Deeds;
+using RunUO.Regions;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Accounting;
+using RunUO.ContextMenus;
+using RunUO.Gumps;
+using RunUO.Guilds;
+using RunUO.Engines.BulkOrders;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public abstract class BaseHouse : BaseMulti
 	{
@@ -1922,7 +1922,7 @@ namespace Server.Multis
 
 			if ( IsLockedDown( item ) )
 			{
-				item.PublicOverheadMessage( Server.Network.MessageType.Label, 0x3B2, 501657 );//[no longer locked down]
+				item.PublicOverheadMessage( RunUO.Network.MessageType.Label, 0x3B2, 501657 );//[no longer locked down]
 				SetLockdown( item, false );
 				//TidyItemList( m_LockDowns );
 
@@ -2069,7 +2069,7 @@ namespace Server.Multis
 
 					item.Movable = true;
 					item.SetLastMoved();
-					item.PublicOverheadMessage( Server.Network.MessageType.Label, 0x3B2, 501656 );//[no longer secure]
+					item.PublicOverheadMessage( RunUO.Network.MessageType.Label, 0x3B2, 501656 );//[no longer secure]
 					m_Secures.RemoveAt( i );
 					return;
 				}

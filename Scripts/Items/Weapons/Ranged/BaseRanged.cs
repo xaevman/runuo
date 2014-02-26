@@ -1,10 +1,10 @@
 using System;
-using Server.Items;
-using Server.Network;
-using Server.Spells;
-using Server.Mobiles;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Spells;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseRanged : BaseMeleeWeapon
 	{

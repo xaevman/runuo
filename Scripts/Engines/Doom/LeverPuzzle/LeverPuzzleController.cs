@@ -1,9 +1,9 @@
 using System;
-using Server.Spells;
-using Server;
-using Server.Network;
-using Server.Mobiles;
-using Server.Commands;
+using RunUO.Spells;
+using RunUO;
+using RunUO.Network;
+using RunUO.Mobiles;
+using RunUO.Commands;
 using System.Collections.Generic;
 
 	/*
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 	just simply Unpatch/delete, Stick these in, Same location.. Restart
 	*/ 
 
-namespace Server.Engines.Doom
+namespace RunUO.Engines.Doom
 {
 	public class LeverPuzzleController : Item
 	{

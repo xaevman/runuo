@@ -21,7 +21,7 @@
 using System;
 using System.Collections;
 
-namespace Server.Movement
+namespace RunUO.Movement
 {
 	public static class Movement
 	{

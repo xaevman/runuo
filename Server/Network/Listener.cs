@@ -25,9 +25,9 @@ using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Threading;
-using Server;
+using RunUO;
 
-namespace Server.Network
+namespace RunUO.Network
 {
 	public class Listener : IDisposable
 	{

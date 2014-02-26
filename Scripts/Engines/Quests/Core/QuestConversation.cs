@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Engines.Quests
+namespace RunUO.Engines.Quests
 {
 	public abstract class QuestConversation
 	{

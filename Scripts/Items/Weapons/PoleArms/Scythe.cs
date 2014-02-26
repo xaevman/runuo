@@ -1,9 +1,9 @@
 using System;
-using Server.Network;
-using Server.Items;
-using Server.Engines.Harvest;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Engines.Harvest;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x26BA, 0x26C4 )]
 	public class Scythe : BasePoleArm

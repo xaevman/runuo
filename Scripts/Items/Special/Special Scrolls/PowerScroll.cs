@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class PowerScroll : SpecialScroll
 	{
@@ -158,7 +158,7 @@ namespace Server.Items
 		{
 			Hue = 0x481;
 
-			if ( Value == 105.0 || skill == Server.SkillName.Blacksmith || skill == Server.SkillName.Tailoring )
+			if ( Value == 105.0 || skill == RunUO.SkillName.Blacksmith || skill == RunUO.SkillName.Tailoring )
 				LootType = LootType.Regular;
 		}
 

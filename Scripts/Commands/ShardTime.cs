@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class ShardTime
 	{

@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Miner : BaseVendor
 	{
@@ -24,10 +24,10 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.FancyShirt( 0x3E4 ) );
-			AddItem( new Server.Items.LongPants( 0x192 ) );
-			AddItem( new Server.Items.Pickaxe() );
-			AddItem( new Server.Items.ThighBoots( 0x283 ) );
+			AddItem( new RunUO.Items.FancyShirt( 0x3E4 ) );
+			AddItem( new RunUO.Items.LongPants( 0x192 ) );
+			AddItem( new RunUO.Items.Pickaxe() );
+			AddItem( new RunUO.Items.ThighBoots( 0x283 ) );
 		}
 
 		public Miner( Serial serial ) : base( serial )

@@ -1,14 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Multis;
-using Server.ContextMenus;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO;
+using RunUO.Multis;
+using RunUO.ContextMenus;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class VendorRentalContract : Item
 	{

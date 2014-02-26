@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Mobiles;
-using Server.Factions;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Factions;
 
-namespace Server
+namespace RunUO
 {
 	public class SpeedInfo
 	{

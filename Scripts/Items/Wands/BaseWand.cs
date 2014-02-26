@@ -1,11 +1,11 @@
 using System;
 using System.Text;
 using System.Collections;
-using Server.Network;
-using Server.Targeting;
-using Server.Spells;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Spells;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum WandEffect
 	{

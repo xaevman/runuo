@@ -1,10 +1,10 @@
 using System;
-using Server.Targeting;
-using Server.Items;
-using Server.Network;
-using Server.Mobiles;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Mobiles;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class TasteID
 	{

@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.ContextMenus;
 
-namespace Server.Engines.Quests
+namespace RunUO.Engines.Quests
 {
 	public class QuestCallbackEntry : ContextMenuEntry
 	{

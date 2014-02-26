@@ -19,9 +19,9 @@
  ***************************************************************************/
 
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class GumpImageTileButton : GumpEntry
 	{

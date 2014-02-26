@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Engines.Mahjong
+namespace RunUO.Engines.Mahjong
 {
 	public sealed class MahjongJoinGame : Packet
 	{

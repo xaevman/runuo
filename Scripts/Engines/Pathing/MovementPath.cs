@@ -1,13 +1,13 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.PathAlgorithms;
-using Server.PathAlgorithms.SlowAStar;
-using Server.PathAlgorithms.FastAStar;
-using Server.Commands;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.PathAlgorithms;
+using RunUO.PathAlgorithms.SlowAStar;
+using RunUO.PathAlgorithms.FastAStar;
+using RunUO.Commands;
 
-namespace Server
+namespace RunUO
 {
 	public sealed class MovementPath
 	{

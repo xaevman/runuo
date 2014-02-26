@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Multis;
-using Server.Network;
-using Server.Guilds;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Network;
+using RunUO.Guilds;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public interface ISecurable
 	{

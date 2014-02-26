@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Commands;
-using Server.Network;
+using RunUO;
+using RunUO.Commands;
+using RunUO.Network;
 
-namespace Server.Engines.MyRunUO
+namespace RunUO.Engines.MyRunUO
 {
 	public class MyRunUOStatus
 	{

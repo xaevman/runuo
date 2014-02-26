@@ -1,9 +1,9 @@
 using System;
-using Server.Mobiles;
-using Server.Network;
+using RunUO.Mobiles;
+using RunUO.Network;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class CandyCane : Food
 	{

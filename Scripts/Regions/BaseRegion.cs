@@ -2,12 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Gumps;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Gumps;
 
-namespace Server.Regions
+namespace RunUO.Regions
 {
 	public enum SpawnZLevel
 	{

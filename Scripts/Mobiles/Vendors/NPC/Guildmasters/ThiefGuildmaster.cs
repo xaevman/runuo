@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class ThiefGuildmaster : BaseGuildmaster
 	{
@@ -30,9 +30,9 @@ namespace Server.Mobiles
 			base.InitOutfit();
 
 			if ( Utility.RandomBool() )
-				AddItem( new Server.Items.Kryss() );
+				AddItem( new RunUO.Items.Kryss() );
 			else
-				AddItem( new Server.Items.Dagger() );
+				AddItem( new RunUO.Items.Dagger() );
 		}
 
 		public override bool CheckCustomReqs( PlayerMobile pm )

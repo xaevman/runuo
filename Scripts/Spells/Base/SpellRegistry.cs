@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Server.Spells.Bushido;
-using Server.Spells.Chivalry;
-using Server.Items;
-using Server.Spells.Necromancy;
-using Server.Spells.Ninjitsu;
+using RunUO.Spells.Bushido;
+using RunUO.Spells.Chivalry;
+using RunUO.Items;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Ninjitsu;
 
-namespace Server.Spells
+namespace RunUO.Spells
 {
 	public class SpellRegistry
 	{

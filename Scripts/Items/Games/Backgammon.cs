@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0xE1C, 0xFAD )]
 	public class Backgammon : BaseBoard

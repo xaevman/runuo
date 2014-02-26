@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Accounting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Accounting;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Server.Engines.VeteranRewards
+namespace RunUO.Engines.VeteranRewards
 {
 	public class RewardSystem
 	{

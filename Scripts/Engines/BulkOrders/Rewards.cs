@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Engines.BulkOrders
+namespace RunUO.Engines.BulkOrders
 {
 	public delegate Item ConstructCallback( int type );
 

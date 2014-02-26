@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Network;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Spells.Chivalry
+namespace RunUO.Spells.Chivalry
 {
 	public class ConsecrateWeaponSpell : PaladinSpell
 	{

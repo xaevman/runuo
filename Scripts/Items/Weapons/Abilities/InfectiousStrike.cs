@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// This special move represents a significant change to the use of poisons in Age of Shadows.

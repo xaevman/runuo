@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class FactionBerserker : BaseFactionGuard
 	{

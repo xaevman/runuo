@@ -1,18 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Guilds;
-using Server.Multis;
-using Server.Mobiles;
-using Server.Engines.PartySystem;
-using Server.Factions;
-using Server.Spells.Necromancy;
-using Server.Spells.Ninjitsu;
-using Server.Spells;
+using RunUO;
+using RunUO.Items;
+using RunUO.Guilds;
+using RunUO.Multis;
+using RunUO.Mobiles;
+using RunUO.Engines.PartySystem;
+using RunUO.Factions;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Ninjitsu;
+using RunUO.Spells;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class NotorietyHandlers
 	{
@@ -443,7 +443,7 @@ namespace Server.Misc
 
 			if( !(target is BaseCreature && ((BaseCreature)target).InitialInnocent) )   //If Target is NOT A baseCreature, OR it's a BC and the BC is initial innocent...
 			{
-				if( !target.Body.IsHuman && !target.Body.IsGhost && !IsPet( target as BaseCreature ) && !(target is PlayerMobile) || !Core.ML && !target.CanBeginAction( typeof( Server.Spells.Seventh.PolymorphSpell ) ) )
+				if( !target.Body.IsHuman && !target.Body.IsGhost && !IsPet( target as BaseCreature ) && !(target is PlayerMobile) || !Core.ML && !target.CanBeginAction( typeof( RunUO.Spells.Seventh.PolymorphSpell ) ) )
 					return Notoriety.CanBeAttacked;
 			}
 

@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Gumps;
-using Server.Commands;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Gumps;
+using RunUO.Commands;
 using System.Collections.Generic;
 
-namespace Server.Engines.Help
+namespace RunUO.Engines.Help
 {
 	public class SpeechLog : IEnumerable<SpeechLogEntry>
 	{

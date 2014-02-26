@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public abstract class BaseGridGump : Gump
 	{

@@ -1,13 +1,13 @@
 using System;
 using System.Reflection;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Commands;
-using Server.Commands.Generic;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Commands;
+using RunUO.Commands.Generic;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class Batch : BaseCommand
 	{

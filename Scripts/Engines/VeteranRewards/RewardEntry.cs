@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Engines.VeteranRewards
+namespace RunUO.Engines.VeteranRewards
 {
 	public class RewardEntry
 	{

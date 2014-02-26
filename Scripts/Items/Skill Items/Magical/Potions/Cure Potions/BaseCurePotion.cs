@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Spells;
+using RunUO;
+using RunUO.Spells;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class CureLevelInfo
 	{

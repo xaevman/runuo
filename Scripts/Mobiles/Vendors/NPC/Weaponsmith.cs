@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Engines.BulkOrders;
+using RunUO;
+using RunUO.Engines.BulkOrders;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Weaponsmith : BaseVendor
 	{
@@ -43,7 +43,7 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.HalfApron() );
+			AddItem( new RunUO.Items.HalfApron() );
 		}
 
 		#region Bulk Orders

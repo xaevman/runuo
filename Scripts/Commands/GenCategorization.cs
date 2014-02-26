@@ -3,10 +3,10 @@ using System.IO;
 using System.Xml;
 using System.Collections;
 using System.Reflection;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class Categorization
 	{

@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public delegate void WarningGumpCallback( Mobile from, bool okay, object state );
 
@@ -53,7 +53,7 @@ namespace Server.Gumps
 			}
 		}
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			if ( info.ButtonID == 1 && m_Callback != null )
 				m_Callback( sender.Mobile, true, m_State );

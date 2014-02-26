@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Spells
+namespace RunUO.Spells
 {
 	public abstract class MagerySpell : Spell
 	{

@@ -2,11 +2,11 @@ using System;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Network;
-using Server.Engines.Craft;
+using RunUO;
+using RunUO.Network;
+using RunUO.Engines.Craft;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x14EB, 0x14EC )]
 	public class MapItem : Item, ICraftable

@@ -1,8 +1,8 @@
 using System;
-using Server.Mobiles;
-using Server.Items;
+using RunUO.Mobiles;
+using RunUO.Items;
 
-namespace Server.Engines.Quests.Ninja
+namespace RunUO.Engines.Quests.Ninja
 {
 	public class EminosKatana : QuestItem
 	{

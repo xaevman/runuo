@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Ethics
+namespace RunUO.Ethics
 {
 	public class EthicsPersistance : Item
 	{

@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Multis;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x1EBA, 0x1EBB )]
 	public class TaxidermyKit : Item

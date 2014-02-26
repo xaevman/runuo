@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Server.Items;
-using Server.Multis;
+using RunUO.Items;
+using RunUO.Multis;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class SBShipwright : SBInfo
 	{

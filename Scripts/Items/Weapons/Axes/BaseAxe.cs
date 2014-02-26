@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Engines.Harvest;
-using Server.ContextMenus;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Engines.Harvest;
+using RunUO.ContextMenus;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public interface IAxe
 	{
@@ -88,7 +88,7 @@ namespace Server.Items
 
 			if ( !from.InLOS( loc ) || !from.InRange( loc, 2 ) )
 			{
-				from.LocalOverheadMessage( Server.Network.MessageType.Regular, 0x3E9, 1019045 ); // I can't reach that
+				from.LocalOverheadMessage( RunUO.Network.MessageType.Regular, 0x3E9, 1019045 ); // I can't reach that
 				return;
 			}
 			else if ( !this.IsAccessibleTo( from ) )

@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Spells;
-using Server.Spells.Necromancy;
-using Server.Spells.Ninjitsu;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Spells;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Ninjitsu;
+using RunUO.Mobiles;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class RegenRates
 	{

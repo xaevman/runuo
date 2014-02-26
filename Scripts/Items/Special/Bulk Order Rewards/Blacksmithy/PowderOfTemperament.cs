@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Targeting;
-using Server.Engines.Craft;
-using Server.Network;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Engines.Craft;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class PowderOfTemperament : Item, IUsesRemaining
 	{

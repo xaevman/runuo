@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public class PreviewHouse : BaseMulti
 	{

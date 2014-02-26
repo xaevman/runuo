@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Server.Ethics.Evil
+namespace RunUO.Ethics.Evil
 {
 	public sealed class UnholySense : Power
 	{
@@ -86,7 +86,7 @@ namespace Server.Ethics.Evil
 				sb.Append( '.' );
 			}
 
-			from.Mobile.LocalOverheadMessage( Server.Network.MessageType.Regular, 0x59, false, sb.ToString() );
+			from.Mobile.LocalOverheadMessage( RunUO.Network.MessageType.Regular, 0x59, false, sb.ToString() );
 
 			FinishInvoke( from );
 		}

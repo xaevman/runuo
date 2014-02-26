@@ -2,9 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using Server;
+using RunUO;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	[Flags]
 	public enum CommandSupport

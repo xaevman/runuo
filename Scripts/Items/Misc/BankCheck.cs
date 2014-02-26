@@ -1,14 +1,14 @@
 using System;
 using System.Globalization;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Engines.Quests;
-using Necro = Server.Engines.Quests.Necro;
-using Haven = Server.Engines.Quests.Haven;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Engines.Quests;
+using Necro = RunUO.Engines.Quests.Necro;
+using Haven = RunUO.Engines.Quests.Haven;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class BankCheck : Item
 	{

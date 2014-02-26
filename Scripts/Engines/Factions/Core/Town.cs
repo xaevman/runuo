@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Targeting;
-using Server.Mobiles;
-using Server.Commands;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Mobiles;
+using RunUO.Commands;
 using System.Collections.Generic;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	[CustomEnum( new string[]{ "Britain", "Magincia", "Minoc", "Moonglow", "Skara Brae", "Trinsic", "Vesper", "Yew" } )]
 	public abstract class Town : IComparable

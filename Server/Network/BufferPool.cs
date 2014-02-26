@@ -22,7 +22,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Server.Network
+namespace RunUO.Network
 {
 	public class BufferPool
 	{

@@ -1,10 +1,10 @@
 using System;
-using Server.Targeting;
-using Server.Items;
-using Server.Network;
-using Server.Multis;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Multis;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class Hiding
 	{

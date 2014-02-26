@@ -1,14 +1,14 @@
 using System;
 using System.Xml;
-using Server;
-using Server.Mobiles;
-using Server.Spells;
-using Server.Spells.Seventh;
-using Server.Spells.Fourth;
-using Server.Spells.Sixth;
-using Server.Spells.Chivalry;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Spells;
+using RunUO.Spells.Seventh;
+using RunUO.Spells.Fourth;
+using RunUO.Spells.Sixth;
+using RunUO.Spells.Chivalry;
 
-namespace Server.Regions
+namespace RunUO.Regions
 {
 	public class GreenAcres : BaseRegion
 	{

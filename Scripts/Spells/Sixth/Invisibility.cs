@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Targeting;
-using Server.Items;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Items;
 
-namespace Server.Spells.Sixth
+namespace RunUO.Spells.Sixth
 {
 	public class InvisibilitySpell : MagerySpell
 	{

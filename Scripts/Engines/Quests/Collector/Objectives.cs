@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Engines.Quests.Collector
+namespace RunUO.Engines.Quests.Collector
 {
 	public class FishPearlsObjective : QuestObjective
 	{

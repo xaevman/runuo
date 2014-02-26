@@ -1,7 +1,7 @@
 using System;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	//Is this a filler-type item? the clilocs don't match up and at a glacnce I can't find direct reference of it
 	[FlipableAttribute( 0x2B6D, 0x3164 )]

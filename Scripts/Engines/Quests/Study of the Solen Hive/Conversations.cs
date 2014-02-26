@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Engines.Quests.Naturalist
+namespace RunUO.Engines.Quests.Naturalist
 {
 	public class DontOfferConversation : QuestConversation
 	{

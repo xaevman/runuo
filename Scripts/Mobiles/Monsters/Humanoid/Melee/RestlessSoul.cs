@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Items;
-using Server.Targeting;
-using Server.Engines.Quests;
-using Server.Engines.Quests.Haven;
-using Server.ContextMenus;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Engines.Quests;
+using RunUO.Engines.Quests.Haven;
+using RunUO.ContextMenus;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a ghostly corpse" )]
 	public class RestlessSoul : BaseCreature

@@ -21,7 +21,7 @@
 using System;
 using System.IO;
 
-namespace Server.Network
+namespace RunUO.Network
 {
 	public class ByteQueue
 	{

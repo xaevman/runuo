@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server.Commands;
-using Server.Network;
-using Server.Targeting;
+using RunUO.Commands;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseDoor : Item, ILockable, ITelekinesisable
 	{

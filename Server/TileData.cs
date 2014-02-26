@@ -22,7 +22,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace Server
+namespace RunUO
 {
 	public struct LandData
 	{

@@ -10,7 +10,7 @@ using System.Diagnostics;
 using HtmlTag = System.Web.UI.HtmlTextWriterTag;
 using HtmlAttr = System.Web.UI.HtmlTextWriterAttribute;
 
-namespace Server.Engines.Reports
+namespace RunUO.Engines.Reports
 {
 	public class HtmlRenderer
 	{

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Mobiles;
+using RunUO.Mobiles;
 
-namespace Server.Ethics
+namespace RunUO.Ethics
 {
 	public abstract class Ethic
 	{

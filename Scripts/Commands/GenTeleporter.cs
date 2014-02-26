@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class GenTeleporter
 	{

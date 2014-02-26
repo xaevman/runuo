@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 
-using Server;
-using Server.Gumps;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public interface IRewardOption
 	{

@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public class RangeCommandImplementor : BaseCommandImplementor
 	{

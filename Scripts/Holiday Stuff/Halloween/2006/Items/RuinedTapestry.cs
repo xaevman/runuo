@@ -1,8 +1,8 @@
 ﻿using System;
-using Server;
-using Server.Misc;
+using RunUO;
+using RunUO.Misc;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class RuinedTapestry : Item
 	{

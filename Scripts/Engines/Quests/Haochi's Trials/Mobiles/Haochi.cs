@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Gumps;
-using Server.Items;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Gumps;
+using RunUO.Items;
 
-namespace Server.Engines.Quests.Samurai
+namespace RunUO.Engines.Quests.Samurai
 {
 	public class Haochi : BaseQuester
 	{

@@ -20,13 +20,13 @@
 
 using System;
 using System.Collections;
-using Server.Items;
-using Server.Network;
-using Server.ContextMenus;
-using Server.Mobiles;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.ContextMenus;
+using RunUO.Mobiles;
 using System.Collections.Generic;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class BuyItemStateComparer : IComparer<BuyItemState>
 	{

@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Multis;
-using Server.Network;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xE80, 0x9A8 )]
 	public class StrongBox : BaseContainer, IChopable

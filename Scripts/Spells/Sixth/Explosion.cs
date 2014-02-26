@@ -1,8 +1,8 @@
 using System;
-using Server.Targeting;
-using Server.Network;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Spells.Sixth
+namespace RunUO.Spells.Sixth
 {
 	public class ExplosionSpell : MagerySpell
 	{

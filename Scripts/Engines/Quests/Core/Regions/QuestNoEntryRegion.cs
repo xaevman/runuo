@@ -1,10 +1,10 @@
 using System;
 using System.Xml;
-using Server;
-using Server.Regions;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Regions;
+using RunUO.Mobiles;
 
-namespace Server.Engines.Quests
+namespace RunUO.Engines.Quests
 {
 	public class QuestNoEntryRegion : BaseRegion
 	{

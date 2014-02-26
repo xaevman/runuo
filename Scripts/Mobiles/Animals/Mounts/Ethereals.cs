@@ -1,10 +1,10 @@
 using System;
-using Server.Mobiles;
-using Server.Items;
-using Server.Spells;
-using Server.Engines.VeteranRewards;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Spells;
+using RunUO.Engines.VeteranRewards;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class EtherealMount : Item, IMount, IMountItem, Engines.VeteranRewards.IRewardItem
 	{

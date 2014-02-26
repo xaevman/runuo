@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server.Targeting;
-using Server.Network;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class BerserkAI : BaseAI
 	{

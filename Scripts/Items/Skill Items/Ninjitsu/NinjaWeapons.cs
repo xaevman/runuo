@@ -1,9 +1,9 @@
 using System;
-using Server.ContextMenus;
-using Server.Mobiles;
-using Server.Spells.Necromancy;
-using Server.Spells.Ninjitsu;
-using Server.Targeting;
+using RunUO.ContextMenus;
+using RunUO.Mobiles;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Ninjitsu;
+using RunUO.Targeting;
 
 /*
  * There really was no prettier way to do this,  other than the one
@@ -11,7 +11,7 @@ using Server.Targeting;
  * own serialization, due to the way these weapons were originaly coded.
  */
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public interface INinjaAmmo : IUsesRemaining
 	{

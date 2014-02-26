@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Farmer : BaseVendor
 	{
@@ -36,7 +36,7 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.WideBrimHat( Utility.RandomNeutralHue() ) );
+			AddItem( new RunUO.Items.WideBrimHat( Utility.RandomNeutralHue() ) );
 		}
 
 		public Farmer( Serial serial ) : base( serial )

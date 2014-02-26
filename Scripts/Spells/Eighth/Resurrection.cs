@@ -1,9 +1,9 @@
 using System;
-using Server.Targeting;
-using Server.Network;
-using Server.Gumps;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Gumps;
 
-namespace Server.Spells.Eighth
+namespace RunUO.Spells.Eighth
 {
 	public class ResurrectionSpell : MagerySpell
 	{

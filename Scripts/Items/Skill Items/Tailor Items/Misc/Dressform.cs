@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute(0xec6, 0xec7)]
 	public class Dressform : Item

@@ -1,9 +1,9 @@
 using System;
-using Server.Mobiles;
-using Server.Network;
-using Server.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a ki-rin corpse" )]
 	public class Kirin : BaseMount

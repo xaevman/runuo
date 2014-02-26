@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using Server;
+using RunUO;
 
-namespace Server.Engines.Mahjong
+namespace RunUO.Engines.Mahjong
 {
 	public class MahjongPlayers
 	{

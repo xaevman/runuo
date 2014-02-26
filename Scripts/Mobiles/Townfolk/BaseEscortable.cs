@@ -1,16 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Network;
-using Server.ContextMenus;
-using EDI = Server.Mobiles.EscortDestinationInfo;
-using Server.Engines.MLQuests;
-using Server.Engines.MLQuests.Definitions;
-using Server.Engines.MLQuests.Objectives;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.ContextMenus;
+using EDI = RunUO.Mobiles.EscortDestinationInfo;
+using RunUO.Engines.MLQuests;
+using RunUO.Engines.MLQuests.Definitions;
+using RunUO.Engines.MLQuests.Objectives;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class BaseEscortable : BaseCreature
 	{

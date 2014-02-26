@@ -20,7 +20,7 @@
 
 using System;
 
-namespace Server
+namespace RunUO
 {
 	public abstract class PartyCommands
 	{

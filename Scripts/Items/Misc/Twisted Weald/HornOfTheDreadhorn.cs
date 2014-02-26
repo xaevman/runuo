@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable(0x315C, 0x315D)]
 	public class HornOfTheDreadhorn : Item

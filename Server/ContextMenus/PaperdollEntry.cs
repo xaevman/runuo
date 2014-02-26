@@ -20,7 +20,7 @@
 
 using System;
 
-namespace Server.ContextMenus
+namespace RunUO.ContextMenus
 {
 	public class PaperdollEntry : ContextMenuEntry
 	{

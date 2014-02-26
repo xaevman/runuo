@@ -1,12 +1,12 @@
-using Server;
-using Server.Engines.VeteranRewards;
-using Server.Gumps;
-using Server.Multis;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.Engines.VeteranRewards;
+using RunUO.Gumps;
+using RunUO.Multis;
+using RunUO.Network;
+using RunUO.Targeting;
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class Fireflies : Item, IAddon
 	{

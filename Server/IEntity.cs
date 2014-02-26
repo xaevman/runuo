@@ -20,7 +20,7 @@
 
 using System;
 
-namespace Server
+namespace RunUO
 {
 	public interface IEntity : IPoint3D, IComparable, IComparable<IEntity>
 	{

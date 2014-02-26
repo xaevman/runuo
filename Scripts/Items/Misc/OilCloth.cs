@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class OilCloth : Item, IScissorable, IDyable
 	{

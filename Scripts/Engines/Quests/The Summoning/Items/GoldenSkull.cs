@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Engines.Quests.Doom
+namespace RunUO.Engines.Quests.Doom
 {
 	public class GoldenSkull : Item
 	{

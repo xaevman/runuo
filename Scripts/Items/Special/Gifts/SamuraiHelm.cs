@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x236C, 0x236D )]
 	public class SamuraiHelm : BaseArmor

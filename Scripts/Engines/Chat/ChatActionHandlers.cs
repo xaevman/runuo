@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Engines.Chat
+namespace RunUO.Engines.Chat
 {
 	public class ChatActionHandlers
 	{

@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Targeting
+namespace RunUO.Targeting
 {
 	public class WandTarget : Target
 	{

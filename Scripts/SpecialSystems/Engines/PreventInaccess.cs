@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	/*
 	 * This system prevents the inability for server staff to

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Accounting;
+using RunUO;
+using RunUO.Accounting;
 
-namespace Server.Engines.Chat
+namespace RunUO.Engines.Chat
 {
 	public class ChatUser
 	{

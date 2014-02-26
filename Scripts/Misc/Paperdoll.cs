@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Network;
-using Server.Multis;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Network;
+using RunUO.Multis;
+using RunUO.Mobiles;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class Paperdoll
 	{

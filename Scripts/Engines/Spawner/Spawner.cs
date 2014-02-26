@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using Server;
-using Server.Commands;
-using Server.Items;
-using Server.Network;
-using Server.Multis;
-using CPA = Server.CommandPropertyAttribute;
+using RunUO;
+using RunUO.Commands;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Multis;
+using CPA = RunUO.CommandPropertyAttribute;
 
 /*
 	UsesSpawnerHome true causes normal behavior, while false will
@@ -30,7 +30,7 @@ using CPA = Server.CommandPropertyAttribute;
 	BaseCreature.
 */
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Spawner : Item, ISpawner
 	{

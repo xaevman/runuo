@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Accounting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Accounting;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class CharacterCreation
 	{

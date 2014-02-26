@@ -1,7 +1,7 @@
 ﻿using System;
-using Server;
+using RunUO;
 
-namespace Server.Items.Holiday
+namespace RunUO.Items.Holiday
 {
 	public class PaintedPorcelainMask : BasePaintedMask
 	{

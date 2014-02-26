@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using Server;
+using RunUO;
 
-namespace Server.Regions
+namespace RunUO.Regions
 {
 	public class SpawnPersistence : Item
 	{

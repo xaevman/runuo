@@ -1,16 +1,16 @@
 using System;
-using Server;
+using RunUO;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Items;
-using Server.Mobiles;
-using Server.Gumps;
-using Server.Network;
-using Server.Targeting;
-using Server.Commands;
-using Server.Commands.Generic;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Commands;
+using RunUO.Commands.Generic;
 
-namespace Server.Guilds
+namespace RunUO.Guilds
 {
 	#region Ranks
 	[Flags]

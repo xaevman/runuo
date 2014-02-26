@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Guilds;
-using Server.Targeting;
-using Server.Factions;
+using RunUO;
+using RunUO.Guilds;
+using RunUO.Targeting;
+using RunUO.Factions;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class GuildRecruitTarget : Target
 	{

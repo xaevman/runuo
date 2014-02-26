@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Spells;
-using Server.Network;
+using RunUO;
+using RunUO.Spells;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x3D98, 0x3D94 )]
 	public class WallTorchComponent : AddonComponent

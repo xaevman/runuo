@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Gumps;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Gumps;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseImprisonedMobile : Item
 	{

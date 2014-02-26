@@ -1,8 +1,8 @@
 ﻿using System;
-using Server.Items;
-using Server.Engines.MLQuests;
+using RunUO.Items;
+using RunUO.Engines.MLQuests;
 
-namespace Server.Mobiles.Townfolk
+namespace RunUO.Mobiles.Townfolk
 {
 	public class Prisoner : BaseEscortable
 	{

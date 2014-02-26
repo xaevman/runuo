@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Engines.MLQuests.Gumps;
-using Server.Engines.MLQuests.Objectives;
-using Server.Engines.MLQuests.Rewards;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Engines.MLQuests.Gumps;
+using RunUO.Engines.MLQuests.Objectives;
+using RunUO.Engines.MLQuests.Rewards;
+using RunUO.Mobiles;
 
-namespace Server.Engines.MLQuests
+namespace RunUO.Engines.MLQuests
 {
 	public enum ObjectiveType
 	{

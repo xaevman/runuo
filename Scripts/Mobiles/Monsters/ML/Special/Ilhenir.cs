@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Spells;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Spells;
+using RunUO.Network;
 using System.Collections.Generic;
-using Server.Engines.CannedEvil;
+using RunUO.Engines.CannedEvil;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a corpse of Ilhenir" )]
 	public class Ilhenir : BaseChampion

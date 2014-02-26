@@ -19,9 +19,9 @@
  ***************************************************************************/
 
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Menus.Questions
+namespace RunUO.Menus.Questions
 {
 	public class QuestionMenu : IMenu
 	{

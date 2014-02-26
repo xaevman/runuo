@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public interface IFlourMill
 	{

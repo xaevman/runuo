@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Items;
-using Server.Multis;
-using Server.Targeting;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Multis;
+using RunUO.Targeting;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public class DesignInsertCommand : BaseCommand
 	{

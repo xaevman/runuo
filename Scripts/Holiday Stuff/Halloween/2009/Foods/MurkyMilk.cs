@@ -1,8 +1,8 @@
 ﻿using System;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/* 
 	first seen halloween 2009.  subsequently in 2010, 

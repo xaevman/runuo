@@ -2,14 +2,14 @@ using System;
 using System.Reflection;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Network;
-using Server.Prompts;
-using Server.Mobiles;
-using Server.Multis;
-using Server.Multis.Deeds;
-using Server.Items;
+using RunUO.Network;
+using RunUO.Prompts;
+using RunUO.Mobiles;
+using RunUO.Multis;
+using RunUO.Multis.Deeds;
+using RunUO.Items;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public enum HouseGumpPageAOS
 	{

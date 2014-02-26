@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Items;
-using Server.Targeting;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class AquariumFishNet : SpecialFishingNet
 	{

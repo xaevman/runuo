@@ -2,14 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using Server;
-using Server.Mobiles;
-using Server.Items;
-using Server.Network;
-using Server.HuePickers;
-using Server.Multis;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.HuePickers;
+using RunUO.Multis;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class PlayerVendorBuyGump : Gump
 	{

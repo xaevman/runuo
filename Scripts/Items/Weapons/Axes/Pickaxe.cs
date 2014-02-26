@@ -1,9 +1,9 @@
 using System;
-using Server.Items;
-using Server.Network;
-using Server.Engines.Harvest;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Engines.Harvest;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xE86, 0xE85 )]
 	public class Pickaxe : BaseAxe, IUsesRemaining

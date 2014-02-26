@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Items;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Items;
 
-namespace Server.Engines.Quests.Samurai
+namespace RunUO.Engines.Quests.Samurai
 {
 	[CorpseName( "a young ninja's corpse" )]
 	public class YoungNinja : BaseCreature

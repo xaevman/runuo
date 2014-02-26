@@ -22,7 +22,7 @@ using System;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace Server.Network {
+namespace RunUO.Network {
 	/// <summary>
 	/// Handles outgoing packet compression for the network.
 	/// </summary>

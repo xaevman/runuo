@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Spells;
+using RunUO.Spells;
 
-namespace Server.Ethics.Hero
+namespace RunUO.Ethics.Hero
 {
 	public sealed class Bless : Power
 	{
@@ -66,7 +66,7 @@ namespace Server.Ethics.Hero
 
 				Effects.PlaySound( p, from.Mobile.Map, 0x299 );
 
-				from.Mobile.LocalOverheadMessage( Server.Network.MessageType.Regular, 0x3B2, false, "You consecrate the area." );
+				from.Mobile.LocalOverheadMessage( RunUO.Network.MessageType.Regular, 0x3B2, false, "You consecrate the area." );
 
 				FinishInvoke( from );
 			}

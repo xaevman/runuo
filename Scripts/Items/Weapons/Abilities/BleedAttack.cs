@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server.Mobiles;
-using Server.Spells.Necromancy;
-using Server.Network;
-using Server.Spells;
+using RunUO.Mobiles;
+using RunUO.Spells.Necromancy;
+using RunUO.Network;
+using RunUO.Spells;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// Make your opponent bleed profusely with this wicked use of your weapon.

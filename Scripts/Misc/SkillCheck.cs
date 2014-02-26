@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Factions;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Factions;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class SkillCheck
 	{

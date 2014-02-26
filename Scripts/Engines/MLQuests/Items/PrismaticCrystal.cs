@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Engines.MLQuests;
-using Server.Engines.MLQuests.Definitions;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Engines.MLQuests;
+using RunUO.Engines.MLQuests.Definitions;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class PrismaticCrystal : Item
 	{

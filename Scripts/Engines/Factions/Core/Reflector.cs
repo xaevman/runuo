@@ -1,10 +1,10 @@
 using System;
 using System.Reflection;
 using System.Collections;
-using Server;
+using RunUO;
 using System.Collections.Generic;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class Reflector
 	{

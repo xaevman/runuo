@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Mobiles;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Server.Guilds
+namespace RunUO.Guilds
 {
 	public abstract class BaseGuildListGump<T> : BaseGuildGump
 	{

@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Guilds;
-using Server.Network;
-using Server.Factions;
+using RunUO;
+using RunUO.Guilds;
+using RunUO.Network;
+using RunUO.Factions;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class GuildAdminCandidatesGump : GuildMobileListGump
 	{

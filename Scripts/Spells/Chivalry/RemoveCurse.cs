@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server.Network;
-using Server.Items;
-using Server.Targeting;
-using Server.Spells.Necromancy;
-using Server.Spells.Fourth;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Fourth;
 
-namespace Server.Spells.Chivalry
+namespace RunUO.Spells.Chivalry
 {
 	public class RemoveCurseSpell : PaladinSpell
 	{

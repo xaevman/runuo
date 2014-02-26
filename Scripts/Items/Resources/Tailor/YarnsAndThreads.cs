@@ -1,8 +1,8 @@
 using System;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseClothMaterial : Item, IDyable
 	{

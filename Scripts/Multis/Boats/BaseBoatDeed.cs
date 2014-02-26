@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Regions;
-using Server.Targeting;
-using Server.Engines.CannedEvil;
-using Server.Network;
+using RunUO;
+using RunUO.Regions;
+using RunUO.Targeting;
+using RunUO.Engines.CannedEvil;
+using RunUO.Network;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public abstract class BaseBoatDeed : Item
 	{

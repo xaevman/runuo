@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server.Items;
-using Server.Network;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "an overseer's corpse" )]
 	public class ExodusOverseer : BaseCreature

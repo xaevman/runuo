@@ -1,14 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Network;
-using Server.Targeting;
-using Server.Spells;
-using Server.Mobiles;
-using Server.Misc;
+using RunUO;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Spells;
+using RunUO.Mobiles;
+using RunUO.Misc;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseConfusionBlastPotion : BasePotion
 	{

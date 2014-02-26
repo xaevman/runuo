@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Guilds;
-using Server.Mobiles;
-using Server.Network;
-using Server.Factions;
+using RunUO;
+using RunUO.Guilds;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Factions;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class GuildChangeTypeGump : Gump
 	{

@@ -4,21 +4,21 @@ using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net;
-using Server;
-using Server.Accounting;
-using Server.Mobiles;
-using Server.Items;
-using Server.Menus;
-using Server.Menus.Questions;
-using Server.Menus.ItemLists;
-using Server.Network;
-using Server.Spells;
-using Server.Targeting;
-using Server.Targets;
-using Server.Gumps;
-using Server.Commands.Generic;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Menus;
+using RunUO.Menus.Questions;
+using RunUO.Menus.ItemLists;
+using RunUO.Network;
+using RunUO.Spells;
+using RunUO.Targeting;
+using RunUO.Targets;
+using RunUO.Gumps;
+using RunUO.Commands.Generic;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class CommandHandlers
 	{
@@ -1013,6 +1013,71 @@ namespace Server.Commands
 			e.Mobile.SendMessage( "Open Connections: {0}", Network.NetState.Instances.Count );
 			e.Mobile.SendMessage( "Mobiles: {0}", World.Mobiles.Count );
 			e.Mobile.SendMessage( "Items: {0}", World.Items.Count );
+		}
+	}
+
+	public class MoveTarget : Target
+	{
+		private object m_Object;
+
+		public MoveTarget(object o)
+			: base(-1, true, TargetFlags.None)
+		{
+			m_Object = o;
+		}
+
+		protected override void OnTarget(Mobile from, object o)
+		{
+			IPoint3D p = o as IPoint3D;
+
+			if (p != null)
+			{
+				if (!BaseCommand.IsAccessible(from, m_Object))
+				{
+					from.SendMessage("That is not accessible.");
+					return;
+				}
+
+				if (p is Item)
+					p = ((Item)p).GetWorldTop();
+
+				CommandLogging.WriteLine(from, "{0} {1} moving {2} to {3}", from.AccessLevel, CommandLogging.Format(from), CommandLogging.Format(m_Object), new Point3D(p));
+
+				if (m_Object is Item)
+				{
+					Item item = (Item)m_Object;
+
+					if (!item.Deleted)
+						item.MoveToWorld(new Point3D(p), from.Map);
+				}
+				else if (m_Object is Mobile)
+				{
+					Mobile m = (Mobile)m_Object;
+
+					if (!m.Deleted)
+						m.MoveToWorld(new Point3D(p), from.Map);
+				}
+			}
+		}
+	}
+
+	public class PickMoveTarget : Target
+	{
+		public PickMoveTarget()
+			: base(-1, false, TargetFlags.None)
+		{
+		}
+
+		protected override void OnTarget(Mobile from, object o)
+		{
+			if (!BaseCommand.IsAccessible(from, o))
+			{
+				from.SendMessage("That is not accessible.");
+				return;
+			}
+
+			if (o is Item || o is Mobile)
+				from.Target = new MoveTarget(o);
 		}
 	}
 }

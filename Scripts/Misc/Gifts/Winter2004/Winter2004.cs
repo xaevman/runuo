@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public class WinterGiftGiver2004 : GiftGiver
 	{

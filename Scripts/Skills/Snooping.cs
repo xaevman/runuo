@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Misc;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Regions;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Regions;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class Snooping
 	{

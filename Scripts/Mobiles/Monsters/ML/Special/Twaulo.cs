@@ -1,12 +1,12 @@
 using System;
-using Server;
+using RunUO;
 using System.Collections;
-using Server.Items;
-using Server.Targeting;
+using RunUO.Items;
+using RunUO.Targeting;
 using System.Collections.Generic;
-using Server.Engines.CannedEvil;
+using RunUO.Engines.CannedEvil;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName("a corpse of Twaulo")]
 	public class Twaulo : BaseChampion

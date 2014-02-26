@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class Ankhs
 	{

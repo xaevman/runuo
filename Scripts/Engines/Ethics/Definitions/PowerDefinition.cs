@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Server.Ethics
+namespace RunUO.Ethics
 {
 	public class PowerDefinition
 	{

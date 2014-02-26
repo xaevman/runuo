@@ -1,16 +1,16 @@
 using System;
 using System.Text;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Network;
-using Server.ContextMenus;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.ContextMenus;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 using System.Collections.Generic;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public enum TournamentStage
 	{

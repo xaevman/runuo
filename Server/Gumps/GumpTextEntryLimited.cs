@@ -19,9 +19,9 @@
  ***************************************************************************/
 
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Gumps {
+namespace RunUO.Gumps {
 	public class GumpTextEntryLimited : GumpEntry {
 		private int m_X, m_Y;
 		private int m_Width, m_Height;

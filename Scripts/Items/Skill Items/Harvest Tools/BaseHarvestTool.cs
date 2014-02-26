@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Server.Mobiles;
-using Server.Network;
-using Server.Engines.Craft;
-using Server.Engines.Harvest;
-using Server.ContextMenus;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Engines.Craft;
+using RunUO.Engines.Harvest;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public interface IUsesRemaining
 	{

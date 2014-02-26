@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server.Targeting;
-using Server.Network;
-using Server.Misc;
-using Server.Items;
-using Server.Mobiles;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Spells.Fourth
+namespace RunUO.Spells.Fourth
 {
 	public class FireFieldSpell : MagerySpell
 	{

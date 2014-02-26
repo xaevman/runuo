@@ -1,16 +1,16 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Spells;
-using Server.Spells.Fifth;
-using Server.Spells.Seventh;
-using Server.Spells.Necromancy;
-using Server.Mobiles;
-using Server.Network;
-using Server.SkillHandlers;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Spells;
+using RunUO.Spells.Fifth;
+using RunUO.Spells.Seventh;
+using RunUO.Spells.Necromancy;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.SkillHandlers;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class DisguiseKit : Item
 	{

@@ -1,12 +1,12 @@
 using System;
 using System.Globalization;
-using Server;
-using Server.Gumps;
-using Server.Mobiles;
-using Server.Multis;
-using Server.Targets;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Mobiles;
+using RunUO.Multis;
+using RunUO.Targets;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class CharacterStatuePlinth : Static, IAddon
 	{

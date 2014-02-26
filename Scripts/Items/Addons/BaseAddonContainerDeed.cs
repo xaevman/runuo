@@ -1,11 +1,11 @@
 using System;
 
-using Server;
-using Server.Multis;
-using Server.Targeting;
-using Server.Engines.Craft;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Targeting;
+using RunUO.Engines.Craft;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x14F0, 0x14EF )]
 	public abstract class BaseAddonContainerDeed : Item, ICraftable
@@ -125,7 +125,7 @@ namespace Server.Items
 					BaseAddonContainer addon = m_Deed.Addon;
 					addon.Resource = m_Deed.Resource;
 
-					Server.Spells.SpellHelper.GetSurfaceTop( ref p );
+					RunUO.Spells.SpellHelper.GetSurfaceTop( ref p );
 
 					BaseHouse house = null;
 

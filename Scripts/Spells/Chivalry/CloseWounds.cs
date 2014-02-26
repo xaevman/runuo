@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server.Network;
-using Server.Items;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server.Spells.Chivalry
+namespace RunUO.Spells.Chivalry
 {
 	public class CloseWoundsSpell : PaladinSpell
 	{
@@ -60,7 +60,7 @@ namespace Server.Spells.Chivalry
 			{
 				Caster.SendLocalizedMessage( 500955 ); // That being is not damaged!
 			}
-			else if ( m.Poisoned || Server.Items.MortalStrike.IsWounded( m ) )
+			else if ( m.Poisoned || RunUO.Items.MortalStrike.IsWounded( m ) )
 			{
 				Caster.LocalOverheadMessage( MessageType.Regular, 0x3B2, (Caster == m) ? 1005000 : 1010398 );
 			}

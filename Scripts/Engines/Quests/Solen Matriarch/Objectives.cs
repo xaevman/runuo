@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Items;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Items;
 
-namespace Server.Engines.Quests.Matriarch
+namespace RunUO.Engines.Quests.Matriarch
 {
 	public class KillInfiltratorsObjective : QuestObjective
 	{

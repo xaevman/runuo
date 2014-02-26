@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Spells;
-using Server.ContextMenus;
+using RunUO.Spells;
+using RunUO.ContextMenus;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class SpellScroll : Item, ICommodity
 	{

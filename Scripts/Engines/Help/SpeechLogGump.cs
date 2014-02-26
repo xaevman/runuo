@@ -2,12 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using Server;
-using Server.Gumps;
-using Server.Accounting;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Accounting;
+using RunUO.Network;
 
-namespace Server.Engines.Help
+namespace RunUO.Engines.Help
 {
 	public class SpeechLogGump : Gump
 	{

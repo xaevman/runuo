@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Spells;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Spells;
+using RunUO.Network;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	class SpiritSpeak
 	{

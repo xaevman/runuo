@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
-using Server.Targeting;
-using Server.Factions;
-using Server.Commands;
+using RunUO;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Factions;
+using RunUO.Commands;
 using System.Collections.Generic;
 
-namespace Server.Engines.PartySystem
+namespace RunUO.Engines.PartySystem
 {
 	public class Party : IParty
 	{

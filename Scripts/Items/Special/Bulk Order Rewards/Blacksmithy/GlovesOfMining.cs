@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0x13c6, 0x13ce )]
 	public class LeatherGlovesOfMining : BaseGlovesOfMining

@@ -1,8 +1,8 @@
 using System;
-using Server.Mobiles;
-using Server.Engines.PartySystem;
+using RunUO.Mobiles;
+using RunUO.Engines.PartySystem;
 
-namespace Server.ContextMenus
+namespace RunUO.ContextMenus
 {
 	public class AddToPartyEntry : ContextMenuEntry
 	{

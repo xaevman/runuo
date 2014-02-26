@@ -1,12 +1,12 @@
 using System;
-using Server;
+using RunUO;
 
 /*
  * Simply add this box with param true to create the entire valentine's 2007 package.
  * Adding it with no params or false will create an empty box.
  */
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class RedVelvetGiftBox : BaseContainer
 	{

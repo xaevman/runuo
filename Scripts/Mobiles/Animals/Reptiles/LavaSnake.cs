@@ -1,8 +1,8 @@
 using System;
-using Server.Items;
-using Server.Mobiles;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName("a lava snake corpse")]
 	[TypeAlias( "Server.Mobiles.Lavasnake" )]

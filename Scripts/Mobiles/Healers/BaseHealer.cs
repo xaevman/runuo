@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Misc;
-using Server.Items;
-using Server.Gumps;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Gumps;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public abstract class BaseHealer : BaseVendor
 	{

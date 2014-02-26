@@ -1,7 +1,7 @@
 using System;
-using Server.Commands;
+using RunUO.Commands;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class SHTeleComponent : AddonComponent
 	{
@@ -92,7 +92,7 @@ namespace Server.Items
 				Map map = m_TeleDest.Map;
 				Point3D p = m_TeleDest.TelePoint;
 
-				Server.Mobiles.BaseCreature.TeleportPets( m, p, map );
+				RunUO.Mobiles.BaseCreature.TeleportPets( m, p, map );
 
 				m.MoveToWorld( p, map );
 			}

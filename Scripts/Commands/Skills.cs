@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Targeting;
+using RunUO;
+using RunUO.Targeting;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class SkillsCommand
 	{
@@ -86,7 +86,7 @@ namespace Server.Commands
 				if ( targeted is Mobile )
 				{
 					Mobile targ = (Mobile)targeted;
-					Server.Skills skills = targ.Skills;
+					RunUO.Skills skills = targ.Skills;
 
 					for ( int i = 0; i < skills.Length; ++i )
 						skills[i].Base = m_Value;

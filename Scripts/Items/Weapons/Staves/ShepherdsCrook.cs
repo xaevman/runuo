@@ -1,11 +1,11 @@
 using System;
-using Server.Network;
-using Server.Items;
-using Server.Targeting;
-using Server.Mobiles;
-using Server.Engines.CannedEvil;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Mobiles;
+using RunUO.Engines.CannedEvil;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[FlipableAttribute( 0xE81, 0xE82 )]
 	public class ShepherdsCrook : BaseStaff

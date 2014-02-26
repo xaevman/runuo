@@ -1,12 +1,12 @@
 using System;
-using Server.Mobiles;
-using Server.Network;
-using Server.Prompts;
-using Server.Items;
-using Server.Targeting;
-using Server.Gumps;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Prompts;
+using RunUO.Items;
+using RunUO.Targeting;
+using RunUO.Gumps;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class HairRestylingDeed : Item
 	{

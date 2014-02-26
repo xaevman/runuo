@@ -19,9 +19,9 @@
  ***************************************************************************/
 
 using System;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server.Targeting
+namespace RunUO.Targeting
 {
 	public abstract class Target
 	{

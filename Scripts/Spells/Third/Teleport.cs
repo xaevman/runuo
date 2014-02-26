@@ -1,10 +1,10 @@
 using System;
-using Server.Targeting;
-using Server.Network;
-using Server.Regions;
-using Server.Items;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Regions;
+using RunUO.Items;
 
-namespace Server.Spells.Third
+namespace RunUO.Spells.Third
 {
 	public class TeleportSpell : MagerySpell
 	{
@@ -29,7 +29,7 @@ namespace Server.Spells.Third
 				Caster.SendLocalizedMessage( 1061632 ); // You can't do that while carrying the sigil.
 				return false;
 			}
-			else if ( Server.Misc.WeightOverloading.IsOverloaded( Caster ) )
+			else if ( RunUO.Misc.WeightOverloading.IsOverloaded( Caster ) )
 			{
 				Caster.SendLocalizedMessage( 502359, "", 0x22 ); // Thou art too encumbered to move.
 				return false;
@@ -57,7 +57,7 @@ namespace Server.Spells.Third
 			{
 				Caster.SendLocalizedMessage( 1061632 ); // You can't do that while carrying the sigil.
 			}
-			else if ( Server.Misc.WeightOverloading.IsOverloaded( Caster ) )
+			else if ( RunUO.Misc.WeightOverloading.IsOverloaded( Caster ) )
 			{
 				Caster.SendLocalizedMessage( 502359, "", 0x22 ); // Thou art too encumbered to move.
 			}
@@ -104,7 +104,7 @@ namespace Server.Spells.Third
 
 				foreach ( Item item in eable )
 				{
-					if ( item is Server.Spells.Sixth.ParalyzeFieldSpell.InternalItem || item is Server.Spells.Fifth.PoisonFieldSpell.InternalItem || item is Server.Spells.Fourth.FireFieldSpell.FireFieldItem )
+					if ( item is RunUO.Spells.Sixth.ParalyzeFieldSpell.InternalItem || item is RunUO.Spells.Fifth.PoisonFieldSpell.InternalItem || item is RunUO.Spells.Fourth.FireFieldSpell.FireFieldItem )
 						item.OnMoveOver( m );
 				}
 

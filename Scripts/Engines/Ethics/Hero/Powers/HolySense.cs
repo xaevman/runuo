@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Server.Ethics.Hero
+namespace RunUO.Ethics.Hero
 {
 	public sealed class HolySense : Power
 	{
@@ -86,7 +86,7 @@ namespace Server.Ethics.Hero
 				sb.Append( '.' );
 			}
 
-			from.Mobile.LocalOverheadMessage( Server.Network.MessageType.Regular, 0x59, false, sb.ToString() );
+			from.Mobile.LocalOverheadMessage( RunUO.Network.MessageType.Regular, 0x59, false, sb.ToString() );
 
 			FinishInvoke( from );
 		}

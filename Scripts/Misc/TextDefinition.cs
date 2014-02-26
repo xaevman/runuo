@@ -1,10 +1,10 @@
 using System;
 using System.Globalization;
-using Server;
-using Server.Gumps;
-using Server.Network;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
 
-namespace Server
+namespace RunUO
 {
 	[Parsable]
 	public class TextDefinition

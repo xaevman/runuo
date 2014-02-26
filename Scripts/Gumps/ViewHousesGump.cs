@@ -1,14 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Multis;
-using Server.Targeting;
-using Server.Accounting;
-using Server.Commands;
+using RunUO;
+using RunUO.Items;
+using RunUO.Multis;
+using RunUO.Targeting;
+using RunUO.Accounting;
+using RunUO.Commands;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class ViewHousesGump : Gump
 	{
@@ -186,7 +186,7 @@ namespace Server.Gumps
 			}
 		}
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			if ( m_Selection == null )
 			{

@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Targeting;
-using Server.Items;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Items;
 
-namespace Server.Engines.Craft
+namespace RunUO.Engines.Craft
 {
 	public enum EnhanceResult
 	{

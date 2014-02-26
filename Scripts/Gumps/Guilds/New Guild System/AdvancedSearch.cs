@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Mobiles;
 
-namespace Server.Guilds
+namespace RunUO.Guilds
 {
 	public delegate void SearchSelectionCallback( GuildDisplayType display );
 

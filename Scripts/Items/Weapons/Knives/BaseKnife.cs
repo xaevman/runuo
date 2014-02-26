@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Targets;
+using RunUO;
+using RunUO.Items;
+using RunUO.Targets;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public abstract class BaseKnife : BaseMeleeWeapon
 	{

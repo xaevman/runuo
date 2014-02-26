@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server.Network;
-using Server.Items;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO.Network;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server.Spells.Ninjitsu
+namespace RunUO.Spells.Ninjitsu
 {
 	public class KiAttack : NinjaMove
 	{

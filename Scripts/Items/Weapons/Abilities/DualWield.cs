@@ -1,9 +1,9 @@
 
 using System;
-using Server;
+using RunUO;
 using System.Collections;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// Attack faster as you swing with both weapons.

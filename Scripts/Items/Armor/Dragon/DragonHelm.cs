@@ -1,7 +1,7 @@
 using System;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x2645, 0x2646 )]
 	public class DragonHelm : BaseArmor

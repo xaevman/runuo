@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Network;
-using Server.Targets;
-using Server.Spells;
-using Server.Spells.Seventh;
+using RunUO;
+using RunUO.Network;
+using RunUO.Targets;
+using RunUO.Spells;
+using RunUO.Spells.Seventh;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class PolymorphEntry
 	{

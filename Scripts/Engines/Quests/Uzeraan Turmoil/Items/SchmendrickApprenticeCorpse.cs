@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Engines.Quests;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Engines.Quests;
 
-namespace Server.Engines.Quests.Haven
+namespace RunUO.Engines.Quests.Haven
 {
 	public class SchmendrickApprenticeCorpse : Corpse
 	{
@@ -115,7 +115,7 @@ namespace Server.Engines.Quests.Haven
 
 		public override void OnSingleClick( Mobile from )
 		{
-			int hue = Notoriety.GetHue( Server.Misc.NotorietyHandlers.CorpseNotoriety( from, this ) );
+			int hue = Notoriety.GetHue( RunUO.Misc.NotorietyHandlers.CorpseNotoriety( from, this ) );
 
 			if ( ItemID == 0x2006 ) // Corpse form
 				from.Send( new MessageLocalized( Serial, ItemID, MessageType.Label, hue, 3, 1049144, "", Name ) ); // the remains of ~1_NAME~ the apprentice

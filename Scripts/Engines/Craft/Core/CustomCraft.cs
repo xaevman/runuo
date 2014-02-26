@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Engines.Craft
+namespace RunUO.Engines.Craft
 {
 	public abstract class CustomCraft
 	{

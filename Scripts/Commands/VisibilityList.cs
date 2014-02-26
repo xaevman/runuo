@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Network;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Network;
 using System.Collections.Generic;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class VisibilityList
 	{

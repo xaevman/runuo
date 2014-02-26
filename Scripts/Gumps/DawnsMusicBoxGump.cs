@@ -1,9 +1,9 @@
 ﻿using System;
-using Server;
-using Server.Network;
-using Server.Items;
+using RunUO;
+using RunUO.Network;
+using RunUO.Items;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class DawnsMusicBoxGump : Gump
 	{

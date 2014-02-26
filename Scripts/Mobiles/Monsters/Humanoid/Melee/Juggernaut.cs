@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Misc;
-using Server.Items;
-using Server.Network;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a juggernaut corpse" )]
 	public class Juggernaut : BaseCreature

@@ -1,8 +1,8 @@
 using System;
-using Server.Targeting;
-using Server.Network;
+using RunUO.Targeting;
+using RunUO.Network;
 
-namespace Server.Spells.Third
+namespace RunUO.Spells.Third
 {
 	public class FireballSpell : MagerySpell
 	{

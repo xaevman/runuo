@@ -25,11 +25,11 @@ using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-using Server;
-using Server.Diagnostics;
-using Server.Network;
+using RunUO;
+using RunUO.Diagnostics;
+using RunUO.Network;
 
-namespace Server.Network
+namespace RunUO.Network
 {
 	public class MessagePump
 	{

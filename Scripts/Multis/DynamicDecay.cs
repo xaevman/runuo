@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Multis
+namespace RunUO.Multis
 {
 	public class DynamicDecay
 	{

@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Multis;
-using Server.Network;
-using Server.ContextMenus;
-using Server.Engines.PartySystem;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Multis;
+using RunUO.Network;
+using RunUO.ContextMenus;
+using RunUO.Engines.PartySystem;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable]
 	public class ParagonChest : LockableContainer

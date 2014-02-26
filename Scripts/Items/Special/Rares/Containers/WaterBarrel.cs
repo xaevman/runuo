@@ -1,4 +1,4 @@
-﻿namespace Server.Items
+﻿namespace RunUO.Items
 {
 	class WaterBarrel : BaseWaterContainer
 	{

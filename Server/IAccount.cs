@@ -20,7 +20,7 @@
 
 using System;
 
-namespace Server.Accounting
+namespace RunUO.Accounting
 {
 	public interface IAccount : IComparable<IAccount>
 	{

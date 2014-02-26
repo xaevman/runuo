@@ -1,11 +1,11 @@
 using System;
-using Server.Network;
-using Server.Prompts;
-using Server.Guilds;
-using Server.Multis;
-using Server.Regions;
+using RunUO.Network;
+using RunUO.Prompts;
+using RunUO.Guilds;
+using RunUO.Multis;
+using RunUO.Regions;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class GuildTeleporter : Item
 	{

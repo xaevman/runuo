@@ -6,13 +6,15 @@ using System.Security;
 using System.Security.Cryptography;
 using System.Text;
 using System.Xml;
-using Server;
-using Server.Misc;
-using Server.Mobiles;
-using Server.Multis;
-using Server.Network;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Mobiles;
+using RunUO.Multis;
+using RunUO.Network;
+using RunUO.Security;
+using RunUO.Commands;
 
-namespace Server.Accounting
+namespace RunUO.Accounting
 {
 	public class Account : IAccount, IComparable, IComparable<Account>
 	{
@@ -796,10 +798,6 @@ namespace Server.Accounting
 			Mobile[] list = new Mobile[7];
 			XmlElement chars = node["chars"];
 
-			//int length = Accounts.GetInt32( Accounts.GetAttribute( chars, "length", "6" ), 6 );
-			//list = new Mobile[length];
-			//Above is legacy, no longer used
-
 			if ( chars != null )
 			{
 				foreach ( XmlElement ele in chars.GetElementsByTagName( "char" ) )
@@ -880,7 +878,7 @@ namespace Server.Accounting
 		}
 
 		public bool HasAccess( IPAddress ipAddress ) {
-			AccessLevel level = Misc.AccountHandler.LockdownLevel;
+			AccessLevel level = AccountHandler.LockdownLevel;
 
 			if ( level > AccessLevel.Player )
 			{

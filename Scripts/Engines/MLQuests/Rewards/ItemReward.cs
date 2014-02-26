@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Server.Engines.MLQuests.Items;
-using Server.Mobiles;
+using RunUO.Engines.MLQuests.Items;
+using RunUO.Mobiles;
 
-namespace Server.Engines.MLQuests.Rewards
+namespace RunUO.Engines.MLQuests.Rewards
 {
 	public class ItemReward : BaseReward
 	{

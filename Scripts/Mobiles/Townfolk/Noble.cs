@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Items;
-using EDI = Server.Mobiles.EscortDestinationInfo;
+using RunUO;
+using RunUO.Items;
+using EDI = RunUO.Mobiles.EscortDestinationInfo;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Noble : BaseEscortable
 	{

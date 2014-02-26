@@ -1,8 +1,8 @@
 using System;
-using Server.Items;
-using Server.Engines.MLQuests.Items;
+using RunUO.Items;
+using RunUO.Engines.MLQuests.Items;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class BoneMachete : ElvenMachete, ITicket
 	{

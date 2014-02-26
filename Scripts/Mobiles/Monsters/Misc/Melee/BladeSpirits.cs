@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server.Misc;
-using Server.Items;
+using RunUO.Misc;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a blade spirit corpse" )]
 	public class BladeSpirits : BaseCreature

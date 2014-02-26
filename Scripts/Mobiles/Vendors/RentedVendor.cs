@@ -1,14 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Gumps;
-using Server.Misc;
-using Server.Multis;
-using Server.ContextMenus;
-using Server.Prompts;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Misc;
+using RunUO.Multis;
+using RunUO.ContextMenus;
+using RunUO.Prompts;
+using RunUO.Accounting;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class VendorRentalDuration
 	{

@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
+using RunUO;
+using RunUO.Items;
 
-namespace Server.Engines.CannedEvil
+namespace RunUO.Engines.CannedEvil
 {
 	public class ChampionPlatform : BaseAddon
 	{

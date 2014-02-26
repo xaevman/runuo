@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 
-using Server.ContextMenus;
-using Server.Regions;
-using Server.Items;
+using RunUO.ContextMenus;
+using RunUO.Regions;
+using RunUO.Items;
 
-using BunnyHole = Server.Mobiles.VorpalBunny.BunnyHole;
+using BunnyHole = RunUO.Mobiles.VorpalBunny.BunnyHole;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class BaseTalismanSummon : BaseCreature
 	{

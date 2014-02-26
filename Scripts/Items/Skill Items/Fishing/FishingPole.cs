@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server.Targeting;
-using Server.Items;
-using Server.Engines.Harvest;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Engines.Harvest;
 using System.Collections.Generic;
-using Server.ContextMenus;
-using Server.Network;
+using RunUO.ContextMenus;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class FishingPole : Item
 	{

@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Engines.MLQuests;
-using Server.Engines.MLQuests.Items;
-using Server.Engines.MLQuests.Objectives;
-using Server.Engines.MLQuests.Rewards;
+using RunUO;
+using RunUO.Engines.MLQuests;
+using RunUO.Engines.MLQuests.Items;
+using RunUO.Engines.MLQuests.Objectives;
+using RunUO.Engines.MLQuests.Rewards;
 
-namespace Server.Engines.MLQuests.Definitions
+namespace RunUO.Engines.MLQuests.Definitions
 {
 	// TODO: Assassination Contract, Evidence, Lost in Transit, Last Words
 

@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Engines.MLQuests.Items
+namespace RunUO.Engines.MLQuests.Items
 {
 	public abstract class QuestGiverItem : Item, IQuestGiver
 	{

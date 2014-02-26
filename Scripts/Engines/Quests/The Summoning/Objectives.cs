@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
 using System.Collections.Generic;
 
-namespace Server.Engines.Quests.Doom
+namespace RunUO.Engines.Quests.Doom
 {
 	public class CollectBonesObjective : QuestObjective
 	{

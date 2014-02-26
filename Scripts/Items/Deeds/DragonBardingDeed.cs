@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Engines.Craft;
-namespace Server.Items
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Engines.Craft;
+namespace RunUO.Items
 {
 	[TypeAlias( "Server.Items.DragonBarding" )]
 	public class DragonBardingDeed : Item, ICraftable

@@ -1,10 +1,10 @@
 using System;
-using Server.Gumps;
-using Server.Misc;
-using Server.Network;
-using Server.Prompts;
+using RunUO.Gumps;
+using RunUO.Misc;
+using RunUO.Network;
+using RunUO.Prompts;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class NameChangeDeed : Item
 	{

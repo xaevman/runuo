@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server.Misc;
-using Server.Items;
-using Server.Mobiles;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public abstract class BaseGuard : Mobile
 	{

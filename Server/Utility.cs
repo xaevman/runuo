@@ -29,9 +29,9 @@ using System.Reflection;
 using System.Text;
 using System.Xml;
 using Microsoft.Win32;
-using Server.Network;
+using RunUO.Network;
 
-namespace Server
+namespace RunUO
 {
 	public static class Utility
 	{

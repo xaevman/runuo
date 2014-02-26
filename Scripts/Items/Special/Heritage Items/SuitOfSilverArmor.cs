@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x3D86, 0x3D87 )]
 	public class SuitOfSilverArmorComponent : AddonComponent

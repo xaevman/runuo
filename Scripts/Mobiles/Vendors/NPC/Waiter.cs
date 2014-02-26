@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Waiter : BaseVendor
 	{
@@ -24,7 +24,7 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.HalfApron() );
+			AddItem( new RunUO.Items.HalfApron() );
 		}
 
 		public Waiter( Serial serial ) : base( serial )

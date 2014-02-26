@@ -1,10 +1,10 @@
 using System;
 using System.Text;
-using Server.Items;
-using Server.Mobiles;
-using Server.Engines.MLQuests;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Engines.MLQuests;
 
-namespace Server.Spells.Spellweaving
+namespace RunUO.Spells.Spellweaving
 {
 	public abstract class ArcanistSpell : Spell
 	{

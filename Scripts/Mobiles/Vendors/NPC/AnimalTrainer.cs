@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.ContextMenus;
-using Server.Gumps;
-using Server.Items;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.ContextMenus;
+using RunUO.Gumps;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class AnimalTrainer : BaseVendor
 	{

@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public class IPAddressCommandImplementor : BaseCommandImplementor
 	{

@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
-using Server;
-using Server.Items;
-using Server.Network;
-using Server.Targeting;
-using CPA = Server.CommandPropertyAttribute;
+using RunUO;
+using RunUO.Items;
+using RunUO.Network;
+using RunUO.Targeting;
+using CPA = RunUO.CommandPropertyAttribute;
 
-namespace Server.Commands
+namespace RunUO.Commands
 {
 	public class Add
 	{

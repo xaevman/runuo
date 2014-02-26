@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
 using System.IO;
-using Server.Mobiles;
-using Server.Items;
-using Server.Commands;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Commands;
 
 // Version 0.8
 
-namespace Server
+namespace RunUO
 {
 	public class UOAMVendorGenerator
 	{

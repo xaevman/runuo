@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Network;
-using Server.Targeting;
-using Server.Spells;
+using RunUO;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Spells;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class FireHorn : Item
 	{

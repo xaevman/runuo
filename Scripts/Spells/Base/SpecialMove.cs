@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Network;
-using Server.Spells.Ninjitsu;
-using Server.Spells.Bushido;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Spells.Ninjitsu;
+using RunUO.Spells.Bushido;
 
-namespace Server.Spells
+namespace RunUO.Spells
 {
 	public abstract class SpecialMove
 	{
@@ -89,7 +89,7 @@ namespace Server.Spells
 		{
 			double scalar = 1.0;
 
-			if ( !Server.Spells.Necromancy.MindRotSpell.GetMindRotScalar( m, ref scalar ) )
+			if ( !RunUO.Spells.Necromancy.MindRotSpell.GetMindRotScalar( m, ref scalar ) )
 				scalar = 1.0;
 
 			// Lower Mana Cost = 40%

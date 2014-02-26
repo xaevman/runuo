@@ -1,18 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.ContextMenus;
-using Server.Engines.PartySystem;
-using Server.Engines.Quests;
-using Server.Engines.Quests.Doom;
-using Server.Engines.Quests.Haven;
-using Server.Guilds;
-using Server.Misc;
-using Server.Mobiles;
-using Server.Network;
+using RunUO;
+using RunUO.ContextMenus;
+using RunUO.Engines.PartySystem;
+using RunUO.Engines.Quests;
+using RunUO.Engines.Quests.Doom;
+using RunUO.Engines.Quests.Haven;
+using RunUO.Guilds;
+using RunUO.Misc;
+using RunUO.Mobiles;
+using RunUO.Network;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public interface IDevourer
 	{

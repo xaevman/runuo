@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Targeting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Engines.Harvest
+namespace RunUO.Engines.Harvest
 {
 	public abstract class HarvestSystem
 	{
@@ -484,7 +484,7 @@ namespace Server.Engines.Harvest
 	}
 }
 
-namespace Server
+namespace RunUO
 {
 	public interface IChopable
 	{

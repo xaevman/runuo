@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// This devastating strike is most effective against those who are in good health and whose reserves of mana are low, or vice versa.

@@ -1,14 +1,14 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Items;
-using Server.Multis;
-using Server.Spells;
-using Server.Spells.Sixth;
-using Server.Guilds;
-using Server.Gumps;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Items;
+using RunUO.Multis;
+using RunUO.Spells;
+using RunUO.Spells.Sixth;
+using RunUO.Guilds;
+using RunUO.Gumps;
 
-namespace Server.Regions
+namespace RunUO.Regions
 {
 	public class HouseRegion : BaseRegion
 	{

@@ -1,9 +1,9 @@
 using System;
-using Server.Targeting;
-using Server.Items;
-using Server.Network;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Network;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	public class Poisoning
 	{

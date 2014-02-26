@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	/// <summary>
 	/// Does damage and paralyses your opponent for a short time.
@@ -43,7 +43,7 @@ namespace Server.Items
 
 			ClearCurrentAbility( attacker );
 
-			bool cantpara = Server.Items.ParalyzingBlow.IsImmune(defender);
+			bool cantpara = RunUO.Items.ParalyzingBlow.IsImmune(defender);
 
 			if ( cantpara )
 			{
@@ -67,14 +67,14 @@ namespace Server.Items
 				if (!cantpara && ((150.0 / 7.0 + (4.0 * attacker.Skills[SkillName.Bushido].Value) / 7.0) / 100.0) > Utility.RandomDouble())
 				{
 					defender.Paralyze( TimeSpan.FromSeconds( 2.0 ) );
-					Server.Items.ParalyzingBlow.BeginImmunity( defender, Server.Items.ParalyzingBlow.FreezeDelayDuration );				
+					RunUO.Items.ParalyzingBlow.BeginImmunity( defender, RunUO.Items.ParalyzingBlow.FreezeDelayDuration );				
 				}
 			}
 			else if( !cantpara )
 			{
 				AOS.Damage( defender, attacker, (int)(15.0 * (attacker.Skills[SkillName.Bushido].Value - 50.0) / 70.0 + 10), true, 100, 0, 0, 0, 0 ); //10-25
 				defender.Freeze(TimeSpan.FromSeconds(2.0));
-				Server.Items.ParalyzingBlow.BeginImmunity(defender, Server.Items.ParalyzingBlow.FreezeDelayDuration);
+				RunUO.Items.ParalyzingBlow.BeginImmunity(defender, RunUO.Items.ParalyzingBlow.FreezeDelayDuration);
 			}
 		}
 	}

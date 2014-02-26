@@ -1,7 +1,7 @@
 using System;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.SkillHandlers
+namespace RunUO.SkillHandlers
 {
 	class Meditation
 	{
@@ -49,7 +49,7 @@ namespace Server.SkillHandlers
 
 				return TimeSpan.FromSeconds( Core.AOS ? 10.0 : 5.0 );
 			}
-			else if ( Core.AOS && Server.Misc.RegenRates.GetArmorOffset( m ) > 0 )
+			else if ( Core.AOS && RunUO.Misc.RegenRates.GetArmorOffset( m ) > 0 )
 			{
 				m.SendLocalizedMessage( 500135 ); // Regenative forces cannot penetrate your armor!
 

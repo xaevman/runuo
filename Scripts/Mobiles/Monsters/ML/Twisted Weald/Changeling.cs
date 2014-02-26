@@ -1,15 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Misc;
-using Server.Spells;
-using Server.Spells.Third;
-using Server.Spells.Sixth;
-using Server.Items;
-using Server.Targeting;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Spells;
+using RunUO.Spells.Third;
+using RunUO.Spells.Sixth;
+using RunUO.Items;
+using RunUO.Targeting;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a changeling corpse" )]
 	public class Changeling : BaseCreature

@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Guilds;
-using Server.Network;
-using Server.Prompts;
-using Server.Targeting;
+using RunUO;
+using RunUO.Guilds;
+using RunUO.Network;
+using RunUO.Prompts;
+using RunUO.Targeting;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class GuildGump : Gump
 	{

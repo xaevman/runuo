@@ -1,8 +1,8 @@
 using System;
-using Server.Mobiles;
-using Server.Items;
+using RunUO.Mobiles;
+using RunUO.Items;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a vorpal bunny corpse" )]
 	public class VorpalBunny : BaseCreature

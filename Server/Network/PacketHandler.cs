@@ -20,7 +20,7 @@
 
 using System;
 
-namespace Server.Network
+namespace RunUO.Network
 {
 	public delegate void OnPacketReceive( NetState state, PacketReader pvSrc );
 	public delegate bool ThrottlePacketCallback( NetState state );

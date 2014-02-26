@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Engines.Craft;
+using RunUO;
+using RunUO.Engines.Craft;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum PotionEffect
 	{

@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
-using Server.Misc;
-using Server.Items;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class WarriorGuard : BaseGuard
 	{

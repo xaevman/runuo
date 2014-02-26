@@ -1,8 +1,8 @@
 using System;
-using Server.Network;
-using Server.Prompts;
+using RunUO.Network;
+using RunUO.Prompts;
 
-namespace Server.Engines.Help
+namespace RunUO.Engines.Help
 {
 	public class PagePrompt : Prompt
 	{

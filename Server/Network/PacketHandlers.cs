@@ -23,20 +23,20 @@ using System.Text;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
-using Server.Accounting;
-using Server.Gumps;
-using Server.Targeting;
-using Server.Items;
-using Server.Menus;
-using Server.Mobiles;
-using Server.Movement;
-using Server.Prompts;
-using Server.HuePickers;
-using Server.ContextMenus;
-using Server.Diagnostics;
-using CV = Server.ClientVersion;
+using RunUO.Accounting;
+using RunUO.Gumps;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Menus;
+using RunUO.Mobiles;
+using RunUO.Movement;
+using RunUO.Prompts;
+using RunUO.HuePickers;
+using RunUO.ContextMenus;
+using RunUO.Diagnostics;
+using CV = RunUO.ClientVersion;
 
-namespace Server.Network
+namespace RunUO.Network
 {
 	public enum MessageType
 	{
@@ -2125,7 +2125,7 @@ namespace Server.Network
 				state.Send(new MobileIncoming(m, m));
 				//state.Send( new MobileAttributes( m ) );
 				state.Send(new MobileStatus(m, m));
-				state.Send(Server.Network.SetWarMode.Instantiate(m.Warmode));
+				state.Send(RunUO.Network.SetWarMode.Instantiate(m.Warmode));
 
 				m.SendEverything();
 
@@ -2133,7 +2133,7 @@ namespace Server.Network
 				state.Send(new MobileUpdate(m));
 				//state.Send( new MobileAttributes( m ) );
 				state.Send(new MobileStatus(m, m));
-				state.Send(Server.Network.SetWarMode.Instantiate(m.Warmode));
+				state.Send(RunUO.Network.SetWarMode.Instantiate(m.Warmode));
 				state.Send(new MobileIncoming(m, m));
 			} else if ( state.StygianAbyss ) {
 				state.Send( new MobileUpdate( m ) );
@@ -2146,7 +2146,7 @@ namespace Server.Network
 				state.Send( new MobileIncomingSA( m, m ) );
 				//state.Send( new MobileAttributes( m ) );
 				state.Send( new MobileStatus( m, m ) );
-				state.Send( Server.Network.SetWarMode.Instantiate( m.Warmode ) );
+				state.Send( RunUO.Network.SetWarMode.Instantiate( m.Warmode ) );
 
 				m.SendEverything();
 
@@ -2154,7 +2154,7 @@ namespace Server.Network
 				state.Send( new MobileUpdate( m ) );
 				//state.Send( new MobileAttributes( m ) );
 				state.Send( new MobileStatus( m, m ) );
-				state.Send( Server.Network.SetWarMode.Instantiate( m.Warmode ) );
+				state.Send( RunUO.Network.SetWarMode.Instantiate( m.Warmode ) );
 				state.Send( new MobileIncomingSA( m, m ) );
 			} else {
 				state.Send( new MobileUpdateOld( m ) );
@@ -2167,7 +2167,7 @@ namespace Server.Network
 				state.Send( new MobileIncomingOld( m, m ) );
 				//state.Send( new MobileAttributes( m ) );
 				state.Send( new MobileStatus( m, m ) );
-				state.Send( Server.Network.SetWarMode.Instantiate( m.Warmode ) );
+				state.Send( RunUO.Network.SetWarMode.Instantiate( m.Warmode ) );
 
 				m.SendEverything();
 
@@ -2175,7 +2175,7 @@ namespace Server.Network
 				state.Send( new MobileUpdateOld( m ) );
 				//state.Send( new MobileAttributes( m ) );
 				state.Send( new MobileStatus( m, m ) );
-				state.Send( Server.Network.SetWarMode.Instantiate( m.Warmode ) );
+				state.Send( RunUO.Network.SetWarMode.Instantiate( m.Warmode ) );
 				state.Send( new MobileIncomingOld( m, m ) );
 			}
 

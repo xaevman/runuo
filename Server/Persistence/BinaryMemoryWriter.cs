@@ -23,7 +23,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Server {
+namespace RunUO {
 	public sealed class BinaryMemoryWriter : BinaryFileWriter {
 		private MemoryStream stream;
 

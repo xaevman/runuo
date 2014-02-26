@@ -3,15 +3,15 @@ using System.IO;
 using System.Text;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Misc;
-using Server.Items;
-using Server.Guilds;
-using Server.Mobiles;
-using Server.Accounting;
-using Server.Commands;
+using RunUO;
+using RunUO.Misc;
+using RunUO.Items;
+using RunUO.Guilds;
+using RunUO.Mobiles;
+using RunUO.Accounting;
+using RunUO.Commands;
 
-namespace Server.Engines.MyRunUO
+namespace RunUO.Engines.MyRunUO
 {
 	public class MyRunUO : Timer
 	{

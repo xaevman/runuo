@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Mobiles;
-using Server.Targeting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
+using RunUO.Targeting;
 
-namespace Server.Engines.Harvest
+namespace RunUO.Engines.Harvest
 {
 	public class Mining : HarvestSystem
 	{

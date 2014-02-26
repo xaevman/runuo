@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Server.Gumps;
-using Server.Multis;
+using RunUO.Gumps;
+using RunUO.Multis;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class EnhancedBandage : Bandage
 	{

@@ -1,9 +1,9 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Items
+namespace RunUO.Items
 {
-	[Server.Engines.Craft.Anvil]
+	[RunUO.Engines.Craft.Anvil]
 	public class AnvilComponent : AddonComponent
 	{
 		[Constructable]
@@ -30,7 +30,7 @@ namespace Server.Items
 		}
 	}
 
-	[Server.Engines.Craft.Forge]
+	[RunUO.Engines.Craft.Forge]
 	public class ForgeComponent : AddonComponent
 	{
 		[Constructable]

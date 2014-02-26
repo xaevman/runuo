@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class FactionOreVendor : BaseFactionVendor
 	{

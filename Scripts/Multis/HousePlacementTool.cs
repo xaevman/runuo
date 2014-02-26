@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Gumps;
-using Server.Multis;
-using Server.Mobiles;
-using Server.Regions;
-using Server.Targeting;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Multis;
+using RunUO.Mobiles;
+using RunUO.Regions;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class HousePlacementTool : Item
 	{
@@ -86,7 +86,7 @@ namespace Server.Items
 			AddHtmlLocalized( 45, 80, 200, 20, 1060392, LabelColor, false, false ); // 3-Story Customizable Houses
 		}
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			if ( !m_From.CheckAlive() || m_From.Backpack == null || m_From.Backpack.FindItemByType( typeof( HousePlacementTool ) ) == null  )
 				return;
@@ -194,7 +194,7 @@ namespace Server.Items
 			}
 		}
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			if ( !m_From.CheckAlive() || m_From.Backpack == null || m_From.Backpack.FindItemByType( typeof( HousePlacementTool ) ) == null  )
 				return;

@@ -1,10 +1,10 @@
 using System;
-using Server.Mobiles;
-using Server.Targeting;
-using Server.Network;
-using Server.Spells.Chivalry;
+using RunUO.Mobiles;
+using RunUO.Targeting;
+using RunUO.Network;
+using RunUO.Spells.Chivalry;
 
-namespace Server.Spells.Fifth
+namespace RunUO.Spells.Fifth
 {
 	public class ParalyzeSpell : MagerySpell
 	{

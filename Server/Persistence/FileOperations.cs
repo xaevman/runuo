@@ -29,7 +29,7 @@ using System.Runtime.InteropServices;
 using Microsoft.Win32.SafeHandles;
 #endif
 
-namespace Server {
+namespace RunUO {
 	public static class FileOperations {
 		public const int KB = 1024;
 		public const int MB = 1024 * KB;

@@ -1,7 +1,7 @@
 using System;
-using Server;
+using RunUO;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public delegate void NoticeGumpCallback( Mobile from, object state );
 
@@ -39,7 +39,7 @@ namespace Server.Gumps
 			AddHtmlLocalized( 40, height - 30, 120, 20, 1011036, 32767, false, false ); // OKAY
 		}
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			if ( info.ButtonID == 1 && m_Callback != null )
 				m_Callback( sender.Mobile, m_State );

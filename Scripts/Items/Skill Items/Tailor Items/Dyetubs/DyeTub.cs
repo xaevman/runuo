@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Server;
-using Server.Multis;
-using Server.Targeting;
-using Server.ContextMenus;
-using Server.Gumps;
+using RunUO;
+using RunUO.Multis;
+using RunUO.Targeting;
+using RunUO.ContextMenus;
+using RunUO.Gumps;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public interface IDyable
 	{

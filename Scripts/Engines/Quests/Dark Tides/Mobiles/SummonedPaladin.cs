@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Mobiles;
-using Server.Items;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Items;
 
-namespace Server.Engines.Quests.Necro
+namespace RunUO.Engines.Quests.Necro
 {
 	public class SummonedPaladin : BaseCreature
 	{

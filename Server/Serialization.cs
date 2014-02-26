@@ -27,10 +27,10 @@ using System.Reflection;
 using System.Threading;
 using System.Net;
 
-using Server;
-using Server.Guilds;
+using RunUO;
+using RunUO.Guilds;
 
-namespace Server
+namespace RunUO
 {
 	public abstract class GenericReader
 	{

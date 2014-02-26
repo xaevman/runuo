@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 using System.Collections;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class ImageTileButtonInfo
 	{

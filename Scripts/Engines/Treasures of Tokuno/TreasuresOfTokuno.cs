@@ -1,14 +1,14 @@
 using System;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 using System.Collections;
 using System.Collections.Generic;
-using Server.Items;
-using Server.Gumps;
-using Server.Misc;
-using Server.Mobiles;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Misc;
+using RunUO.Mobiles;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public enum TreasuresOfTokunoEra
 	{
@@ -112,7 +112,7 @@ namespace Server.Misc
 		{
 			Region r = m.Region;
 
-			if( r.IsPartOf( typeof( Server.Regions.HouseRegion ) ) || Server.Multis.BaseBoat.FindBoatAt( m, m.Map ) != null )
+			if( r.IsPartOf( typeof( RunUO.Regions.HouseRegion ) ) || RunUO.Multis.BaseBoat.FindBoatAt( m, m.Map ) != null )
 				return false;
 			//TODO: a CanReach of something check as opposed to above?
 
@@ -183,7 +183,7 @@ namespace Server.Misc
 	}
 }
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class IharaSoko : BaseVendor
 	{
@@ -292,7 +292,7 @@ namespace Server.Mobiles
 	}
 }
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class ItemTileButtonInfo : ImageTileButtonInfo
 	{
@@ -402,7 +402,7 @@ namespace Server.Gumps
 	}
 }
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class ToTRedeemGump : BaseImageTileButtonsGump
 	{

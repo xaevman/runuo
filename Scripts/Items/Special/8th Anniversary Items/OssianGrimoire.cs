@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class OssianGrimoire : NecromancerSpellbook, ITokunoDyable
 	{

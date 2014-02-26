@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Mobiles;
-using Server.Regions;
+using RunUO;
+using RunUO.Mobiles;
+using RunUO.Regions;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public class SafeZone : GuardedRegion
 	{

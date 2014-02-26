@@ -1,17 +1,17 @@
 using System;
 using System.Collections.Generic;
-using Server.Spells;
-using Server.Spells.Fifth;
-using Server.Spells.First;
-using Server.Spells.Fourth;
-using Server.Spells.Necromancy;
-using Server.Spells.Second;
-using Server.Spells.Seventh;
-using Server.Spells.Sixth;
-using Server.Spells.Third;
-using Server.Targeting;
+using RunUO.Spells;
+using RunUO.Spells.Fifth;
+using RunUO.Spells.First;
+using RunUO.Spells.Fourth;
+using RunUO.Spells.Necromancy;
+using RunUO.Spells.Second;
+using RunUO.Spells.Seventh;
+using RunUO.Spells.Sixth;
+using RunUO.Spells.Third;
+using RunUO.Targeting;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class MageAI : BaseAI
 	{

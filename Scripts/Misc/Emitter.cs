@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Reflection.Emit;
 using Emit = System.Reflection.Emit;
 
-namespace Server
+namespace RunUO
 {
 	public class AssemblyEmitter
 	{

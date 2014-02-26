@@ -1,7 +1,7 @@
 using System;
-using Server.Items;
+using RunUO.Items;
 
-namespace Server.Spells.First
+namespace RunUO.Spells.First
 {
 	public class CreateFoodSpell : MagerySpell
 	{

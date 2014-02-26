@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Network;
+using RunUO;
+using RunUO.Network;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class WarningItem : Item
 	{

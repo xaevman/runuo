@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Server;
-using Server.Items;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Engines.MLQuests.Items
+namespace RunUO.Engines.MLQuests.Items
 {
 	public class MLQuestTeleporter : Teleporter
 	{

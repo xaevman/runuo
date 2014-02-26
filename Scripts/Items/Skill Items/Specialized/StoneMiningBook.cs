@@ -1,8 +1,8 @@
 using System;
-using Server.Items;
-using Server.Mobiles;
+using RunUO.Items;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class StoneMiningBook : Item
 	{

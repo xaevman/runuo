@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Server;
-using Server.Items;
-using Server.ContextMenus;
+using RunUO;
+using RunUO.Items;
+using RunUO.ContextMenus;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class TinkerGuildmaster : BaseGuildmaster
 	{

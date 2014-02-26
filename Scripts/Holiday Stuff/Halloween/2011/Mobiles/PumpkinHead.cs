@@ -1,10 +1,10 @@
 ﻿using System;
-using Server;
-using Server.Items;
-using Server.Items.Holiday;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Items.Holiday;
+using RunUO.Mobiles;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a killer pumpkin corpse" )]
 	public class PumpkinHead : BaseCreature

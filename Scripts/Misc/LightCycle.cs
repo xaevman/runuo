@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Network;
-using Server.Commands;
+using RunUO;
+using RunUO.Network;
+using RunUO.Commands;
 
-namespace Server
+namespace RunUO
 {
 	public class LightCycle
 	{
@@ -70,7 +70,7 @@ namespace Server
 
 			int hours, minutes;
 
-			Server.Items.Clock.GetTime( from.Map, from.X, from.Y, out hours, out minutes );
+			RunUO.Items.Clock.GetTime( from.Map, from.X, from.Y, out hours, out minutes );
 
 			/* OSI times:
 			 * 

@@ -1,7 +1,7 @@
 using System;
-using Server.Gumps;
+using RunUO.Gumps;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class ResGate : Item
 	{

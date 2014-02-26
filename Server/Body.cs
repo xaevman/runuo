@@ -21,7 +21,7 @@
 using System;
 using System.IO;
 
-namespace Server
+namespace RunUO
 {
 	public enum BodyType : byte
 	{

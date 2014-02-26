@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Factions;
-using Server.Targeting;
+using RunUO;
+using RunUO.Items;
+using RunUO.Factions;
+using RunUO.Targeting;
 
-namespace Server.Engines.Craft
+namespace RunUO.Engines.Craft
 {
 	public class DefTinkering : CraftSystem
 	{

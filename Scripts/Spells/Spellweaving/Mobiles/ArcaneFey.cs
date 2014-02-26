@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Misc;
+using RunUO;
+using RunUO.Misc;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	[CorpseName( "a pixie corpse" )]
 	public class ArcaneFey : BaseCreature

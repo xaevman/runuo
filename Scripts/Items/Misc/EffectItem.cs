@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using Server;
+using RunUO;
 using System.Collections.Generic;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class EffectItem : Item
 	{

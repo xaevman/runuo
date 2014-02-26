@@ -2,13 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using Server;
-using Server.Gumps;
-using Server.Network;
-using Server.Targeting;
-using Server.Targets;
+using RunUO;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Targets;
 
-namespace Server.Commands.Generic
+namespace RunUO.Commands.Generic
 {
 	public class InterfaceCommand : BaseCommand
 	{

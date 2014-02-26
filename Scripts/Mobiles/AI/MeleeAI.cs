@@ -1,14 +1,14 @@
 using System;
 using System.Collections;
-using Server.Targeting;
-using Server.Network;
+using RunUO.Targeting;
+using RunUO.Network;
 
 //
 // This is a first simple AI
 //
 //
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class MeleeAI : BaseAI
 	{

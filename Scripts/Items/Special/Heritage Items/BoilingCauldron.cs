@@ -1,6 +1,6 @@
 using System;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x2068, 0x207A )]
 	public class BoilingCauldronAddon : BaseAddonContainer

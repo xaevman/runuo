@@ -1,14 +1,14 @@
 using System;
 using System.Net;
-using Server;
-using Server.Accounting;
-using Server.Mobiles;
-using Server.Network;
-using Server.Targets;
-using Server.Commands;
-using Server.Commands.Generic;
+using RunUO;
+using RunUO.Accounting;
+using RunUO.Mobiles;
+using RunUO.Network;
+using RunUO.Targets;
+using RunUO.Commands;
+using RunUO.Commands.Generic;
 
-namespace Server.Gumps
+namespace RunUO.Gumps
 {
 	public class ClientGump : Gump
 	{

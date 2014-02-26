@@ -1,8 +1,8 @@
 using System;
-using Server.Network;
-using Server.Engines.Craft;
+using RunUO.Network;
+using RunUO.Engines.Craft;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class BaseQuiver : Container, ICraftable
 	{

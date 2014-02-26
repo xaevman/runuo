@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Server.Factions
+namespace RunUO.Factions
 {
 	public class FactionState
 	{

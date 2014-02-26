@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Server;
+using RunUO;
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class Alchemist : BaseVendor
 	{
@@ -32,7 +32,7 @@ namespace Server.Mobiles
 		{
 			base.InitOutfit();
 
-			AddItem( new Server.Items.Robe( Utility.RandomPinkHue() ) );
+			AddItem( new RunUO.Items.Robe( Utility.RandomPinkHue() ) );
 		}
 
 		public Alchemist( Serial serial ) : base( serial )

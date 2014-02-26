@@ -1,10 +1,10 @@
 using System;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Mobiles;
 
-namespace Server.Engines.BulkOrders
+namespace RunUO.Engines.BulkOrders
 {
 	public class BODBuyGump : Gump
 	{
@@ -14,7 +14,7 @@ namespace Server.Engines.BulkOrders
 		private int m_Price;
 		private int m_Page;
 
-		public override void OnResponse( Server.Network.NetState sender, RelayInfo info )
+		public override void OnResponse( RunUO.Network.NetState sender, RelayInfo info )
 		{
 			if ( info.ButtonID == 2 )
 			{

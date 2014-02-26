@@ -1,12 +1,12 @@
 using System;
-using Server;
-using Server.Network;
-using Server.Regions;
-using Server.Multis;
-using Server.Gumps;
-using Server.Targeting;
+using RunUO;
+using RunUO.Network;
+using RunUO.Regions;
+using RunUO.Multis;
+using RunUO.Gumps;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public enum DecorateCommand
 	{

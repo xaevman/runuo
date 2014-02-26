@@ -1,8 +1,8 @@
 using System;
-using Server;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Mobiles;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class GrizzledMareStatuette : BaseImprisonedMobile
 	{
@@ -35,7 +35,7 @@ namespace Server.Items
 	}
 }
 
-namespace Server.Mobiles
+namespace RunUO.Mobiles
 {
 	public class GrizzledMare : HellSteed
 	{

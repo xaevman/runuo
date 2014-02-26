@@ -22,7 +22,7 @@ using System;
 using System.Collections;
 using System.IO;
 
-namespace Server
+namespace RunUO
 {
 	public static class MultiData
 	{

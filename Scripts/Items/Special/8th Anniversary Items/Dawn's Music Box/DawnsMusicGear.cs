@@ -1,7 +1,7 @@
 ﻿using System;
-using Server.Targeting;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	[Flipable( 0x1053, 0x1054 )]
 	public class DawnsMusicGear : Item

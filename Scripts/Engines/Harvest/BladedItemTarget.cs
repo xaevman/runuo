@@ -1,13 +1,13 @@
 using System;
-using Server;
-using Server.Targeting;
-using Server.Items;
-using Server.Engines.Harvest;
-using Server.Mobiles;
-using Server.Engines.Quests;
-using Server.Engines.Quests.Hag;
+using RunUO;
+using RunUO.Targeting;
+using RunUO.Items;
+using RunUO.Engines.Harvest;
+using RunUO.Mobiles;
+using RunUO.Engines.Quests;
+using RunUO.Engines.Quests.Hag;
 
-namespace Server.Targets
+namespace RunUO.Targets
 {
 	public class BladedItemTarget : Target
 	{

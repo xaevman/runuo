@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
-using Server;
-using Server.Items;
-using Server.Gumps;
-using Server.Network;
-using Server.Targeting;
-using Server.Mobiles;
+using RunUO;
+using RunUO.Items;
+using RunUO.Gumps;
+using RunUO.Network;
+using RunUO.Targeting;
+using RunUO.Mobiles;
 
-namespace Server.Engines.ConPVP
+namespace RunUO.Engines.ConPVP
 {
 	public class ParticipantGump : Gump
 	{

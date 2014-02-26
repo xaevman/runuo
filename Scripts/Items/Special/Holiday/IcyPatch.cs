@@ -1,8 +1,8 @@
 ﻿using System;
-using Server.Mobiles;
-using Server.Spells;
+using RunUO.Mobiles;
+using RunUO.Spells;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class IcyPatch : Item
 	{

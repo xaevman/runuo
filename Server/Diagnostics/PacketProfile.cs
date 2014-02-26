@@ -25,7 +25,7 @@ using System.Text;
 using System.Threading;
 using System.IO;
 
-namespace Server.Diagnostics {
+namespace RunUO.Diagnostics {
 	public abstract class BasePacketProfile : BaseProfile {
 		private long _totalLength;
 

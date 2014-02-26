@@ -1,9 +1,9 @@
 using System;
-using Server;
-using Server.Network;
-using Server.Targeting;
+using RunUO;
+using RunUO.Network;
+using RunUO.Targeting;
 
-namespace Server.Items
+namespace RunUO.Items
 {
 	public class SnowPile : Item
 	{

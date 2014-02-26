@@ -1,11 +1,11 @@
 using System;
-using Server;
-using Server.Network;
-using Server.Mobiles;
-using Server.Engines.PartySystem;
-using Server.Guilds;
+using RunUO;
+using RunUO.Network;
+using RunUO.Mobiles;
+using RunUO.Engines.PartySystem;
+using RunUO.Guilds;
 
-namespace Server.Misc
+namespace RunUO.Misc
 {
 	public static partial class MapUO
 	{

@@ -22,7 +22,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Server
+namespace RunUO
 {
 	[AttributeUsage( AttributeTargets.Property )]
 	public class HueAttribute : Attribute
