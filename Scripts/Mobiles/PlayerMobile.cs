@@ -20,7 +20,7 @@ using RunUO.Engines.Quests;
 using RunUO.Factions;
 using RunUO.Regions;
 using RunUO.Accounting;
-using RunUO.Engines.CannedEvil;
+using RunUO.Engines.ChampionSpawns;
 using RunUO.Engines.Craft;
 using RunUO.Spells.Spellweaving;
 using RunUO.Engines.PartySystem;

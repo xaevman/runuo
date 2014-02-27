@@ -3,7 +3,7 @@ using System.Collections;
 using RunUO;
 using RunUO.Items;
 
-namespace RunUO.Engines.CannedEvil
+namespace RunUO.Engines.ChampionSpawns
 {
 	public class RestartTimer : Timer
 	{

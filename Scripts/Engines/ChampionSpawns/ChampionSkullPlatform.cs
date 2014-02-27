@@ -4,7 +4,7 @@ using RunUO;
 using RunUO.Items;
 using RunUO.Mobiles;
 
-namespace RunUO.Engines.CannedEvil
+namespace RunUO.Engines.ChampionSpawns
 {
 	public class ChampionSkullPlatform : BaseAddon
 	{

@@ -1,7 +1,7 @@
 using System;
 using RunUO;
 
-namespace RunUO.Engines.CannedEvil
+namespace RunUO.Engines.ChampionSpawns
 {
 	public enum ChampionSkullType
 	{

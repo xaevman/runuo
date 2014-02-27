@@ -5,7 +5,7 @@ using RunUO.Items;
 using RunUO.Targeting;
 using RunUO.Mobiles;
 
-namespace RunUO.Engines.CannedEvil
+namespace RunUO.Engines.ChampionSpawns
 {
 	public class ChampionSkullBrazier : AddonComponent
 	{

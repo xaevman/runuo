@@ -4,7 +4,7 @@ using System.Collections;
 using RunUO.Items;
 using RunUO.Targeting;
 using System.Collections.Generic;
-using RunUO.Engines.CannedEvil;
+using RunUO.Engines.ChampionSpawns;
 
 namespace RunUO.Mobiles
 {

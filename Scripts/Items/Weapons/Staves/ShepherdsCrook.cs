@@ -3,7 +3,7 @@ using RunUO.Network;
 using RunUO.Items;
 using RunUO.Targeting;
 using RunUO.Mobiles;
-using RunUO.Engines.CannedEvil;
+using RunUO.Engines.ChampionSpawns;
 
 namespace RunUO.Items
 {

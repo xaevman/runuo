@@ -2,7 +2,7 @@ using System;
 using RunUO;
 using RunUO.Regions;
 using RunUO.Targeting;
-using RunUO.Engines.CannedEvil;
+using RunUO.Engines.ChampionSpawns;
 using RunUO.Network;
 
 namespace RunUO.Multis

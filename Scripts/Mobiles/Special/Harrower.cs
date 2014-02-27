@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using RunUO;
 using RunUO.Items;
-using RunUO.Engines.CannedEvil;
+using RunUO.Engines.ChampionSpawns;
 
 namespace RunUO.Mobiles
 {

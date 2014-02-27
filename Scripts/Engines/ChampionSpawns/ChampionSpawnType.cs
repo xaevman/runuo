@@ -2,7 +2,7 @@ using System;
 using RunUO;
 using RunUO.Mobiles;
 
-namespace RunUO.Engines.CannedEvil
+namespace RunUO.Engines.ChampionSpawns
 {
 	public enum ChampionSpawnType
 	{

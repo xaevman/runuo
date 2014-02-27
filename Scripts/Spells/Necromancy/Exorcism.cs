@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using RunUO.Network;
 using RunUO.Items;
-using RunUO.Engines.CannedEvil;
+using RunUO.Engines.ChampionSpawns;
 using RunUO.Guilds;
 using RunUO.Factions;
 using RunUO.Engines.PartySystem;

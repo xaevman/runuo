@@ -7,7 +7,7 @@ using RunUO.Mobiles;
 using RunUO.Regions;
 using System.Collections.Generic;
 
-namespace RunUO.Engines.CannedEvil
+namespace RunUO.Engines.ChampionSpawns
 {
 	public class ChampionSpawn : Item
 	{

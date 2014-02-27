@@ -2,7 +2,7 @@ using System;
 using System.Text;
 using RunUO;
 using RunUO.Mobiles;
-using RunUO.Engines.CannedEvil;
+using RunUO.Engines.ChampionSpawns;
 
 namespace RunUO.Misc
 {

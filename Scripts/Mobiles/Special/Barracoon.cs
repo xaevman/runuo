@@ -4,7 +4,7 @@ using RunUO.Items;
 using RunUO.Spells;
 using RunUO.Spells.Seventh;
 using RunUO.Spells.Fifth;
-using RunUO.Engines.CannedEvil;
+using RunUO.Engines.ChampionSpawns;
 
 namespace RunUO.Mobiles
 {

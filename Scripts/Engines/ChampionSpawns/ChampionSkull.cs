@@ -1,6 +1,6 @@
 using System;
 using RunUO;
-using RunUO.Engines.CannedEvil;
+using RunUO.Engines.ChampionSpawns;
 
 namespace RunUO.Items
 {

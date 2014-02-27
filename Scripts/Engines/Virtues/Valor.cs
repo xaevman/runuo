@@ -5,7 +5,7 @@ using RunUO.Items;
 using RunUO.Gumps;
 using RunUO.Mobiles;
 using RunUO.Targeting;
-using RunUO.Engines.CannedEvil;
+using RunUO.Engines.ChampionSpawns;
 
 namespace RunUO
 {

@@ -774,7 +774,7 @@ namespace RunUO.Spells
 
 		public static bool IsChampionSpawn( Map map, Point3D loc )
 		{
-			return (Region.Find( loc, map ).IsPartOf( typeof( Engines.CannedEvil.ChampionSpawnRegion ) ));
+			return (Region.Find( loc, map ).IsPartOf( typeof( Engines.ChampionSpawns.ChampionSpawnRegion ) ));
 		}
 
 		public static bool IsDoomFerry( Map map, Point3D loc )
