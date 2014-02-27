@@ -20,7 +20,7 @@ namespace RunUO.Accounting
 
 		public static bool Load()
 		{
-			string filePath = Path.Combine( "Data", "AccountSettings.xml" );
+			string filePath = Path.Combine( "Data", "Configuration.xml" );
 
 			if ( !File.Exists( filePath ) )
 				return false;
