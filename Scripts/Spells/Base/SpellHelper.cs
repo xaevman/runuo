@@ -14,6 +14,8 @@ using RunUO.Spells.Ninjitsu;
 using System.Collections.Generic;
 using RunUO.Spells.Seventh;
 using RunUO.Spells.Fifth;
+using System.IO;
+using System.Xml;
 
 namespace RunUO
 {
@@ -562,6 +564,78 @@ namespace RunUO.Spells
 
 			return false;
 		}
+
+		public static void Configure()
+		{
+			Console.Write("SpellHelper: Loading TravelRestrictions...");
+			if (LoadTravelRestrictions())
+				Console.WriteLine("done");
+			else
+				Console.WriteLine("failed");
+		}
+
+		public static bool LoadTravelRestrictions()
+		{
+			string filePath = Path.Combine("Data", "TravelRestrictions.xml");
+
+			if (!File.Exists(filePath))
+				return false;
+
+			XmlDocument x = new XmlDocument();
+			x.Load(filePath);
+
+			try
+			{
+				XmlElement e = x["TravelRestrictions"];
+				foreach (XmlElement r in e.GetElementsByTagName("Region"))
+				{
+					if (!r.HasAttribute("Name"))
+					{
+						Console.WriteLine("Warning: Missing 'Name' attribute in TravelRestrictions.xml"); continue;
+					}
+
+					string name = r.GetAttribute("Name");
+
+					if (m_TravelRestrictions.ContainsKey(name))
+					{
+						Console.WriteLine("Warning: Duplicate name '{0}' in TravelRestrictions.xml", name);
+						continue;
+					}
+
+					TravelRules t = new TravelRules();
+					m_TravelRestrictions[name] = t;
+
+					foreach (XmlElement rule in r)
+					{
+						switch(rule.Name.ToLower())
+						{
+							case "recallfrom": t.RecallFrom = Utility.ToBoolean(rule.InnerText); break;
+							case "recallto": t.RecallTo = Utility.ToBoolean(rule.InnerText); break;
+							case "gatefrom": t.GateFrom = Utility.ToBoolean(rule.InnerText); break;
+							case "gateto": t.GateTo = Utility.ToBoolean(rule.InnerText); break;
+							case "markin": t.MarkIn = Utility.ToBoolean(rule.InnerText); break;
+							case "teleportfrom": t.TeleportFrom = Utility.ToBoolean(rule.InnerText); break;
+							case "teleportto": t.TeleportTo = Utility.ToBoolean(rule.InnerText); break;
+							default: Console.WriteLine("Warning: Unknown element '{0}' in TravelRestrictions.xml", rule.Name); break;
+						}
+					}
+				}
+			}
+			catch(Exception e)
+			{
+				Console.WriteLine(e.ToString());
+				return false;
+			}
+
+			return true;
+		}
+
+		private struct TravelRules
+		{
+			public bool RecallFrom, RecallTo, GateFrom, GateTo, MarkIn, TeleportFrom, TeleportTo;
+		}
+
+		private static Dictionary<string, TravelRules> m_TravelRestrictions = new Dictionary<string, TravelRules>();
 
 		private delegate bool TravelValidator( Map map, Point3D loc );
 
