@@ -6,6 +6,7 @@ using RunUO;
 using RunUO.Accounting;
 using RunUO.Network;
 using RunUO.Security;
+using RunUO.Regions;
 
 namespace RunUO.Accounting
 {
@@ -18,9 +19,13 @@ namespace RunUO.Accounting
 
 	public class AccountHandler
 	{
-		private static int MaxAccountsPerIP = 1;
-		private static bool AutoAccountCreation = true;
-		private static TimeSpan DeleteDelay = TimeSpan.FromDays( 7.0 );
+		public static int MaxAccountsPerIP { get { return m_MaxAccountsPerIP; } set { m_MaxAccountsPerIP = value; } }
+		public static bool AutoAccountCreation { get { return m_AutoAccountCreation; } set { m_AutoAccountCreation = value; } }
+		public static TimeSpan DeleteDelay { get { return m_DeleteDelay; } set { m_DeleteDelay = value; } }
+
+		private static int m_MaxAccountsPerIP = 1;
+		private static bool m_AutoAccountCreation = true;
+		private static TimeSpan m_DeleteDelay = TimeSpan.FromDays( 7.0 );
 
 		public static PasswordProtection ProtectPasswords = PasswordProtection.NewCrypt;
 
@@ -107,7 +112,7 @@ namespace RunUO.Accounting
 					state.Send( new DeleteResult( DeleteResultType.CharBeingPlayed ) );
 					state.Send( new CharacterListUpdate( acct ) );
 				}
-				else if ( RestrictCharacterDeletion && DateTime.UtcNow < (m.CreationTime + DeleteDelay) )
+				else if ( RestrictCharacterDeletion && DateTime.UtcNow < (m.CreationTime + m_DeleteDelay) )
 				{
 					state.Send( new DeleteResult( DeleteResultType.CharTooYoung ) );
 					state.Send( new CharacterListUpdate( acct ) );
@@ -134,7 +139,7 @@ namespace RunUO.Accounting
 			if ( !IPTable.ContainsKey( ip ) )
 				return true;
 
-			return ( IPTable[ip] < MaxAccountsPerIP );
+			return ( IPTable[ip] < m_MaxAccountsPerIP );
 		}
 
 		private static Dictionary<IPAddress, Int32> m_IPTable;
@@ -195,7 +200,7 @@ namespace RunUO.Accounting
 
 			if ( !CanCreate( state.Address ) )
 			{
-				Console.WriteLine( "Login: {0}: Account '{1}' not created, ip already has {2} account{3}.", state, un, MaxAccountsPerIP, MaxAccountsPerIP == 1 ? "" : "s" );
+				Console.WriteLine( "Login: {0}: Account '{1}' not created, ip already has {2} account{3}.", state, un, m_MaxAccountsPerIP, m_MaxAccountsPerIP == 1 ? "" : "s" );
 				return null;
 			}
 
@@ -229,7 +234,7 @@ namespace RunUO.Accounting
 
 			if ( acct == null )
 			{
-				if ( AutoAccountCreation && un.Trim().Length > 0 ) // To prevent someone from making an account of just '' or a bunch of meaningless spaces
+				if ( m_AutoAccountCreation && un.Trim().Length > 0 ) // To prevent someone from making an account of just '' or a bunch of meaningless spaces
 				{
 					e.State.Account = acct = CreateAccount( e.State, un, pw );
 					e.Accepted = acct == null ? false : acct.CheckAccess( e.State );

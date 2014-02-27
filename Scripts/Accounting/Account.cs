@@ -10,6 +10,7 @@ using RunUO;
 using RunUO.Mobiles;
 using RunUO.Network;
 using RunUO.Security;
+using RunUO.Multis;
 
 namespace RunUO.Accounting
 {
