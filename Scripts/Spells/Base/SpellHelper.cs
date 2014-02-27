@@ -588,6 +588,10 @@ namespace RunUO.Spells
 			try
 			{
 				XmlElement e = x["TravelRestrictions"];
+
+				if (e == null)
+					return false;
+
 				foreach (XmlElement r in e.GetElementsByTagName("Region"))
 				{
 					if (!r.HasAttribute("Name"))
@@ -646,7 +650,7 @@ namespace RunUO.Spells
 			}
 			catch(Exception e)
 			{
-				Console.WriteLine(e.ToString());
+				Console.WriteLine(e);
 				return false;
 			}
 
