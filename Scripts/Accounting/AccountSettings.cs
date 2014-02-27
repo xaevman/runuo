@@ -27,7 +27,7 @@ namespace RunUO.Accounting
 
 			XDocument x = XDocument.Load(filePath);
 
-			XElement e = x.Element("AccountSettings");
+			XElement e = x.Element("Configuration").Element("AccountSettings");
 
 			bool auto = Utility.ToBoolean(e.Element("AutoAccountCreation").Value);
 			int acctperip = Utility.GetXMLInt32(e.Element("MaxAccountsPerIP").Value, 1);
