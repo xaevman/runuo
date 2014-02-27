@@ -16,6 +16,7 @@ using RunUO.Spells.Seventh;
 using RunUO.Spells.Fifth;
 using System.IO;
 using System.Xml;
+using System.Reflection;
 
 namespace RunUO
 {
@@ -591,7 +592,8 @@ namespace RunUO.Spells
 				{
 					if (!r.HasAttribute("Name"))
 					{
-						Console.WriteLine("Warning: Missing 'Name' attribute in TravelRestrictions.xml"); continue;
+						Console.WriteLine("Warning: Missing 'Name' attribute in TravelRestrictions.xml");
+						continue;
 					}
 
 					string name = r.GetAttribute("Name");
@@ -602,8 +604,29 @@ namespace RunUO.Spells
 						continue;
 					}
 
+					if (!r.HasAttribute("Delegate"))
+					{
+						Console.WriteLine("Warning: Missing 'Delegate' attribute in TravelRestrictions.xml");
+						continue;
+					}
+
+					string d = r.GetAttribute("Delegate");
+					// .NET 4.5
+					//TravelValidator v = typeof(SpellHelper).GetMethod(d).CreateDelegate(typeof(TravelValidator));
+
+					MethodInfo m = typeof(SpellHelper).GetMethod(d);
+					if (m == null)
+					{
+						Console.WriteLine("Warning: TravelRestrictions.xml Delegate '{0}' not found in SpellHelper",d);
+						continue;
+					}
+
+					TravelValidator v = (TravelValidator)Delegate.CreateDelegate(typeof(TravelValidator), m);
+
 					TravelRules t = new TravelRules();
 					m_TravelRestrictions[name] = t;
+
+					t.Validator = v;
 
 					foreach (XmlElement rule in r)
 					{
@@ -613,7 +636,7 @@ namespace RunUO.Spells
 							case "recallto": t.RecallTo = Utility.ToBoolean(rule.InnerText); break;
 							case "gatefrom": t.GateFrom = Utility.ToBoolean(rule.InnerText); break;
 							case "gateto": t.GateTo = Utility.ToBoolean(rule.InnerText); break;
-							case "markin": t.MarkIn = Utility.ToBoolean(rule.InnerText); break;
+							case "mark": t.Mark = Utility.ToBoolean(rule.InnerText); break;
 							case "teleportfrom": t.TeleportFrom = Utility.ToBoolean(rule.InnerText); break;
 							case "teleportto": t.TeleportTo = Utility.ToBoolean(rule.InnerText); break;
 							default: Console.WriteLine("Warning: Unknown element '{0}' in TravelRestrictions.xml", rule.Name); break;
@@ -632,47 +655,29 @@ namespace RunUO.Spells
 
 		private struct TravelRules
 		{
-			public bool RecallFrom, RecallTo, GateFrom, GateTo, MarkIn, TeleportFrom, TeleportTo;
+			public TravelValidator Validator;
+
+			public bool RecallFrom, RecallTo, GateFrom, GateTo, Mark, TeleportFrom, TeleportTo;
+
+			public bool Allow(TravelCheckType t)
+			{
+				switch(t)
+				{
+					case TravelCheckType.RecallFrom: return RecallFrom;
+					case TravelCheckType.RecallTo: return RecallTo;
+					case TravelCheckType.GateFrom: return GateFrom;
+					case TravelCheckType.GateTo: return GateTo;
+					case TravelCheckType.Mark: return Mark;
+					case TravelCheckType.TeleportFrom: return TeleportFrom;
+					case TravelCheckType.TeleportTo: return TeleportTo;
+					default: return false;
+				}
+			}
 		}
 
 		private static Dictionary<string, TravelRules> m_TravelRestrictions = new Dictionary<string, TravelRules>();
 
 		private delegate bool TravelValidator( Map map, Point3D loc );
-
-		private static TravelValidator[] m_Validators = new TravelValidator[]
-			{
-				new TravelValidator( IsFeluccaT2A ),
-				new TravelValidator( IsKhaldun ),
-				new TravelValidator( IsIlshenar ),
-				new TravelValidator( IsTrammelWind ),
-				new TravelValidator( IsFeluccaWind ),
-				new TravelValidator( IsFeluccaDungeon ),
-				new TravelValidator( IsTrammelSolenHive ),
-				new TravelValidator( IsFeluccaSolenHive ),
-				new TravelValidator( IsCrystalCave ),
-				new TravelValidator( IsDoomGauntlet ),
-				new TravelValidator( IsDoomFerry ),
-				new TravelValidator( IsSafeZone ),
-				new TravelValidator( IsFactionStronghold ),
-				new TravelValidator( IsChampionSpawn ),
-				new TravelValidator( IsTokunoDungeon ),
-				new TravelValidator( IsLampRoom ),
-				new TravelValidator( IsGuardianRoom ),
-				new TravelValidator( IsHeartwood ),
-				new TravelValidator( IsMLDungeon )
-			};
-
-		private static bool[,] m_Rules = new bool[,]
-			{
-					/*T2A(Fel),	Khaldun,	Ilshenar,	Wind(Tram),	Wind(Fel),	Dungeons(Fel),	Solen(Tram),	Solen(Fel),	CrystalCave(Malas),	Gauntlet(Malas),	Gauntlet(Ferry),	SafeZone,	Stronghold,	ChampionSpawn,	Dungeons(Tokuno[Malas]),	LampRoom(Doom),	GuardianRoom(Doom),	Heartwood,	MLDungeons */
-/* Recall From */	{ false,	false,		true,		true,		false,		false,			true,			false,		false,				false,				false,				true,		true,		false,			true,						false,			false,				false,		false },
-/* Recall To */		{ false,	false,		false,		false,		false,		false,			false,			false,		false,				false,				false,				false,		false,		false,			false,						false,			false,				false,		false },
-/* Gate From */		{ false,	false,		false,		false,		false,		false,			false,			false,		false,				false,				false,				false,		false,		false,			false,						false,			false,				false,		false },
-/* Gate To */		{ false,	false,		false,		false,		false,		false,			false,			false,		false,				false,				false,				false,		false,		false,			false,						false,			false,				false,		false },
-/* Mark In */		{ false,	false,		false,		false,		false,		false,			false,			false,		false,				false,				false,				false,		false,		false,			false,						false,			false,				false,		false },
-/* Tele From */		{ true,		true,		true,		true,		true,		true,			true,			true,		false,				true,				true,				true,		false,		true,			true,						true,			true,				false,		true },
-/* Tele To */		{ true,		true,		true,		true,		true,		true,			true,			true,		false,				true,				false,				false,		false, 		true,			true,						true,			true,				false,		false },
-			};
 
 		public static void SendInvalidMessage( Mobile caster, TravelCheckType type )
 		{
@@ -728,8 +733,12 @@ namespace RunUO.Spells
 			int v = (int)type;
 			bool isValid = true;
 
-			for( int i = 0; isValid && i < m_Validators.Length; ++i )
-				isValid = (m_Rules[v, i] || !m_Validators[i]( map, loc ));
+			foreach(TravelRules r in m_TravelRestrictions.Values)
+			{
+				isValid = (r.Allow(type) || !r.Validator(map, loc));
+				if (!isValid)
+					break;
+			}
 
 			if( !isValid && caster != null )
 				SendInvalidMessage( caster, type );
