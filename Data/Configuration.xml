@@ -22,6 +22,9 @@
   <Assistants>
     <Enabled>true</Enabled>
     <KickOnFailure>true</KickOnFailure>
+    <Features>
+      <Block></Block>
+    </Features>
   </Assistants>
   <AccountSettings>
     <AutoAccountCreation>true</AutoAccountCreation>
