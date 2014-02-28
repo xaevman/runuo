@@ -10,7 +10,6 @@ using RunUO;
 using RunUO.Mobiles;
 using RunUO.Network;
 using RunUO.Security;
-using RunUO.Multis;
 
 namespace RunUO.Accounting
 {
@@ -53,21 +52,18 @@ namespace RunUO.Accounting
 		private HardwareInfo m_HardwareInfo;
 
 		/// <summary>
-		/// Deletes the account, all characters of the account, and all houses of those characters
+		/// Invokes the AccountDelete delegate, deletes all of the characters on the account, and removes the account from the account collection.
 		/// </summary>
 		public void Delete()
 		{
+			EventSink.InvokeAccountDelete(new AccountDeleteEventArgs(this));
+
 			for ( int i = 0; i < this.Length; ++i )
 			{
 				Mobile m = this[i];
 
 				if ( m == null )
 					continue;
-
-				List<BaseHouse> list = BaseHouse.GetHouses( m );
-
-				for ( int j = 0; j < list.Count; ++j )
-					list[j].Delete();
 
 				m.Delete();
 

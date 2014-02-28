@@ -947,6 +947,34 @@ namespace RunUO.Multis
 			Timer.DelayCall( TimeSpan.FromMinutes( 1.0 ), TimeSpan.FromMinutes( 1.0 ), new TimerCallback( Decay_OnTick ) );
 		}
 
+		public static void Initialize()
+		{
+			EventSink.AccountDelete += new AccountDeleteHandler(HandleAccountDeletion);
+		}
+
+		private static void HandleAccountDeletion(AccountDeleteEventArgs e)
+		{
+			Account a = e.Account as Account;
+
+			if (a == null)
+				return;
+
+			//TODO: Should we delete the account's houses or allow them to be claimed by co-owners/friends, decay, etc?
+
+			for (int i = 0; i < a.Length; ++i)
+			{
+				Mobile m = a[i];
+
+				if (m == null)
+					continue;
+
+				List<BaseHouse> list = BaseHouse.GetHouses(m);
+
+				for (int j = 0; j < list.Count; ++j)
+					list[j].Delete();
+			}
+		}
+
 		public virtual int GetAosCurLockdowns()
 		{
 			int v = 0;

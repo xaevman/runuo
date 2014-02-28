@@ -74,6 +74,23 @@ namespace RunUO
 	public delegate void GuildGumpRequestHandler( GuildGumpRequestArgs e );
 	public delegate void QuestGumpRequestHandler( QuestGumpRequestArgs e );
 	public delegate void ClientVersionReceivedHandler( ClientVersionReceivedArgs e );
+	public delegate void AccountDeleteHandler(AccountDeleteEventArgs e);
+
+	public class AccountDeleteEventArgs : EventArgs
+	{
+		private IAccount m_Account;
+
+		public IAccount Account
+		{
+			get { return m_Account; }
+			set { m_Account = value; }
+		}
+
+		public AccountDeleteEventArgs(IAccount a)
+		{
+			m_Account = a;
+		}
+	}
 
 	public class ClientVersionReceivedArgs : EventArgs
 	{
@@ -856,6 +873,7 @@ namespace RunUO
 		public static event GuildGumpRequestHandler GuildGumpRequest;
 		public static event QuestGumpRequestHandler QuestGumpRequest;
 		public static event ClientVersionReceivedHandler ClientVersionReceived;
+		public static event AccountDeleteEventHandler AccountDelete;
 		
 		/* The following is a .NET 2.0 "Generic EventHandler" implementation.
 		 * It is a breaking change; we would have to refactor all event handlers.
@@ -907,7 +925,14 @@ namespace RunUO
 		public static event EventHandler<GuildGumpRequestArgs> GuildGumpRequest;
 		public static event EventHandler<QuestGumpRequestArgs> QuestGumpRequest;
 		public static event EventHandler<ClientVersionReceivedArgs> ClientVersionReceived;
+		public static event EventHandler<AccountDeleteEventArgs> AccountDelete;
 		*/
+
+		public static void InvokeAccountDelete( AccountDeleteEventArgs e)
+		{
+			if (AccountDelete != null)
+				AccountDelete(e);
+		}
 
 		public static void InvokeClientVersionReceived( ClientVersionReceivedArgs e )
 		{
@@ -1208,6 +1233,7 @@ namespace RunUO
 			SetAbility = null;
 			GuildGumpRequest = null;
 			QuestGumpRequest = null;
+			AccountDelete = null;
 		}
 	}
 }
