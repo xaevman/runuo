@@ -939,8 +939,25 @@ namespace RunUO.Mobiles
 				return;
 			}
 
-			if( from is PlayerMobile )
-				((PlayerMobile)from).ClaimAutoStabledPets();
+			PlayerMobile pm = from as PlayerMobile;
+
+			if (pm == null)
+				return;
+
+			pm.ClaimAutoStabledPets();
+
+			Account acc = from.Account as Account;
+
+			if (acc == null)
+				return;
+
+			if (pm.Young && acc.Young)
+			{
+				TimeSpan ts = Accounting.Account.YoungDuration - acc.TotalGameTime;
+				int hours = Math.Max((int)ts.TotalHours, 0);
+
+				pm.SendAsciiMessage("You will enjoy the benefits and relatively safe status of a young player for {0} more hour{1}.", hours, hours != 1 ? "s" : "");
+			}
 		}
 
 		private bool m_NoDeltaRecursion;

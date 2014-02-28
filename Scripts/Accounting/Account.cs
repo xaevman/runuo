@@ -494,7 +494,6 @@ namespace RunUO.Accounting
 		{
 			EventSink.Connected += new ConnectedEventHandler( EventSink_Connected );
 			EventSink.Disconnected += new DisconnectedEventHandler( EventSink_Disconnected );
-			EventSink.Login += new LoginEventHandler( EventSink_Login );
 		}
 
 		private static void EventSink_Connected( ConnectedEventArgs e )
@@ -529,27 +528,6 @@ namespace RunUO.Accounting
 				return;
 
 			acc.m_TotalGameTime += DateTime.UtcNow - m.SessionStart;
-		}
-
-		private static void EventSink_Login( LoginEventArgs e )
-		{
-			PlayerMobile m = e.Mobile as PlayerMobile;
-
-			if ( m == null )
-				return;
-
-			Account acc = m.Account as Account;
-
-			if ( acc == null )
-				return;
-
-			if ( m.Young && acc.Young )
-			{
-				TimeSpan ts = YoungDuration - acc.TotalGameTime;
-				int hours = Math.Max( (int) ts.TotalHours, 0 );
-
-				m.SendAsciiMessage( "You will enjoy the benefits and relatively safe status of a young player for {0} more hour{1}.", hours, hours != 1 ? "s" : "" );
-			}
 		}
 
 		public void RemoveYoungStatus( int message )
