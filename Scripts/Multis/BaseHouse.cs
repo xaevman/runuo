@@ -941,15 +941,12 @@ namespace RunUO.Multis
 
 		public static void Configure()
 		{
+			EventSink.AccountDelete += new AccountDeleteEventHandler(HandleAccountDeletion);
+
 			Item.LockedDownFlag = 1;
 			Item.SecureFlag = 2;
 
 			Timer.DelayCall( TimeSpan.FromMinutes( 1.0 ), TimeSpan.FromMinutes( 1.0 ), new TimerCallback( Decay_OnTick ) );
-		}
-
-		public static void Initialize()
-		{
-			EventSink.AccountDelete += new AccountDeleteEventHandler(HandleAccountDeletion);
 		}
 
 		private static void HandleAccountDeletion(AccountDeleteEventArgs e)
