@@ -45,7 +45,7 @@ namespace RunUO.Accounting
 			set{ m_LockdownLevel = value; }
 		}
 
-		private static CityInfo[] StartingCities = new CityInfo[]
+		public static CityInfo[] StartingCities = new CityInfo[]
 			{
 				new CityInfo( "New Haven",	"New Haven Bank",	1150168, 3667,	2625,	0  ),
 				new CityInfo( "Yew",		"The Empath Abbey",	1075072, 633,	858,	0  ),
