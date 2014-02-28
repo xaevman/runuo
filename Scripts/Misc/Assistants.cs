@@ -4,21 +4,21 @@ using RunUO;
 using RunUO.Network;
 using RunUO.Gumps;
 
-namespace RunUO.Misc
+namespace RunUO.Security
 {
 	public static partial class Assistants
 	{
 		private static class Settings
 		{
-			public const bool Enabled = false;
-			public const bool KickOnFailure = true; // It will also kick clients running without assistants
+			public static bool Enabled = false;
+			public static bool KickOnFailure = true; // It will also kick clients running without assistants
 
 			public static readonly TimeSpan HandshakeTimeout = TimeSpan.FromSeconds(30.0);
 			public static readonly TimeSpan DisconnectDelay = TimeSpan.FromSeconds(15.0);
 
 			public const string WarningMessage = "The server was unable to negotiate features with your assistant. "
 								+ "You must download and run an updated version of <A HREF=\"http://uosteam.com\">UOSteam</A>"
-								+ " or <A HREF=\"https://bitbucket.org/msturgill/razor-releases/downloads\">Razor</A>."
+								+ " or <A HREF=\"https://github.com/msturgill/razor\">Razor</A>."
 								+ "<BR><BR>Make sure you've checked the option <B>Negotiate features with server</B>, "
 								+ "once you have this box checked you may log in and play normally."
 								+ "<BR><BR>You will be disconnected shortly.";

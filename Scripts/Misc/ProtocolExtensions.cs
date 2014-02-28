@@ -1,10 +1,9 @@
 using System;
 using RunUO;
-using RunUO.Network;
 using RunUO.Mobiles;
 using RunUO.Engines.PartySystem;
 
-namespace RunUO.Misc
+namespace RunUO.Network
 {
 	public class ProtocolExtensions
 	{

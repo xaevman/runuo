@@ -19,6 +19,10 @@
       </Listener>
     </Listeners>
   </SocketOptions>
+  <Assistants>
+    <Enabled>true</Enabled>
+    <KickOnFailure>true</KickOnFailure>
+  </Assistants>
   <AccountSettings>
     <AutoAccountCreation>true</AutoAccountCreation>
     <MaxAccountsPerIP>1</MaxAccountsPerIP>
