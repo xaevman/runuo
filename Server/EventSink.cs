@@ -74,7 +74,7 @@ namespace RunUO
 	public delegate void GuildGumpRequestHandler( GuildGumpRequestArgs e );
 	public delegate void QuestGumpRequestHandler( QuestGumpRequestArgs e );
 	public delegate void ClientVersionReceivedHandler( ClientVersionReceivedArgs e );
-	public delegate void AccountDeleteHandler(AccountDeleteEventArgs e);
+	public delegate void AccountDeleteEventHandler(AccountDeleteEventArgs e);
 
 	public class AccountDeleteEventArgs : EventArgs
 	{

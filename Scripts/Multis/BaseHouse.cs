@@ -949,7 +949,7 @@ namespace RunUO.Multis
 
 		public static void Initialize()
 		{
-			EventSink.AccountDelete += new AccountDeleteHandler(HandleAccountDeletion);
+			EventSink.AccountDelete += new AccountDeleteEventHandler(HandleAccountDeletion);
 		}
 
 		private static void HandleAccountDeletion(AccountDeleteEventArgs e)
