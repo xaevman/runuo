@@ -622,6 +622,17 @@ namespace RunUO
 			return true;
 		}
 
+		public virtual bool BlockCharacterDeletion
+		{
+			get
+			{
+				if (m_Parent != null)
+					return m_Parent.BlockCharacterDeletion;
+
+				return false;
+			}
+		}
+
 		public virtual bool SendInaccessibleMessage( Item item, Mobile from )
 		{
 			if ( m_Parent != null )

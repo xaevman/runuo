@@ -6,7 +6,6 @@ using RunUO;
 using RunUO.Accounting;
 using RunUO.Network;
 using RunUO.Security;
-using RunUO.Regions;
 
 namespace RunUO.Accounting
 {
@@ -117,7 +116,7 @@ namespace RunUO.Accounting
 					state.Send( new DeleteResult( DeleteResultType.CharTooYoung ) );
 					state.Send( new CharacterListUpdate( acct ) );
 				}
-				else if ( m.AccessLevel == AccessLevel.Player && Region.Find( m.LogoutLocation, m.LogoutMap ).GetRegion( typeof( Jail ) ) != null )	//Don't need to check current location, if netstate is null, they're logged out
+				else if ( m.AccessLevel == AccessLevel.Player && Region.Find( m.LogoutLocation, m.LogoutMap ).BlockCharacterDeletion )	//Don't need to check current location, if netstate is null, they're logged out
 				{
 					state.Send( new DeleteResult( DeleteResultType.BadRequest ) );
 					state.Send( new CharacterListUpdate( acct ) );
