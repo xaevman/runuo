@@ -941,17 +941,12 @@ namespace RunUO.Mobiles
 
 			PlayerMobile pm = from as PlayerMobile;
 
-			if (pm == null)
-				return;
-
-			pm.ClaimAutoStabledPets();
+			if (pm != null)
+				pm.ClaimAutoStabledPets();
 
 			Account acc = from.Account as Account;
 
-			if (acc == null)
-				return;
-
-			if (pm.Young && acc.Young)
+			if (pm != null && pm.Young && acc != null && acc.Young)
 			{
 				TimeSpan ts = Accounting.Account.YoungDuration - acc.TotalGameTime;
 				int hours = Math.Max((int)ts.TotalHours, 0);
@@ -1228,9 +1223,17 @@ namespace RunUO.Mobiles
 				pm.LastOnline = DateTime.UtcNow;
 			}
 
-			DisguiseTimers.StartTimer( e.Mobile );
+			DisguiseTimers.StartTimer(e.Mobile);
 
-			Timer.DelayCall( TimeSpan.Zero, new TimerStateCallback( ClearSpecialMovesCallback ), e.Mobile );
+			Timer.DelayCall(TimeSpan.Zero, new TimerStateCallback(ClearSpecialMovesCallback), e.Mobile);
+
+			Account acc = e.Mobile.Account as Account;
+
+			if (acc != null && acc.Young && acc.YoungTimer == null)
+			{
+				acc.YoungTimer = new YoungTimer(acc);
+				acc.YoungTimer.Start();
+			}
 		}
 
 		private static void ClearSpecialMovesCallback( object state )
@@ -1282,7 +1285,20 @@ namespace RunUO.Mobiles
 				pm.LastOnline = DateTime.UtcNow;
 			}
 
-			DisguiseTimers.StopTimer( from );
+			DisguiseTimers.StopTimer(from);
+
+			Account acc = e.Mobile.Account as Account;
+
+			if (acc != null && acc.YoungTimer != null)
+			{
+				acc.YoungTimer.Stop();
+				acc.YoungTimer = null;
+			}
+
+			if (acc != null && pm != null)
+			{
+				acc.TotalGameTime += DateTime.UtcNow - pm.SessionStart;
+			}
 		}
 
 		public override void RevealingAction()

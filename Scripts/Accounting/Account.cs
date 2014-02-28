@@ -14,6 +14,24 @@ using RunUO.Multis;
 
 namespace RunUO.Accounting
 {
+	public class YoungTimer : Timer
+	{
+		private Account m_Account;
+
+		public YoungTimer(Account account)
+			: base(TimeSpan.FromMinutes(1.0), TimeSpan.FromMinutes(1.0))
+		{
+			m_Account = account;
+
+			Priority = TimerPriority.FiveSeconds;
+		}
+
+		protected override void OnTick()
+		{
+			m_Account.CheckYoung();
+		}
+	}
+
 	public class Account : IAccount, IComparable, IComparable<Account>
 	{
 		public static TimeSpan YoungDuration = TimeSpan.FromHours( 40.0 );
@@ -259,6 +277,10 @@ namespace RunUO.Accounting
 
 				return m_TotalGameTime;
 			}
+			set
+			{
+				m_TotalGameTime = value;
+			}
 		}
 
 		/// <summary>
@@ -488,47 +510,9 @@ namespace RunUO.Accounting
 			return ok;
 		}
 
+		public Timer YoungTimer { get { return m_YoungTimer; } set { m_YoungTimer = value; } }
+
 		private Timer m_YoungTimer;
-
-		public static void Initialize()
-		{
-			EventSink.Connected += new ConnectedEventHandler( EventSink_Connected );
-			EventSink.Disconnected += new DisconnectedEventHandler( EventSink_Disconnected );
-		}
-
-		private static void EventSink_Connected( ConnectedEventArgs e )
-		{
-			Account acc = e.Mobile.Account as Account;
-
-			if ( acc == null )
-				return;
-
-			if ( acc.Young && acc.m_YoungTimer == null )
-			{
-				acc.m_YoungTimer = new YoungTimer( acc );
-				acc.m_YoungTimer.Start();
-			}
-		}
-
-		private static void EventSink_Disconnected( DisconnectedEventArgs e )
-		{
-			Account acc = e.Mobile.Account as Account;
-
-			if ( acc == null )
-				return;
-
-			if ( acc.m_YoungTimer != null )
-			{
-				acc.m_YoungTimer.Stop();
-				acc.m_YoungTimer = null;
-			}
-
-			PlayerMobile m = e.Mobile as PlayerMobile;
-			if ( m == null )
-				return;
-
-			acc.m_TotalGameTime += DateTime.UtcNow - m.SessionStart;
-		}
 
 		public void RemoveYoungStatus( int message )
 		{
@@ -557,24 +541,6 @@ namespace RunUO.Accounting
 		{
 			if ( TotalGameTime >= YoungDuration )
 				RemoveYoungStatus( 1019038 ); // You are old enough to be considered an adult, and have outgrown your status as a young player!
-		}
-
-		private class YoungTimer : Timer
-		{
-			private Account m_Account;
-
-			public YoungTimer( Account account )
-				: base( TimeSpan.FromMinutes( 1.0 ), TimeSpan.FromMinutes( 1.0 ) )
-			{
-				m_Account = account;
-
-				Priority = TimerPriority.FiveSeconds;
-			}
-
-			protected override void OnTick()
-			{
-				m_Account.CheckYoung();
-			}
 		}
 
 		public Account( string username, string password )
