@@ -1993,17 +1993,17 @@ namespace Server.Items
 		{
 			if ( damage > 0 )
 			{
-				new Blood().MoveToWorld( defender.Location, defender.Map );
+				// new Blood().MoveToWorld( defender.Location, defender.Map );
 
 				int extraBlood = (Core.SE ? Utility.RandomMinMax( 3, 4 ) : Utility.RandomMinMax( 0, 1 ) );
 
-				for( int i = 0; i < extraBlood; i++ )
-				{
-					new Blood().MoveToWorld( new Point3D(
-						defender.X + Utility.RandomMinMax( -1, 1 ),
-						defender.Y + Utility.RandomMinMax( -1, 1 ),
-						defender.Z ), defender.Map );
-				}
+				// for( int i = 0; i < extraBlood; i++ )
+				// {
+					// new Blood().MoveToWorld( new Point3D(
+					//	defender.X + Utility.RandomMinMax( -1, 1 ),
+					//	defender.Y + Utility.RandomMinMax( -1, 1 ),
+					//	defender.Z ), defender.Map );
+				// }
 			}
 		}
 

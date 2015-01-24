@@ -1272,7 +1272,7 @@ namespace Server.Items
 			}
 			else if ( ((Body)Amount).IsHuman && ItemID == 0x2006 )
 			{
-				new Blood( 0x122D ).MoveToWorld( Location, Map );
+				// new Blood( 0x122D ).MoveToWorld( Location, Map );
 
 				new Torso().MoveToWorld( Location, Map );
 				new LeftLeg().MoveToWorld( Location, Map );

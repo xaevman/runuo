@@ -151,8 +151,8 @@ namespace Server.Items
 								}
 							}
 
-							Blood blood = new Blood( Utility.RandomMinMax( 0x122C, 0x122F ) );
-							blood.MoveToWorld( new Point3D( x, y, z ), m_Mobile.Map );
+							// Blood blood = new Blood( Utility.RandomMinMax( 0x122C, 0x122F ) );
+							// blood.MoveToWorld( new Point3D( x, y, z ), m_Mobile.Map );
 						}
 						m_Location = m_Mobile.Location;
 					}

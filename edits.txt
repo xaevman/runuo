@@ -1,0 +1,10 @@
+./Scripts/Holiday Stuff/Halloween/2006/Engines/TrickOrTreat.cs
+./Scripts/Items/Misc/Corpses/Corpse.cs
+./Scripts/Items/Misc/Guillotine.cs
+./Scripts/Items/Special/Evil Home Decor Collection/BedOfNails.cs
+./Scripts/Items/Special/Heritage Items/Guillotine.cs
+./Scripts/Items/Special/Heritage Items/IronMaiden.cs
+./Scripts/Items/Weapons/Abilities/BleedAttack.cs
+./Scripts/Items/Weapons/BaseWeapon.cs
+./Scripts/Mobiles/BaseCreature.cs
+./Scripts/Mobiles/BaseCreature.cs.bak

@@ -84,11 +84,9 @@ namespace Server.Items
 				m.PlaySound( 0x133 );
 				m.Damage( damage, from );
 
-				Blood blood = new Blood();
-
-				blood.ItemID = Utility.Random( 0x122A, 5 );
-
-				blood.MoveToWorld( m.Location, m.Map );
+				// Blood blood = new Blood();
+				// blood.ItemID = Utility.Random( 0x122A, 5 );
+				// blood.MoveToWorld( m.Location, m.Map );
 			}
 			else
 			{

@@ -60,7 +60,7 @@ namespace Server.Items
 			if ( f == null )
 				return;
 
-			new Blood( 4650 ).MoveToWorld( p, f );
+			// new Blood( 4650 ).MoveToWorld( p, f );
 
 			for ( int i = 0; i < 4; ++i )
 			{
@@ -76,7 +76,7 @@ namespace Server.Items
 						continue;
 				}
 
-				new Blood().MoveToWorld( new Point3D( x, y, z ), f );
+				// new Blood().MoveToWorld( new Point3D( x, y, z ), f );
 			}
 		}
 

@@ -38,10 +38,10 @@ namespace Server.Misc
 		 * firewalls) or specific IP adddresses you can do so by modifying the file SocketOptions.cs found in this directory.
 		 */
 
-		public static readonly string Address = null;
-		public static readonly string ServerName = "RunUO TC";
+		public static readonly string Address = "50.132.27.186";
+		public static readonly string ServerName = "WinterWest";
 
-		public static readonly bool AutoDetect = true;
+		public static readonly bool AutoDetect = false;
 
 		public static void Initialize()
 		{
